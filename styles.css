@@ -1,0 +1,344 @@
+#intro {
+  margin-top: 15px;
+}
+#background {
+  background-color: white;
+}
+#final {
+  padding-bottom: 15px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.responsive-blog {
+  width: 90%;
+  height: auto;
+}
+
+.blog-head {
+  text-align: left;
+}
+
+.responsive-index {
+  width: 15%;
+  height: auto;
+}
+
+#pro-con {
+  font-size: 200%;
+  border-style: hidden !important;
+  text-align: center;
+}
+
+#pro-con-pro {
+  background: green;
+}
+
+#pro-con-con {
+  background: orange;
+  padding-left: 0px;
+}
+.issue-index {
+  background-repeat: no-repeat;
+  border-bottom: solid blue;
+}
+
+.index-issue {
+  text-decoration: none;
+  color: black;
+  text-align: right;
+}
+
+.index-issue:hover {
+  color: #66023c;
+}
+
+.trending #intro {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.responsive-discord {
+  width: 100%;
+  height: auto;
+}
+
+#blog-description {
+  margin-top: 30px;
+}
+
+.trending-content1,
+.trending-content2 {
+  text-decoration: none;
+  text-align: left;
+  background-color: lightgray;
+  padding-bottom: 5%;
+  margin-bottom: 10%;
+}
+
+.trending-content3 {
+  text-decoration: none;
+  text-align: left;
+  background-color: lightgray;
+  border-bottom: 100px;
+  padding-bottom: 5%;
+  margin-bottom: 10%;
+}
+
+#trending-title {
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
+
+.abortion,
+.affirmative,
+.automation,
+.barackobama,
+.canada,
+.carbontax,
+.china,
+.climatechange,
+.criticalracetheory,
+.deathpenalty,
+.defundthepolice,
+.donaldtrump,
+.dronestrikes,
+.druglegalization,
+.enthuconsentlaws,
+.estatetax,
+.europeanunion,
+.euthanasia,
+.flattax,
+.freemarket,
+.georgewbush,
+.hatespeechlaws,
+.indianact,
+.israelrighttoexist,
+.justintrudaeu,
+.laborunions,
+.latetermabortion,
+.lgbtqrights,
+.militaryintervention,
+.militaryspending,
+.minimumwage,
+.nato,
+.palestinerighttoexist,
+.patriotism,
+.progressivetax,
+.righttoflagburning,
+.russia,
+.termlimits,
+.dougford,
+.transsports,
+.homeschooling,
+.unitednations,
+.unitedstates,
+.universalbasicincome,
+.vaccinepassports,
+.warinafghanistan,
+.wariniraq,
+.waronterror,
+.welfare,
+.worldtradeorganization {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 800px;
+  max-width: 75%;
+}
+
+.abortion.active,
+.affirmative.active,
+.automation.active,
+.barackobama.active,
+.canada.active,
+.carbontax.active,
+.china.active,
+.climatechange.active,
+.criticalracetheory.active,
+.deathpenalty.active,
+.defundthepolice.active,
+.donaldtrump.active,
+.dronestrikes.active,
+.druglegalization.active,
+.enthuconsentlaws.active,
+.estatetax.active,
+.europeanunion.active,
+.euthanasia.active,
+.flattax.active,
+.freemarket.active,
+.georgewbush.active,
+.hatespeechlaws.active,
+.indianact.active,
+.israelrighttoexist.active,
+.justintrudaeu.active,
+.laborunions.active,
+.latetermabortion.active,
+.lgbtqrights.active,
+.militaryintervention.active,
+.militaryspending.active,
+.minimumwage.active,
+.nato.active,
+.palestinerighttoexist.active,
+.patriotism.active,
+.progressivetax.active,
+.righttoflagburning.active,
+.russia.active,
+.termlimits.active,
+.dougford.active,
+.transsports.active,
+.homeschooling.active,
+.unitednations.active,
+.unitedstates.active,
+.universalbasicincome.active,
+.vaccinepassports.active,
+.warinafghanistan.active,
+.wariniraq.active,
+.waronterror.active,
+.welfare.active,
+.worldtradeorganization.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+.popup-header {
+  padding: 10px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.popup-header title {
+  font-weight: bold;
+}
+
+.popup-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.popup-body {
+  padding: 10px 15px;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: gray;
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 0.7;
+  pointer-events: all;
+}
+#issue {
+  border: none;
+  outline: none;
+  background: none;
+}
+#pro {
+  background-color: green;
+  border-radius: 5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 3px;
+  padding-left: 3.4624998px;
+  text-transform: uppercase;
+}
+
+#con {
+  background-color: orange;
+  border-radius: 5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 0px;
+  padding-left: 3px;
+  text-transform: uppercase;
+}
+
+.align {
+  text-align: right;
+}
+
+tr {
+  border-bottom: 2px solid #800000;
+  font-size: 100%;
+}
+
+#disc {
+  width: 10%;
+  height: auto;
+  background-color: lightsalmon;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer {
+  color: grey;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+#footer:hover {
+  color: white;
+}
+
+#footer-words {
+  color: white;
+}
+
+footer,
+.header {
+  background-color: #66023c;
+  padding-top: 3px;
+}
+
+#background {
+  background-color: lightgray;
+}
+
+body {
+  background: #f6f6f6;
+  margin: 0;
+}
+
+.text {
+  background-color: white;
+  max-height: 248px;
+  height: 250px;
+}
+
+#desc {
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  font-size: 25px;
+}
+
+#author {
+  margin-top: 0px;
+  padding-right: 22px;
+}
