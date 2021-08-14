@@ -1,99 +1,260 @@
-#intro {
-  margin-top: 15px;
-}
-#background {
-  background-color: white;
-}
-#final {
-  padding-bottom: 15px;
+/* CSS for the website. Applies to ALL pages */
+
+/* Used in ALL PAGES */
+#navbar-toggle {
+  margin-right: 2%;
 }
 
-.responsive {
-  width: 100%;
-  height: auto;
+/* Used in ALL PAGES */
+body {
+  background: #f6f6f6;
+  margin: 0;
 }
 
-.responsive-blog {
-  width: 90%;
-  height: auto;
+/* Used in pages: index */
+.margin-top {
+  margin-top: 1%;
 }
 
-.blog-head {
-  text-align: left;
-}
-
-.responsive-index {
+/* Used in pages: index */
+.responsive-image-index-title {
   width: 15%;
   height: auto;
 }
 
-#pro-con {
+/* Used in pages: index */
+.responsive-image-index-desc {
+  width: 100%;
+  height: auto;
+}
+
+/* Used in pages: index */
+.index-blog-border {
+  border-bottom: solid maroon;
+}
+
+/* Used in pages: index */
+.index-trending-link {
+  text-decoration: none;
+  color: black;
+  margin-top: 10%;
+}
+
+/* Used in pages: index */
+.index-trending-link:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+/* Used in pages: index */
+#index-trending-link {
+  margin-top: 3%;
+}
+
+/* Used in pages: index */
+.index-trending-box {
+  border: 1px solid #66023c;
+  text-align: center;
+  color: white;
+  background-color: #66023c;
+}
+
+/* Used in pages: index */
+#index-trending-box {
+  margin-top: 10%;
+}
+
+/* Used in pages: index */
+.pro-con {
   font-size: 200%;
   border-style: hidden !important;
   text-align: center;
 }
 
+/* Used in pages: index */
 #pro-con-pro {
   background: green;
+  text-transform: uppercase;
 }
 
+/* Used in pages: index */
 #pro-con-con {
   background: orange;
+  text-transform: uppercase;
   padding-left: 0px;
 }
-.issue-index {
-  background-repeat: no-repeat;
-  border-bottom: solid blue;
+
+/* Used in pages: index */
+.index-big-issue {
+  border-bottom: solid maroon;
 }
 
+/* Used in pages: index */
 .index-issue {
   text-decoration: none;
   color: black;
   text-align: right;
 }
 
+/* Used in pages: index */
 .index-issue:hover {
   color: #66023c;
 }
 
-.trending #intro {
-  text-align: center;
-  text-transform: uppercase;
+/* Used in pages: index, big issues */
+.align {
+  text-align: right;
 }
 
-.responsive-discord {
+/* Used in ALL PAGES*/
+#footer {
+  color: grey;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+#footer:hover {
+  color: white;
+}
+
+#footer-words {
+  color: white;
+}
+
+footer {
+  padding-top: 3px;
+}
+
+/*
+---------------------------------------------------------
+                      Next Section                      |
+                                                        |
+                                                        |
+---------------------------------------------------------
+*/
+
+/* Used in pages: Blogs*/
+.blog_page-trending {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1%;
+}
+
+/* Used in pages: Blogs*/
+.trending-posts {
+  vertical-align: top;
+  display: inline-block;
+  background-color: lightgray;
+  margin-right: 1.33%;
+  flex-basis: 32%;
+  margin-bottom: 3%;
+}
+
+/* Used in pages: Blogs*/
+.responsive-image-blogs-trending {
   width: 100%;
   height: auto;
 }
 
-#blog-description {
-  margin-top: 30px;
+/* Used in pages: Blogs*/
+.trending-content {
+  width: 100%;
+  display: block;
+  margin-bottom: 1%;
 }
 
-.trending-content1,
-.trending-content2 {
-  text-decoration: none;
-  text-align: left;
-  background-color: lightgray;
-  padding-bottom: 5%;
-  margin-bottom: 10%;
+.author-date {
+  bottom: 0;
 }
 
-.trending-content3 {
-  text-decoration: none;
-  text-align: left;
-  background-color: lightgray;
-  border-bottom: 100px;
-  padding-bottom: 5%;
-  margin-bottom: 10%;
+.fa {
+  font-size: 100%;
 }
 
+/* Used in pages: Blogs*/
 #trending-title {
   text-decoration: none;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-size: 90%;
+}
+/* Used in pages: Blogs*/
+.recent-posts-container {
+  margin-bottom: 0%;
+}
+
+/* Used in pages: Blogs*/
+.blogs_page-recent-posts {
+  margin-bottom: 1.5%;
+}
+
+/* Used in pages: Blogs*/
+.blogs_page-all-blogs {
+  display: inline-block;
+  color: #800000;
+  text-decoration: none;
+}
+
+/* Used in pages: Blogs*/
+.blogs_page-all-blogs:hover {
+  color: #800000;
+  text-decoration: underline;
+}
+
+/* Used in pages: Blogs*/
+.responsive-image-blogs-recent {
+  width: 49%;
+  height: auto;
+}
+
+/* Used in pages: Blogs*/
+#blogs_page-recent-posts {
+  display: inline-block;
+}
+
+/* Used in pages: Blogs*/
+.blogs_page-recent-image-margin {
+  margin-top: 0;
+  margin-right: 2%;
+}
+
+/* Used in pages: Blogs*/
+#recent-posts-title,
+#recent-posts-title2,
+#recent-posts-title3 {
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
   color: black;
 }
 
+/* Used in pages: Blogs*/
+.recent-posts-desc {
+  background-color: lightgray;
+  height: 33.4%;
+  margin-bottom: 5%;
+}
+
+/* Used in pages: Blogs*/
+.recent-posts-author_date {
+  margin-bottom: 2%;
+}
+
+/* Used in pages: Blogs*/
+#recent-posts-p-desc,
+#recent-posts-p-desc2,
+#recent-posts-p-desc3 {
+  margin-right: 2%;
+}
+
+/*
+---------------------------------------------------------
+                      Next Section                      |
+                                                        |
+                                                        |
+---------------------------------------------------------
+*/
+
+/* Used in pages: Big-Issues*/
 .abortion,
 .affirmative,
 .automation,
@@ -157,6 +318,7 @@
   max-width: 75%;
 }
 
+/* Used in pages: Big-Issues*/
 .abortion.active,
 .affirmative.active,
 .automation.active,
@@ -209,6 +371,8 @@
 .worldtradeorganization.active {
   transform: translate(-50%, -50%) scale(1);
 }
+
+/* Used in pages: Big-Issues*/
 .popup-header {
   padding: 10px 5px;
   display: flex;
@@ -217,10 +381,12 @@
   border-bottom: 1px solid black;
 }
 
+/* Used in pages: Big-Issues*/
 .popup-header title {
   font-weight: bold;
 }
 
+/* Used in pages: Big-Issues*/
 .popup-header .close-button {
   cursor: pointer;
   border: none;
@@ -230,10 +396,12 @@
   font-weight: bold;
 }
 
+/* Used in pages: Big-Issues*/
 .popup-body {
   padding: 10px 15px;
 }
 
+/* Used in pages: Big-Issues*/
 #overlay {
   position: fixed;
   opacity: 0;
@@ -246,99 +414,259 @@
   pointer-events: none;
 }
 
+/* Used in pages: Big-Issues*/
 #overlay.active {
   opacity: 0.7;
   pointer-events: all;
 }
+
+/* Used in pages: Big-Issues*/
 #issue {
   border: none;
   outline: none;
   background: none;
 }
+
+/* Used in pages: Big-Issues*/
 #pro {
   background-color: green;
   border-radius: 5px;
   padding-top: 4px;
-  padding-bottom: 4px;
-  padding-right: 3px;
-  padding-left: 3.4624998px;
+  padding-bottom: 5px;
+  padding-right: 6%;
+  padding-left: 6.1%;
   text-transform: uppercase;
 }
 
+/* Used in pages: Big-Issues*/
 #con {
   background-color: orange;
   border-radius: 5px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-right: 0px;
-  padding-left: 3px;
+  padding-top: 3.5px;
+  padding-bottom: 5px;
+  padding-right: 5%;
+  padding-left: 2.5%;
   text-transform: uppercase;
 }
 
-.align {
-  text-align: right;
-}
-
+/* Used in pages: Big-Issues*/
 tr {
   border-bottom: 2px solid #800000;
   font-size: 100%;
 }
 
-#disc {
-  width: 10%;
-  height: auto;
-  background-color: lightsalmon;
+/*
+---------------------------------------------------------
+                      Next Section                      |
+                                                        |
+                                                        |
+---------------------------------------------------------
+*/
+
+/* Used in pages: Articles */
+#body {
+  position: relative;
+  min-height: 100vh;
 }
 
+/* Used in pages: Articles */
+.responsive-articles {
+  width: 100%;
+  height: auto;
+}
+
+/* Used in pages: Articles */
+input {
+  display: block;
+  margin: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+  padding-right: 10%;
+  padding-left: 10%;
+  background: #f6f6f6;
+  border-bottom: 3px solid;
+  outline: none;
+  text-align: center;
+}
+
+/* Used in pages: Articles */
+.author-date-tags {
+  bottom: 0;
+}
+
+/* Used in pages: Articles */
+.articles {
+  vertical-align: top;
+  position: relative;
+  display: inline-block;
+  margin-right: 2.17%;
+  margin-left: 2.16%;
+  background-color: lightgray;
+  flex-basis: 29%;
+  margin-bottom: 2%;
+}
+
+/* Used in pages: Articles */
+.article-content {
+  width: 100%;
+  display: block;
+  background-color: lightgray;
+  margin-bottom: 1%;
+}
+
+/* Used in pages: Articles */
+#article-title {
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
+
+/* Used in pages: Articles */
+h5 {
+  margin-bottom: 1.5%;
+}
+
+/* Used in pages: Articles */
+.border-no {
+  border-bottom: lightgray;
+}
+
+/* Used in pages: Articles */
+.box {
+  border: 1px solid black;
+  padding-right: 0;
+  padding-left: 0;
+  text-align: center;
+  font-size: 0.894rem;
+}
+
+/* Used in pages: Articles */
+.border-tags {
+  border: 1px solid black;
+  padding-right: 4%;
+  padding-left: 4%;
+  margin-right: 4%;
+  color: white;
+  background-color: #66023c;
+}
+
+/* Used in pages: Articles */
+.tags {
+  margin-top: 1.5%;
+  margin-bottom: 2%;
+}
+
+/* Used in pages: Articles */
+.flex-container {
+  width: 101%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*
+---------------------------------------------------------
+                      Next Section                      |
+                                                        |
+                                                        |
+---------------------------------------------------------
+*/
+
+/* Used in pages: Discord */
+.responsive-discord {
+  width: 100%;
+  height: auto;
+}
+
+/* Used in pages: Articles, Discord */
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-#footer {
-  color: grey;
-  text-decoration: none;
-  margin-bottom: 0;
+/*
+---------------------------------------------------------
+                      Next Section                      |
+                                                        |
+                                                        |
+---------------------------------------------------------
+*/
+
+.blog-page {
+  padding-top: 3%;
+  margin-top: 1.5%;
+  border: 1px solid maroon;
 }
 
-#footer:hover {
-  color: white;
+.blog-info {
+  margin-bottom: 3%;
 }
 
-#footer-words {
-  color: white;
+.blog-title {
+  margin-bottom: 3%;
 }
 
-footer,
-.header {
-  background-color: #66023c;
-  padding-top: 3px;
+.responsive-image-blog-post {
+  width: 75%;
+  text-align: center;
+  height: auto;
 }
 
-#background {
-  background-color: lightgray;
+.blog-image {
+  text-align: center;
 }
 
-body {
-  background: #f6f6f6;
-  margin: 0;
+.see_all {
+  text-align: right;
+}
+/*
+---------------------------------------------------------
+                      Next Section                      |
+                                                        |
+                                                        |
+---------------------------------------------------------
+*/
+
+/* For Responsive Design */
+@media screen and (max-width: 1000px) {
+  .flex-container {
+    width: 100%;
+  }
 }
 
-.text {
-  background-color: white;
-  max-height: 248px;
-  height: 250px;
-}
+@media screen and (max-width: 475px) {
+  .flex-container {
+    flex-direction: column;
+  }
 
-#desc {
-  text-decoration: none;
-  font-family: "Courier New", Courier, monospace;
-  color: black;
-  font-size: 25px;
-}
+  .articles {
+    vertical-align: top;
+    display: inline-block;
+    background-color: lightgray;
+    flex-basis: 29%;
+    margin-bottom: 11%;
+  }
 
-#author {
-  margin-top: 0px;
-  padding-right: 22px;
+  .article-content {
+    width: 100%;
+    display: block;
+    margin-bottom: 8%;
+  }
+
+  .trending-posts {
+    vertical-align: top;
+    display: inline-block;
+    background-color: lightgray;
+    flex-basis: 32%;
+    margin-bottom: 11%;
+  }
+
+  .trending-content {
+    width: 100%;
+    display: block;
+    margin-bottom: 7%;
+  }
 }

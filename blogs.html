@@ -11,12 +11,30 @@
       crossorigin="anonymous"
     />
 
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
-    <script defer src="./blogs.js"></script>
+    <script src="./recent_posts.js"></script>
 
     <title>Blogs</title>
 
@@ -31,182 +49,257 @@
         <img src="./Images/logo_final.jpg" alt="Logo pic" />
       </a>
       <a class="navbar-brand" href="#">Multipolar Marauder</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+        id="navbar-toggle"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <!-- Links -->
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="./index.html">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./debates.html">DEBATES</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="./blogs.html">BLOGS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./bigissues.html">BIG ISSUES</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./discord.html">DISCORD</a>
-        </li>
-      </ul>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./debates.html">DEBATES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./blogs.html">BLOGS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./bigissues.html">BIG ISSUES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./discord.html">DISCORD</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
-    <!-- Trending Posts -->
-    <div class="trending">
+    <div id="body">
+      <!-- Trending Posts -->
       <div class="container">
-        <h4 id="intro">Trending Posts</h4>
-        <div class="row">
-          <div class="col-sm-4">
-            <img
-              class="responsive blog"
-              id="intro"
-              src="./Images/murder.jpg"
-              alt=""
-            />
-            <div class="trending-content1">
+        <div class="row margin-top">
+          <h4 class="blog_page-trending">Trending Posts</h4>
+          <div class="col-sm-12">
+            <div class="flex-container">
+              <div class="trending-posts" style="position: relative">
+                <img
+                  class="responsive-image-blogs-trending"
+                  src="./Images/dog.jpg"
+                  alt="Dog image"
+                />
+                <div class="trending-content">
+                  <h4>
+                    <a
+                      href="./Blog Posts/why-you-need-a-dog.html"
+                      id="trending-title"
+                      >Why You Need A Dog</a
+                    >
+                  </h4>
+                  <div class="author-date">
+                    <i class="fa fa-user-circle">
+                      &nbsp; Srivatsan Viswanathan &nbsp;</i
+                    >
+                    <span
+                      ><i class="fa fa-calendar">&nbsp; August 8 2021</i></span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="trending-posts" style="position: relative">
+                <img
+                  class="responsive-image-blogs-trending"
+                  src="./Images/cat.jpg"
+                  alt="Cat image"
+                />
+                <div class="trending-content">
+                  <h4>
+                    <a href="#idk" id="trending-title">Why You Need A Cat</a>
+                  </h4>
+                  <div class="author-date">
+                    <i class="fa fa-user-circle"> &nbsp; Cat Lover &nbsp;</i>
+                    <span
+                      ><i class="fa fa-calendar">&nbsp; August 6 2021</i></span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="trending-posts" style="position: relative">
+                <img
+                  class="responsive-image-blogs-trending"
+                  src="./Images/pets.jpg"
+                  alt="Pet image"
+                />
+                <div class="trending-content">
+                  <h4>
+                    <a href="#Idk" id="trending-title"
+                      >Why Pets Are Good For You</a
+                    >
+                  </h4>
+                  <div class="author-date">
+                    <i class="fa fa-user-circle">
+                      &nbsp; Multipolar Marauder &nbsp;</i
+                    >
+                    <span
+                      ><i class="fa fa-calendar">&nbsp; August 4 2021</i></span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Recent Posts-->
+      <div class="container recent-posts-container">
+        <div>
+          <h4 id="blogs_page-recent-posts">
+            Recent Posts &nbsp; &nbsp;<a
+              href="./articles.html"
+              target="_blank"
+              class="blogs_page-all-blogs"
+              id="see_all"
+            >
+              See All</a
+            >
+          </h4>
+        </div>
+        <div class="row blogs_page-recent-posts margin-top">
+          <div class="col-sm-8">
+            <div class="recent-posts-desc">
+              <img
+                style="float: left"
+                id="recent-one-image"
+                class="
+                  responsive-image-blogs-recent
+                  blogs_page-recent-image-margin
+                "
+                src=""
+                alt="Dog pic"
+              />
               <h4>
-                <a href="#Idk" id="trending-title"
-                  >How To Get Away With Murder</a
+                <a href="" id="recent-posts-title"
+                  ><script>
+                    one_recentpost();
+                  </script></a
                 >
               </h4>
-              <i class="fa fa-user-circle">
-                &nbsp; Srivatsan Viswanathan &nbsp;</i
-              >
-              <span><i class="fa fa-calendar">&nbsp; June 1 2021</i></span>
+              <div class="recent-posts-author_date">
+                <i class="fa fa-user-circle" id="recent-posts-author">
+                  <script>
+                    one_recentpost();
+                  </script>
+                  &nbsp;</i
+                >
+                <span
+                  ><i class="fa fa-calendar" id="recent-posts-date"
+                    >&nbsp;
+                    <script>
+                      one_recentpost();
+                    </script></i
+                  ></span
+                >
+              </div>
+              <p id="recent-posts-p-desc">
+                <script>
+                  one_recentpost();
+                </script>
+              </p>
             </div>
-          </div>
-          <div class="col-sm-4">
-            <img
-              class="responsive blog"
-              id="intro"
-              src="./Images/torture.jpg"
-              alt=""
-            />
-            <div class="trending-content2">
+            <div class="recent-posts-desc">
+              <img
+                style="float: left"
+                class="
+                  responsive-image-blogs-recent
+                  blogs_page-recent-image-margin
+                "
+                id="recent-two-image"
+                src=""
+                alt="Cat pic"
+              />
               <h4>
-                <a href="#Idk" id="trending-title">How To Torture Someone</a>
+                <a href="#Idk" id="recent-posts-title2"
+                  ><script>
+                    two_recentpost();
+                  </script></a
+                >
               </h4>
-              <i class="fa fa-user-circle">
-                &nbsp; Srivatsan Viswanathan &nbsp;</i
-              >
-              <span><i class="fa fa-calendar">&nbsp; June 20 2021</i></span>
+              <div class="recent-posts-author_date">
+                <i class="fa fa-user-circle" id="recent-posts-author2">
+                  &nbsp;
+                  <script>
+                    two_recentpost();
+                  </script>
+                  &nbsp;</i
+                >
+                <span
+                  ><i class="fa fa-calendar" id="recent-posts-date2"
+                    >&nbsp;
+                    <script>
+                      two_recentpost();
+                    </script></i
+                  ></span
+                >
+              </div>
+              <p id="recent-posts-p-desc2">
+                <script>
+                  two_recentpost();
+                </script>
+              </p>
             </div>
-          </div>
-          <div class="col-sm-4">
-            <img
-              class="responsive"
-              id="intro"
-              src="./Images/notdie.png"
-              alt=""
-            />
-            <div class="trending-content3">
+            <div class="recent-posts-desc">
+              <img
+                style="float: left"
+                class="
+                  responsive-image-blogs-recent
+                  blogs_page-recent-image-margin
+                "
+                id="recent-three-image"
+                src="./Images/pets.jpg"
+                alt="Pets pic"
+              />
               <h4>
-                <a href="#Idk" id="trending-title">How To Not Die Stupidly</a>
+                <a href="#Idk" id="recent-posts-title3"
+                  ><script>
+                    three_recentpost();
+                  </script></a
+                >
               </h4>
-              <i class="fa fa-user-circle">
-                &nbsp; Srivatsan Viswanathan &nbsp;</i
-              >
-              <span><i class="fa fa-calendar">&nbsp; July 1 2021</i></span>
+              <div class="recent-posts-author_date">
+                <i class="fa fa-user-circle" id="recent-posts-author3">
+                  &nbsp;
+                  <script>
+                    three_recentpost();
+                  </script>
+                  &nbsp;</i
+                >
+                <span
+                  ><i class="fa fa-calendar" id="recent-posts-date3"
+                    >&nbsp;
+                    <script>
+                      three_recentpost();
+                    </script></i
+                  ></span
+                >
+              </div>
+              <p id="recent-posts-p-desc3">
+                <script>
+                  three_recentpost();
+                </script>
+              </p>
             </div>
           </div>
+          <div class="col-sm-4"></div>
         </div>
       </div>
     </div>
-
-    <!-- Recent Posts-->
-    <div class="container">
-      <h4 id="recent-posts">Recent Posts</h4>
-      <div class="row">
-        <div class="col-sm-8">
-          <img
-            style="float: left"
-            class="responsive-posts"
-            id="author"
-            src="./Images/murder.jpg"
-            alt=""
-          />
-          <div class="text">
-            <h4>
-              <a href="#Idk" id="desc">How To Not Die Stupidly</a>
-            </h4>
-            <i class="fa fa-user-circle" id="author">
-              &nbsp; Srivatsan Viswanathan</i
-            >
-            <span
-              ><i class="fa fa-calendar" id="author"
-                >&nbsp; July 1 2021</i
-              ></span
-            >
-            <br />
-            <br />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
-              assumenda fugit laudantium natus dolorem, ipsum, autem ipsa
-              ducimus placeat nemo at dolor minima ea cum necessitatibus aliquid
-              aspernatur. Laboriosam, sit.
-            </p>
-          </div>
-          <br />
-          <img
-            style="float: left"
-            class="responsive-posts"
-            id="author"
-            src="./Images/murder.jpg"
-            alt=""
-          />
-          <div class="text">
-            <h4>
-              <a href="#Idk" id="desc">How To Not Die Stupidly</a>
-            </h4>
-            <i class="fa fa-user-circle" id="author">
-              &nbsp; Srivatsan Viswanathan</i
-            >
-            <span
-              ><i class="fa fa-calendar" id="author"
-                >&nbsp; July 1 2021</i
-              ></span
-            >
-            <br />
-            <br />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
-              assumenda fugit laudantium natus dolorem, ipsum, autem ipsa
-              ducimus placeat nemo at dolor minima ea cum necessitatibus aliquid
-              aspernatur. Laboriosam, sit.
-            </p>
-          </div>
-          <br />
-          <img
-            style="float: left"
-            class="responsive-posts"
-            id="author"
-            src="./Images/murder.jpg"
-            alt=""
-          />
-          <div class="text">
-            <h4>
-              <a href="#Idk" id="desc">How To Not Die Stupidly</a>
-            </h4>
-            <i class="fa fa-user-circle" id="author">
-              &nbsp; Srivatsan Viswanathan</i
-            >
-            <span
-              ><i class="fa fa-calendar" id="author"
-                >&nbsp; July 1 2021</i
-              ></span
-            >
-            <br />
-            <br />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
-              assumenda fugit laudantium natus dolorem, ipsum, autem ipsa
-              ducimus placeat nemo at dolor minima ea cum necessitatibus aliquid
-              aspernatur. Laboriosam, sit.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <br />
     <br />
 
     <!-- Footer -->
@@ -226,7 +319,7 @@
           <div class="col-sm-3">
             <a id="footer" href="./bigissues.html">BIG ISSUES</a>
             <br />
-            <a id="footer" href="https://discord.gg/MtqW7qK8">DISCORD</a>
+            <a id="footer" href="https://discord.gg/kcmNE3sj7k">DISCORD</a>
           </div>
           <div class="col-sm-2"></div>
           <div class="col-sm-2">
@@ -235,5 +328,14 @@
         </div>
       </div>
     </footer>
+
+    <script src="./recent_posts.js"></script>
+
+    <style>
+      #body {
+        position: relative;
+        min-height: 168vh;
+      }
+    </style>
   </body>
 </html>

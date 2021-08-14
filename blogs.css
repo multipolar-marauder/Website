@@ -1,12 +1,12 @@
+/* CSS changes to Blog Page only */
+
 h4 {
   margin-bottom: 0;
 }
 
-.responsive-posts {
-  width: 51%;
-  height: auto;
+h4 #see_all {
+  font-size: 75%;
 }
-
-#recent-posts {
-  margin-bottom: 1%;
+footer {
+  margin-top: 3.5%;
 }

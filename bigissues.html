@@ -11,6 +11,24 @@
       crossorigin="anonymous"
     />
 
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
     <script defer src="./big-issues.js"></script>
 
     <title>Big Issues</title>
@@ -25,30 +43,41 @@
         <img src="./Images/logo_final.jpg" alt="Logo pic" />
       </a>
       <a class="navbar-brand" href="#">Multipolar Marauder</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+        id="navbar-toggle"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <!-- Links -->
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="./index.html">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./debates.html">DEBATES</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./blogs.html">BLOGS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="./bigissues.html">BIG ISSUES</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./discord.html">DISCORD</a>
-        </li>
-      </ul>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./debates.html">DEBATES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./blogs.html">BLOGS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./bigissues.html">BIG ISSUES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./discord.html">DISCORD</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
-    <!-- Content -->
+    <!-- Description of Big Issues -->
     <div class="container">
-      <div class="row">
-        <div id="intro" class="col-sm-12">
+      <div class="row margin-top">
+        <div class="col-sm-12">
           <h4>The Big Issues</h4>
           <p>
             The Big Issues is a a variety of political topics in where we show
@@ -60,8 +89,11 @@
         </div>
       </div>
     </div>
+
+    <!-- Line -->
     <hr />
 
+    <!-- Big Issues -->
     <div class="container">
       <div class="row">
         <div class="col-sm-5">
@@ -106,7 +138,7 @@
                 </div>
 
                 <!-- Vote result -->
-                <td class="align"><span id="pro">80% pro</span></td>
+                <td class="align"><span id="pro"> 80% pro</span></td>
               </tr>
               <tr>
                 <td>
@@ -123,14 +155,30 @@
                   </div>
                   <div class="popup-body">
                     <p>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
-                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
-                      illum, consectetur dolore nostrum autem exercitationem?
+                      Affirmative Action programs are created by the government
+                      with the purpose of increasing the enrollment and
+                      acceptance of various populations that are deemed to be
+                      disfranchised. <br />
+                      <br />
+                      Instituting an affirmative action policy comes from a
+                      particular assessment of a nation's past; it is seen as
+                      necessary as a compensatory measure in cultures that.
+                      While some countries refuse to participate in affirmative
+                      action because they have so-called "color-blind" laws
+                      mandating that all races simply be treated equally, other
+                      countries feel that favoring previously oppressed groups,
+                      often called "reverse discrimination," at least for a
+                      period of time, is the only way to restore complete
+                      equality in the long term. This belief can lead to the
+                      adoption of hiring quotas in which a certain number of
+                      hires or appointments must come from previously
+                      under-represented groups of people. In the United States,
+                      affirmative action has been widely practiced, but nearly
+                      as widely critiqued.
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">50% con</span></td>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
               </tr>
               <tr>
                 <td>
@@ -178,7 +226,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">50% con</span></td>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
               </tr>
               <tr>
                 <td>
@@ -226,7 +274,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">50% con</span></td>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
               </tr>
               <tr>
                 <td>
@@ -272,7 +320,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">50% con</span></td>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
               </tr>
               <tr>
                 <td>
@@ -323,7 +371,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">50% con</span></td>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
               </tr>
               <tr>
                 <td>
@@ -374,7 +422,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">50% con</span></td>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
               </tr>
               <tr>
                 <td>
@@ -425,7 +473,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">50% con</span></td>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
               </tr>
               <tr>
                 <td>
@@ -476,7 +524,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">50% con</span></td>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
               </tr>
               <tr>
                 <td>
@@ -524,7 +572,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">50% con</span></td>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
               </tr>
               <tr>
                 <td>
@@ -572,7 +620,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">50% con</span></td>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
               </tr>
               <tr>
                 <td>
@@ -623,7 +671,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">50% con</span></td>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
               </tr>
               <tr>
                 <td>
@@ -674,7 +722,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">50% con</span></td>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
               </tr>
               <tr>
                 <td>
@@ -698,7 +746,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="pro">50% PRO</span></td>
+                <td class="align"><span id="pro">50% pro</span></td>
               </tr>
             </tbody>
           </table>
@@ -730,7 +778,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">50% con</span></td>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
               </tr>
               <tr>
                 <td>
@@ -781,7 +829,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">50% con</span></td>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
               </tr>
               <tr>
                 <td>
@@ -835,7 +883,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">50% con</span></td>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
               </tr>
               <tr>
                 <td>
@@ -881,7 +929,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">50% con</span></td>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
               </tr>
               <tr>
                 <td>
@@ -932,7 +980,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">50% con</span></td>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
               </tr>
               <tr>
                 <td>
@@ -986,7 +1034,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">50% con</span></td>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
               </tr>
               <tr>
                 <td>
@@ -1034,7 +1082,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">50% con</span></td>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
               </tr>
               <tr>
                 <td>
@@ -1082,7 +1130,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">80% con</span></td>
+                <td class="align"><span id="con">&nbsp;80% con</span></td>
               </tr>
               <tr>
                 <td>
@@ -1130,7 +1178,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">50% con</span></td>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
               </tr>
               <tr>
                 <td>
@@ -1181,7 +1229,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">50% con</span></td>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
               </tr>
               <tr>
                 <td>
@@ -1235,7 +1283,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">50% con</span></td>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
               </tr>
               <tr>
                 <td>
@@ -1283,7 +1331,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">50% con</span></td>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
               </tr>
               <tr>
                 <td>
@@ -1334,7 +1382,7 @@
                     </p>
                   </div>
                 </div>
-                <td class="align"><span id="con">50% con</span></td>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
               </tr>
             </tbody>
           </table>
@@ -1343,6 +1391,7 @@
     </div>
 
     <!-- Footer -->
+
     <footer class="bg-dark text-center text-lg-start">
       <div class="container">
         <div class="row">
@@ -1358,7 +1407,7 @@
           <div class="col-sm-3">
             <a id="footer" href="./bigissues.html">BIG ISSUES</a>
             <br />
-            <a id="footer" href="https://discord.gg/MtqW7qK8">DISCORD</a>
+            <a id="footer" href="https://discord.gg/kcmNE3sj7k">DISCORD</a>
           </div>
           <div class="col-sm-2"></div>
           <div class="col-sm-2">
