@@ -42,6 +42,10 @@ function three_recentpost() {
   document.getElementById("recent-posts-p-desc3").innerHTML = description;
 }
 
+document.getElementById("recent-one-image").src = "./Images/dog.jpg";
+document.getElementById("recent-two-image").src = "./Images/cat.jpg";
+document.getElementById("recent-three-image").src = "./Images/pets.jpg";
+
 document.getElementById("recent-one-image").src = "../Images/dog.jpg";
 document.getElementById("recent-two-image").src = "../Images/cat.jpg";
 document.getElementById("recent-three-image").src = "../Images/pets.jpg";
