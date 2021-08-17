@@ -598,7 +598,7 @@ h5 {
 .blog-page {
   padding-top: 3%;
   margin-top: 1.5%;
-  border: 1px solid maroon;
+  border: maroon solid 0.35vh;
 }
 
 .blog-info {
@@ -621,6 +621,15 @@ h5 {
 
 .see_all {
   text-align: right;
+}
+
+.fa-facebook-official {
+  color: #4267b2;
+  font-size: 350%;
+}
+
+.fa-facebook-official:hover {
+  opacity: 0.8;
 }
 /*
 ---------------------------------------------------------
