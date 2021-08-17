@@ -192,7 +192,7 @@ footer {
 
 /* Used in pages: Blogs*/
 .blogs_page-recent-posts {
-  margin-bottom: 1.5%;
+  margin-bottom: 0%;
 }
 
 /* Used in pages: Blogs*/
@@ -237,13 +237,13 @@ footer {
 /* Used in pages: Blogs*/
 .recent-posts-desc {
   background-color: lightgray;
-  height: 33.4%;
   margin-bottom: 5%;
+  min-height: 34.85vh;
 }
 
 /* Used in pages: Blogs*/
 .recent-posts-author_date {
-  margin-bottom: 2%;
+  margin-bottom: 0.5%;
 }
 
 /* Used in pages: Blogs*/
@@ -640,8 +640,8 @@ h5 {
   color: white;
   padding-right: 0.6%;
   padding-left: 0.6%;
-  padding-top: 0.05%;
-  padding-bottom: 0.05%;
+  padding-top: 0.08%;
+  padding-bottom: 0.08%;
   border-radius: 25%;
   font-size: 300%;
   position: absolute;
