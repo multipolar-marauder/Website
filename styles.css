@@ -833,6 +833,50 @@ h5 {
   }
 }
 
+@media screen and (max-width: 450px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .articles {
+    vertical-align: top;
+    display: inline-block;
+    background-color: lightgray;
+    flex-basis: 29%;
+    margin-bottom: 11%;
+  }
+
+  .trending-posts {
+    vertical-align: top;
+    display: inline-block;
+    background-color: lightgray;
+    flex-basis: 32%;
+    margin-bottom: 11%;
+  }
+
+  .trending-content {
+    width: 100%;
+    display: block;
+    margin-bottom: 7%;
+  }
+
+  .trending-post-title {
+    padding-bottom: 0%;
+    margin-bottom: 1%;
+  }
+
+  .article-content {
+    width: 100%;
+    display: block;
+    background-color: lightgray;
+    padding-bottom: 0%;
+  }
+
+  .article-title {
+    margin-bottom: 20%;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .flex-container {
     flex-direction: column;
