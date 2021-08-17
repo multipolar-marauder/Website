@@ -500,6 +500,7 @@ input {
 
 /* Used in pages: Articles */
 .author-date-tags {
+  position: absolute;
   bottom: 0;
 }
 
@@ -520,13 +521,13 @@ input {
   width: 100%;
   display: block;
   background-color: lightgray;
-  margin-bottom: 1%;
+  margin-bottom: 15%;
 }
 
 /* Used in pages: Articles */
 #article-title {
   text-decoration: none;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Times New Roman", Times, serif;
   color: black;
 }
 
@@ -677,6 +678,23 @@ h5 {
 .fa-instagram:hover {
   opacity: 0.8;
 }
+
+.blog-recent-posts {
+  vertical-align: top;
+  display: inline-block;
+  background-color: lightgray;
+  margin-right: 1.33%;
+  flex-basis: 32%;
+  margin-bottom: 3%;
+  position: relative;
+}
+
+.blog-recent-content {
+  width: 100%;
+  display: block;
+  padding-bottom: 1%;
+  margin-bottom: 7%;
+}
 /*
 ---------------------------------------------------------
                       Next Section                      |
@@ -694,6 +712,39 @@ h5 {
   .trending-post-title {
     padding-bottom: 2%;
   }
+
+  .author-date-tags {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .article-content {
+    width: 100%;
+    display: block;
+    background-color: lightgray;
+    padding-bottom: 0%;
+  }
+
+  .article-title {
+    margin-bottom: 30%;
+  }
+}
+
+@media screen and (max-width: 971px) {
+  .flex-container {
+    width: 100%;
+  }
+
+  .article-content {
+    width: 100%;
+    display: block;
+    background-color: lightgray;
+    padding-bottom: 10%;
+  }
+
+  .article-title {
+    margin-bottom: 30%;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -704,6 +755,17 @@ h5 {
   .trending-post-title {
     padding-bottom: 15%;
   }
+
+  .article-content {
+    width: 100%;
+    display: block;
+    background-color: lightgray;
+    padding-bottom: 10%;
+  }
+
+  .article-title {
+    margin-bottom: 30%;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -713,6 +775,17 @@ h5 {
 
   .trending-post-title {
     padding-bottom: 35%;
+  }
+
+  .article-content {
+    width: 100%;
+    display: block;
+    background-color: lightgray;
+    padding-bottom: 45%;
+  }
+
+  .article-title {
+    margin-bottom: 50%;
   }
 }
 
@@ -727,12 +800,6 @@ h5 {
     background-color: lightgray;
     flex-basis: 29%;
     margin-bottom: 11%;
-  }
-
-  .article-content {
-    width: 100%;
-    display: block;
-    margin-bottom: 8%;
   }
 
   .trending-posts {
@@ -753,6 +820,34 @@ h5 {
     padding-bottom: 0%;
     margin-bottom: 5%;
   }
+
+  .article-content {
+    width: 100%;
+    display: block;
+    background-color: lightgray;
+    padding-bottom: 0%;
+  }
+
+  .article-title {
+    margin-bottom: 30%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .article-content {
+    width: 100%;
+    display: block;
+    background-color: lightgray;
+    padding-bottom: 0%;
+  }
+
+  .article-title {
+    margin-bottom: 22.5%;
+  }
 }
 
 @media screen and (max-width: 290px) {
@@ -762,5 +857,16 @@ h5 {
 
   .trending-post-title {
     padding-bottom: 8%;
+  }
+
+  .article-content {
+    width: 100%;
+    display: block;
+    background-color: lightgray;
+    padding-bottom: 1%;
+  }
+
+  .article-title {
+    margin-bottom: 30%;
   }
 }
