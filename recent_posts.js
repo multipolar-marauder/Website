@@ -13,7 +13,7 @@ function one_recentpost() {
   document.getElementById("recent-posts-p-desc").innerHTML = description;
   document
     .getElementById("recent-posts-title")
-    .setAttribute("href", "./Blog-Posts/why-you-need-a-dog.html");
+    .setAttribute("href", (href = "./blog-posts/why-you-need-a-dog.html"));
 }
 
 function two_recentpost() {
