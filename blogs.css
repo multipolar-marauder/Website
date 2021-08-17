@@ -1,0 +1,12 @@
+/* CSS changes to Blog Page only */
+
+h4 {
+  margin-bottom: 0;
+}
+
+h4 #see_all {
+  font-size: 75%;
+}
+footer {
+  margin-top: 3.5%;
+}
