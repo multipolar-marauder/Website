@@ -149,8 +149,12 @@ footer {
   margin-right: 1.33%;
   flex-basis: 32%;
   margin-bottom: 3%;
+  position: relative;
 }
 
+.trending-post-title {
+  margin-bottom: 4%;
+}
 /* Used in pages: Blogs*/
 .responsive-image-blogs-trending {
   width: 100%;
@@ -162,9 +166,11 @@ footer {
   width: 100%;
   display: block;
   margin-bottom: 1%;
+  padding-bottom: 1%;
 }
 
 .author-date {
+  position: absolute;
   bottom: 0;
 }
 
@@ -680,9 +686,29 @@ h5 {
 */
 
 /* For Responsive Design */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
   .flex-container {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .flex-container {
+    width: 100%;
+  }
+
+  .trending-post-title {
+    padding-bottom: 15%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .flex-container {
+    width: 100%;
+  }
+
+  .trending-post-title {
+    padding-bottom: 35%;
   }
 }
 
@@ -717,5 +743,20 @@ h5 {
     width: 100%;
     display: block;
     margin-bottom: 7%;
+  }
+
+  .trending-post-title {
+    padding-bottom: 0%;
+    margin-bottom: 5%;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .flex-container {
+    width: 100%;
+  }
+
+  .trending-post-title {
+    padding-bottom: 8%;
   }
 }
