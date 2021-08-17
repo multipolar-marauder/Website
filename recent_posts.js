@@ -13,7 +13,7 @@ function one_recentpost() {
   document.getElementById("recent-posts-p-desc").innerHTML = description;
   document
     .getElementById("recent-posts-title")
-    .setAttribute("href", "./Blog Posts/why-you-need-a-dog.html");
+    .setAttribute("href", "./Blog-Posts/why-you-need-a-dog.html");
 }
 
 function two_recentpost() {
@@ -42,8 +42,6 @@ function three_recentpost() {
   document.getElementById("recent-posts-p-desc3").innerHTML = description;
 }
 
-
 document.getElementById("recent-one-image").src = "../Images/dog.jpg";
 document.getElementById("recent-two-image").src = "../Images/cat.jpg";
 document.getElementById("recent-three-image").src = "../Images/pets.jpg";
-
