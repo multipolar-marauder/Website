@@ -690,6 +690,10 @@ h5 {
   .flex-container {
     width: 100%;
   }
+
+  .trending-post-title {
+    padding-bottom: 2%;
+  }
 }
 
 @media screen and (max-width: 900px) {
