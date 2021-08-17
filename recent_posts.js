@@ -5,7 +5,7 @@ function one_recentpost() {
   var author = "&nbsp; Srivatsan Viswanathan &nbsp;";
   var date = "&nbsp; August 8 2021";
   var description =
-    "Why do you need a dog? You need a dog because they will make your life a 1000% better than it already is. Your life is great? Awesome! Get a dog and it'll be better! Your life sucks? Damn, GET A DOG AND YOUR LIFE WILL BE AMAZING!";
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat eveniet, doloremque recusandae earum eligendi voluptates cum molestias consequatur blanditiis quia qui dolorum, consequuntur ratione inventore numqssssssssuam deserunt! Fugit labore fuga accusantium vero magnam. Fuga repudiandae incidunt dolorum nulla.";
 
   document.getElementById("recent-posts-title").innerHTML = title;
   document.getElementById("recent-posts-author").innerHTML = author;
@@ -19,14 +19,17 @@ function one_recentpost() {
 function two_recentpost() {
   var title = "Why You Need A Cat";
   var author = "&nbsp; Cat Lover &nbsp;";
-  var date = "&nbsp; August 4 2021 &nbsp;";
+  var date = "&nbsp; August 6 2021 &nbsp;";
   var description =
-    "Why do you need a cat? You need a cat because they will make your life a 1000% better than it already is. Your life is great? Awesome! Get a cat and it'll be better! Your life sucks? Damn, GET A CAT AND YOUR LIFE WILL BE AMAZING!";
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat eveniet, doloremque recusandae earum eligendi voluptates cum molestias consequatur blanditiis quia qui dolorum, consequuntur ratione inventore numquam deserunt! Fugit labore fuga accusantium vero magnam. Fuga repudiandae incidunt dolorum nulla.";
 
   document.getElementById("recent-posts-title2").innerHTML = title;
   document.getElementById("recent-posts-author2").innerHTML = author;
   document.getElementById("recent-posts-date2").innerHTML = date;
   document.getElementById("recent-posts-p-desc2").innerHTML = description;
+  document
+    .getElementById("recent-posts-title2")
+    .setAttribute("href", (href = "./blog-posts/why-you-need-a-cat.html"));
 }
 
 function three_recentpost() {
@@ -34,12 +37,18 @@ function three_recentpost() {
   var author = "&nbsp; Srivatsan Viswanathan &nbsp;";
   var date = "&nbsp; August 4 2021 &nbsp;";
   var description =
-    "Pets are amazing. Some people have cats, dogs, hamsters and many other animals because pets are simply worth it. They are fun to have around, they teach you about responsibilities (after all, you don't want to kill your pet), and they make your life much better!";
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat eveniet, doloremque recusandae earum eligendi voluptates cum molestias consequatur blanditiis quia qui dolorum, consequuntur ratione inventore numquam deserunt! Fugit labore fuga accusantium vero magnam. Fuga repudiandae incidunt dolorum nulla.";
 
   document.getElementById("recent-posts-title3").innerHTML = title;
   document.getElementById("recent-posts-author3").innerHTML = author;
   document.getElementById("recent-posts-date3").innerHTML = date;
   document.getElementById("recent-posts-p-desc3").innerHTML = description;
+  document
+    .getElementById("recent-posts-title3")
+    .setAttribute(
+      "href",
+      (href = "./blog-posts/why-pets-are-good-for-you.html")
+    );
 }
 
 document.getElementById("recent-one-image").src = "./Images/dog.jpg";
