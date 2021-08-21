@@ -436,6 +436,10 @@ footer {
   color: black;
 }
 
+#issue:hover {
+  text-decoration: underline;
+}
+
 /* Used in pages: Big-Issues*/
 #pro {
   background-color: green;
