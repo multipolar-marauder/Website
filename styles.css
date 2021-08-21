@@ -432,6 +432,926 @@ footer {
   border: none;
   outline: none;
   background: none;
+  text-decoration: none;
+  color: black;
+}
+
+/* Used in pages: Big-Issues*/
+#pro {
+  background-color: green;
+  border-radius: 5px;
+  padding-top: 4px;
+  padding-bottom: 5px;
+  padding-right: 6%;
+  padding-left: 6.1%;
+  text-transform: uppercase;
+}
+
+/* Used in pages: Big-Issues*/
+#con {
+  background-color: orange;
+  border-radius: 5px;
+  padding-top: 3.5px;
+  padding-bottom: 5px;
+  padding-right: 4%;
+  padding-left: 2.25%;
+  text-transform: uppercase;
+}
+
+/* Used in pages: Big-Issues*/
+tr {
+  border-bottom: 2px solid #800000;
+  font-size: 100%;
+}
+
+/*
+---------------------------------------------------------
+                      Next Section                      |
+                                                        |
+                                                        |
+---------------------------------------------------------
+*/
+
+/* Used in pages: Articles */
+#body {
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Used in pages: Articles */
+.responsive-articles {
+  width: 100%;
+  height: auto;
+}
+
+/* Used in pages: Articles */
+input {
+  display: block;
+  margin: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+  padding-right: 10%;
+  padding-left: 10%;
+  background: #f6f6f6;
+  border-bottom: 3px solid;
+  outline: none;
+  text-align: center;
+}
+
+/* Used in pages: Articles */
+.author-date-tags {
+  position: absolute;
+  bottom: 0;
+}
+
+/* Used in pages: Articles */
+.articles {
+  vertical-align: top;
+  position: relative;
+  display: inline-block;
+  margin-right: 2.17%;
+  margin-left: 2.16%;
+  background-color: lightgray;
+  flex-basis: 29%;
+  margin-bottom: 2%;
+}
+
+/* Used in pages: Articles */
+.article-content {
+  width: 100%;
+  display: block;
+  background-color: lightgray;
+  margin-bottom: 15%;
+}
+
+/* Used in pages: Articles */
+#article-title {
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+
+/* Used in pages: Articles */
+h5 {
+  margin-bottom: 1.5%;
+}
+
+/* Used in pages: Articles */
+.border-no {
+  border-bottom: lightgray;
+}
+
+/* Used in pages: Articles */
+.box {
+  border: 1px solid black;
+  padding-right: 0;
+  padding-left: 0;
+  text-align: center;
+  font-size: 0.894rem;
+}
+
+/* Used in pages: Articles */
+.border-tags {
+  border: 1px solid black;
+  padding-right: 4%;
+  padding-left: 4%;
+  margin-right: 4%;
+  color: white;
+  background-color: #66023c;
+}
+
+/* Used in pages: Articles */
+.tags {
+  margin-top: 1.5%;
+  margin-bottom: 2%;
+}
+
+/* Used in pages: Articles */
+.flex-container {
+  width: 101%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*
+---------------------------------------------------------
+                      Next Section                      |
+                                                        |
+                                                        |
+---------------------------------------------------------
+*/
+
+/* Used in pages: Discord */
+.responsive-discord {
+  width: 100%;
+  height: auto;
+}
+
+/* Used in pages: Articles, Discord */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+---------------------------------------------------------
+                      Next Section                      |
+                                                        |
+                                                        |
+---------------------------------------------------------
+*/
+
+.blog-page {
+  padding-top: 3%;
+  margin-top: 1.5%;
+  border: maroon solid 0.35vh;
+}
+
+.blog-info {
+  margin-bottom: 3%;
+}
+
+.blog-title {
+  margin-bottom: 3%;
+}
+
+.responsive-image-blog-post {
+  width: 75%;
+  text-align: center;
+  height: auto;
+}
+
+.blog-image {
+  text-align: center;
+}
+
+.see_all {
+  text-align: right;
+}
+
+.fa-facebook-official {
+  color: #4267b2;
+  font-size: 350%;
+}
+
+.fa-instagram {
+  color: white;
+  padding-right: 0.6%;
+  padding-left: 0.6%;
+  padding-top: 0.08%;
+  padding-bottom: 0.08%;
+  border-radius: 25%;
+  font-size: 300%;
+  position: absolute;
+  bottom: 6%;
+  background: radial-gradient(
+      circle farthest-corner at 35% 90%,
+      #fec564,
+      transparent 50%
+    ),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 20% -50%,
+      #5258cf,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 60% -20%,
+      #893dc2,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(
+      #6559ca,
+      #bc318f 30%,
+      #e33f5f 50%,
+      #f77638 70%,
+      #fec66d 100%
+    );
+}
+
+.fa-facebook-official:hover,
+.fa-instagram:hover {
+  opacity: 0.8;
+}
+
+.blog-recent-posts {
+  vertical-align: top;
+  display: inline-block;
+  background-color: lightgray;
+  margin-right: 1.33%;
+  flex-basis: 32%;
+  margin-bottom: 3%;
+  position: relative;
+}
+
+.blog-recent-content {
+  width: 100%;
+  display: block;
+  padding-bottom: 1%;
+  margin-bottom: 7%;
+}
+/*
+---------------------------------------------------------
+                      Next Section                      |
+                                                        |
+                                                        |
+---------------------------------------------------------
+*/
+
+/* For Responsive Design */
+@media screen and (max-width: 1050px) {
+  .flex-container {
+    width: 100%;
+  }
+
+  .trending-post-title {
+    padding-bottom: 2%;
+  }
+
+  .author-date-tags {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .article-content {
+    width: 100%;
+    display: block;
+    background-color: lightgray;
+    padding-bottom: 0%;
+  }
+
+  .article-title {
+    margin-bottom: 30%;
+  }
+}
+
+@media screen and (max-width: 971px) {
+  .flex-container {
+    width: 100%;
+  }
+
+  .article-content {
+    width: 100%;
+    display: block;
+    background-color: lightgray;
+    padding-bottom: 10%;
+  }
+
+  .article-title {
+    margin-bottom: 30%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .flex-container {
+    width: 100%;
+  }
+
+  .trending-post-title {
+    padding-bottom: 15%;
+  }
+
+  .article-content {
+    width: 100%;
+    display: block;
+    background-color: lightgray;
+    padding-bottom: 10%;
+  }
+
+  .article-title {
+    margin-bottom: 30%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .flex-container {
+    width: 100%;
+  }
+
+  .trending-post-title {
+    padding-bottom: 35%;
+  }
+
+  .article-content {
+    width: 100%;
+    display: block;
+    background-color: lightgray;
+    padding-bottom: 45%;
+  }
+
+  .article-title {
+    margin-bottom: 50%;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .articles {
+    vertical-align: top;
+    display: inline-block;
+    background-color: lightgray;
+    flex-basis: 29%;
+    margin-bottom: 11%;
+  }
+
+  .trending-posts {
+    vertical-align: top;
+    display: inline-block;
+    background-color: lightgray;
+    flex-basis: 32%;
+    margin-bottom: 11%;
+  }
+
+  .trending-content {
+    width: 100%;
+    display: block;
+    margin-bottom: 7%;
+  }
+
+  .trending-post-title {
+    padding-bottom: 0%;
+    margin-bottom: 5%;
+  }
+
+  .article-content {
+    width: 100%;
+    display: block;
+    background-color: lightgray;
+    padding-bottom: 0%;
+  }
+
+  .article-title {
+    margin-bottom: 37%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .articles {
+    vertical-align: top;
+    display: inline-block;
+    background-color: lightgray;
+    flex-basis: 29%;
+    margin-bottom: 11%;
+  }
+
+  .trending-posts {
+    vertical-align: top;
+    display: inline-block;
+    background-color: lightgray;
+    flex-basis: 32%;
+    margin-bottom: 11%;
+  }
+
+  .trending-content {
+    width: 100%;
+    display: block;
+    margin-bottom: 7%;
+  }
+
+  .trending-post-title {
+    padding-bottom: 0%;
+    margin-bottom: 5%;
+  }
+
+  .article-content {
+    width: 100%;
+    display: block;
+    background-color: lightgray;
+    padding-bottom: 0%;
+  }
+
+  .article-title {
+    margin-bottom: 33%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .article-content {
+    width: 100%;
+    display: block;
+    background-color: lightgray;
+    padding-bottom: 0%;
+  }
+
+  .article-title {
+    margin-bottom: 22.5%;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .flex-container {
+    width: 100%;
+  }
+
+  .trending-post-title {
+    padding-bottom: 8%;
+  }
+
+  .article-content {
+    width: 100%;
+    display: block;
+    background-color: lightgray;
+    padding-bottom: 1%;
+  }
+
+  .article-title {
+    margin-bottom: 30%;
+  }
+}
+/* CSS for the website. Applies to ALL pages */
+
+/* Used in ALL PAGES */
+#navbar-toggle {
+  margin-right: 2%;
+}
+
+/* Used in ALL PAGES */
+body {
+  background: #f6f6f6;
+  margin: 0;
+}
+
+/* Used in pages: index */
+.margin-top {
+  margin-top: 1%;
+}
+
+/* Used in pages: index */
+.responsive-image-index-title {
+  width: 15%;
+  height: auto;
+}
+
+/* Used in pages: index */
+.responsive-image-index-desc {
+  width: 100%;
+  height: auto;
+}
+
+/* Used in pages: index */
+.index-blog-border {
+  border-bottom: solid maroon;
+}
+
+/* Used in pages: index */
+.index-trending-link {
+  text-decoration: none;
+  color: black;
+  margin-top: 10%;
+}
+
+/* Used in pages: index */
+.index-trending-link:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+/* Used in pages: index */
+#index-trending-link {
+  margin-top: 3%;
+}
+
+/* Used in pages: index */
+.index-trending-box {
+  border: 1px solid #66023c;
+  text-align: center;
+  color: white;
+  background-color: #66023c;
+}
+
+/* Used in pages: index */
+#index-trending-box {
+  margin-top: 10%;
+}
+
+/* Used in pages: index */
+.pro-con {
+  font-size: 200%;
+  border-style: hidden !important;
+  text-align: center;
+}
+
+/* Used in pages: index */
+#pro-con-pro {
+  background: green;
+  text-transform: uppercase;
+}
+
+/* Used in pages: index */
+#pro-con-con {
+  background: orange;
+  text-transform: uppercase;
+  padding-left: 0px;
+}
+
+/* Used in pages: index */
+.index-big-issue {
+  border-bottom: solid maroon;
+}
+
+/* Used in pages: index */
+.index-issue {
+  text-decoration: none;
+  color: black;
+  text-align: right;
+}
+
+/* Used in pages: index */
+.index-issue:hover {
+  color: #66023c;
+}
+
+/* Used in pages: index, big issues */
+.align {
+  text-align: right;
+}
+
+/* Used in ALL PAGES*/
+#footer {
+  color: grey;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+#footer:hover {
+  color: white;
+}
+
+#footer-words {
+  color: white;
+}
+
+footer {
+  margin-top: 0.25%;
+  padding-top: 0.6%;
+}
+
+/*
+---------------------------------------------------------
+                      Next Section                      |
+                                                        |
+                                                        |
+---------------------------------------------------------
+*/
+
+/* Used in pages: Blogs*/
+.blog_page-trending {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1%;
+}
+
+/* Used in pages: Blogs*/
+.trending-posts {
+  vertical-align: top;
+  display: inline-block;
+  background-color: lightgray;
+  margin-right: 1.33%;
+  flex-basis: 32%;
+  margin-bottom: 3%;
+  position: relative;
+}
+
+.trending-post-title {
+  margin-bottom: 4%;
+}
+/* Used in pages: Blogs*/
+.responsive-image-blogs-trending {
+  width: 100%;
+  height: auto;
+}
+
+/* Used in pages: Blogs*/
+.trending-content {
+  width: 100%;
+  display: block;
+  margin-bottom: 1%;
+  padding-bottom: 1%;
+}
+
+.author-date {
+  position: absolute;
+  bottom: 0;
+}
+
+.fa {
+  font-size: 100%;
+}
+
+/* Used in pages: Blogs*/
+#trending-title {
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-size: 90%;
+}
+/* Used in pages: Blogs*/
+.recent-posts-container {
+  margin-bottom: 0%;
+}
+
+/* Used in pages: Blogs*/
+.blogs_page-recent-posts {
+  margin-bottom: 0%;
+}
+
+/* Used in pages: Blogs*/
+.blogs_page-all-blogs {
+  display: inline-block;
+  color: #800000;
+  text-decoration: none;
+}
+
+/* Used in pages: Blogs*/
+.blogs_page-all-blogs:hover {
+  color: #800000;
+  text-decoration: underline;
+}
+
+/* Used in pages: Blogs*/
+.responsive-image-blogs-recent {
+  width: 49%;
+  height: auto;
+}
+
+/* Used in pages: Blogs*/
+#blogs_page-recent-posts {
+  display: inline-block;
+}
+
+/* Used in pages: Blogs*/
+.blogs_page-recent-image-margin {
+  margin-top: 0;
+  margin-right: 2%;
+}
+
+/* Used in pages: Blogs*/
+#recent-posts-title,
+#recent-posts-title2,
+#recent-posts-title3 {
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+
+/* Used in pages: Blogs*/
+.recent-posts-desc {
+  background-color: lightgray;
+  margin-bottom: 5%;
+  min-height: 34.85vh;
+}
+
+/* Used in pages: Blogs*/
+.recent-posts-author_date {
+  margin-bottom: 0.5%;
+}
+
+/* Used in pages: Blogs*/
+#recent-posts-p-desc,
+#recent-posts-p-desc2,
+#recent-posts-p-desc3 {
+  margin-right: 2%;
+}
+
+/*
+---------------------------------------------------------
+                      Next Section                      |
+                                                        |
+                                                        |
+---------------------------------------------------------
+*/
+
+/* Used in pages: Big-Issues*/
+.abortion,
+.affirmative,
+.automation,
+.barackobama,
+.canada,
+.carbontax,
+.china,
+.climatechange,
+.criticalracetheory,
+.deathpenalty,
+.defundthepolice,
+.donaldtrump,
+.dronestrikes,
+.druglegalization,
+.enthuconsentlaws,
+.estatetax,
+.europeanunion,
+.euthanasia,
+.flattax,
+.freemarket,
+.georgewbush,
+.hatespeechlaws,
+.indianact,
+.israelrighttoexist,
+.justintrudaeu,
+.laborunions,
+.latetermabortion,
+.lgbtqrights,
+.militaryintervention,
+.militaryspending,
+.minimumwage,
+.nato,
+.palestinerighttoexist,
+.patriotism,
+.progressivetax,
+.righttoflagburning,
+.russia,
+.termlimits,
+.dougford,
+.transsports,
+.homeschooling,
+.unitednations,
+.unitedstates,
+.universalbasicincome,
+.vaccinepassports,
+.warinafghanistan,
+.wariniraq,
+.waronterror,
+.welfare,
+.worldtradeorganization {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 800px;
+  max-width: 75%;
+}
+
+/* Used in pages: Big-Issues*/
+.abortion.active,
+.affirmative.active,
+.automation.active,
+.barackobama.active,
+.canada.active,
+.carbontax.active,
+.china.active,
+.climatechange.active,
+.criticalracetheory.active,
+.deathpenalty.active,
+.defundthepolice.active,
+.donaldtrump.active,
+.dronestrikes.active,
+.druglegalization.active,
+.enthuconsentlaws.active,
+.estatetax.active,
+.europeanunion.active,
+.euthanasia.active,
+.flattax.active,
+.freemarket.active,
+.georgewbush.active,
+.hatespeechlaws.active,
+.indianact.active,
+.israelrighttoexist.active,
+.justintrudaeu.active,
+.laborunions.active,
+.latetermabortion.active,
+.lgbtqrights.active,
+.militaryintervention.active,
+.militaryspending.active,
+.minimumwage.active,
+.nato.active,
+.palestinerighttoexist.active,
+.patriotism.active,
+.progressivetax.active,
+.righttoflagburning.active,
+.russia.active,
+.termlimits.active,
+.dougford.active,
+.transsports.active,
+.homeschooling.active,
+.unitednations.active,
+.unitedstates.active,
+.universalbasicincome.active,
+.vaccinepassports.active,
+.warinafghanistan.active,
+.wariniraq.active,
+.waronterror.active,
+.welfare.active,
+.worldtradeorganization.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* Used in pages: Big-Issues*/
+.popup-header {
+  padding: 10px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+/* Used in pages: Big-Issues*/
+.popup-header title {
+  font-weight: bold;
+}
+
+/* Used in pages: Big-Issues*/
+.popup-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* Used in pages: Big-Issues*/
+.popup-body {
+  padding: 10px 15px;
+}
+
+/* Used in pages: Big-Issues*/
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: gray;
+  pointer-events: none;
+}
+
+/* Used in pages: Big-Issues*/
+#overlay.active {
+  opacity: 0.7;
+  pointer-events: all;
+}
+
+/* Used in pages: Big-Issues*/
+#issue {
+  border: none;
+  outline: none;
+  background: none;
+  text-decoration: none;
+  color: black;
 }
 
 /* Used in pages: Big-Issues*/
