@@ -432,6 +432,12 @@ footer {
   border: none;
   outline: none;
   background: none;
+  text-decoration: none;
+  color: black;
+}
+
+#issue:hover {
+  text-decoration: underline;
 }
 
 /* Used in pages: Big-Issues*/
