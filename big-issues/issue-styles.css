@@ -89,15 +89,6 @@ footer {
   margin-bottom: 8%;
 }
 
-@media screen and (max-width: 575px) {
-  .mmresult {
-    border: 1px solid black;
-    margin-top: 7.7%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 45%;
-  }
-}
 @media screen and (max-width: 1375px) {
   .mmresult {
     border: 1px solid black;
@@ -165,6 +156,43 @@ footer {
 
   .vote-types-con {
     margin-left: 35%;
+    color: orange;
+    font-weight: bold;
+    font-size: 110%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .mmresult {
+    border: 1px solid black;
+    margin-top: 7.7%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 45%;
+  }
+  .vote-number-pro {
+    margin-left: 12%;
+    color: black;
+    font-weight: bold;
+    font-size: 110%;
+  }
+
+  .vote-number-con {
+    margin-left: 55%;
+    color: black;
+    font-weight: bold;
+    font-size: 110%;
+  }
+
+  .vote-types-pro {
+    margin-left: 12%;
+    color: #66cc00;
+    font-weight: bold;
+    font-size: 110%;
+  }
+
+  .vote-types-con {
+    margin-left: 54%;
     color: orange;
     font-weight: bold;
     font-size: 110%;
