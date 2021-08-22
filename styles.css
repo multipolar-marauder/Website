@@ -73,7 +73,7 @@ body {
 
 /* Used in pages: index */
 #pro-con-pro {
-  background: #66cc00;
+  background: rgb(102, 204, 0);
   text-transform: uppercase;
 }
 
@@ -443,7 +443,7 @@ footer {
 
 /* Used in pages: Big-Issues*/
 #pro {
-  background-color: #66cc00;
+  background-color: rgb(102, 204, 0);
   border-radius: 5px;
   padding-top: 4px;
   padding-bottom: 5px;
