@@ -63,6 +63,286 @@ const critical_race_theory = {
   desc: "Critical Race theory is a political and philosophical framework that stresses the idea that the concept of “Race” has no biological basis and was solely created by the White majority in order to exploit other races of color, more specifically Blacks. The theory dictates that the United States and other Western countries are inherently racist institutions that are upheld by racist laws that keep Whites in powe.",
 };
 
+const death_penalty = {
+  name: "Death Penalty",
+  pro_percent: 40,
+  con_percent: 60,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const defund_the_police = {
+  name: "Defund The Police",
+  pro_percent: 21,
+  con_percent: 79,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const donald_trump = {
+  name: "Donald Trump",
+  pro_percent: 24,
+  con_percent: 76,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const doug_ford = {
+  name: "Doug Ford",
+  pro_percent: 35,
+  con_percent: 65,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const drone_strikes = {
+  name: "Drone Strikes",
+  pro_percent: 40,
+  con_percent: 60,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const drug_legalization = {
+  name: "Drug Legalization",
+  pro_percent: 68,
+  con_percent: 32,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const enthusiastic_consent_laws = {
+  name: "Enthusiastic Consent Laws",
+  pro_percent: 69,
+  con_percent: 31,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const estate_tax = {
+  name: "Estate Tax",
+  pro_percent: 47,
+  con_percent: 53,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const european_union = {
+  name: "European Union",
+  pro_percent: 78,
+  con_percent: 22,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const euthanasia = {
+  name: "Euthanasia",
+  pro_percent: 75,
+  con_percent: 25,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const flat_tax = {
+  name: "Flat Tax",
+  pro_percent: 32,
+  con_percent: 68,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const george_w_bush = {
+  name: "George W Bush",
+  pro_percent: 16,
+  con_percent: 84,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const hate_speech_law = {
+  name: "Hate Speech Law",
+  pro_percent: 68,
+  con_percent: 32,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const home_schooling = {
+  name: "Home Schooling",
+  pro_percent: 56,
+  con_percent: 44,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const indian_act = {
+  name: "Indian Act",
+  pro_percent: 29,
+  con_percent: 71,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const israel_right_to_exist = {
+  name: "Israel Right To Exist",
+  pro_percent: 65,
+  con_percent: 35,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const justin_trudaeu = {
+  name: "Justin Trudaeu",
+  pro_percent: 32,
+  con_percent: 68,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const labor_unions = {
+  name: "Labor Unions",
+  pro_percent: 72,
+  con_percent: 28,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const late_term_abortions = {
+  name: "Late Term Abortions",
+  pro_percent: 44,
+  con_percent: 56,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const lgbtq_rights = {
+  name: "LGBTQ Rights",
+  pro_percent: 90,
+  con_percent: 10,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const military_intervention = {
+  name: "Military Intervention",
+  pro_percent: 45,
+  con_percent: 55,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const military_spending = {
+  name: "Military Spending",
+  pro_percent: 55,
+  con_percent: 45,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const minimum_wage = {
+  name: "Minimum Wage",
+  pro_percent: 95,
+  con_percent: 5,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const nato = {
+  name: "NATO",
+  pro_percent: 83,
+  con_percent: 17,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const palestine_right_to_exist = {
+  name: "Palestine Right To Exist",
+  pro_percent: 94,
+  con_percent: 6,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const patriotism = {
+  name: "Patriotism",
+  pro_percent: 68,
+  con_percent: 32,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const progressive_tax = {
+  name: "Progressive Tax",
+  pro_percent: 67,
+  con_percent: 33,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const right_to_flag_burning = {
+  name: "Right To Flag Burning",
+  pro_percent: 81,
+  con_percent: 19,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const russia = {
+  name: "Russia",
+  pro_percent: 18,
+  con_percent: 82,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const term_limits = {
+  name: "Term Limits",
+  pro_percent: 90,
+  con_percent: 10,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const trans_sports = {
+  name: "Trans Sports",
+  pro_percent: 18,
+  con_percent: 82,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const united_nations = {
+  name: "United Nations",
+  pro_percent: 61,
+  con_percent: 39,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const united_states = {
+  name: "United States",
+  pro_percent: 67,
+  con_percent: 33,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const universal_basic_income = {
+  name: "Universal Basic Income",
+  pro_percent: 65,
+  con_percent: 35,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const vaccine_passports = {
+  name: "Vaccine Passports",
+  pro_percent: 63,
+  con_percent: 37,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const war_in_afghanistan = {
+  name: "War In Afghanistan",
+  pro_percent: 26,
+  con_percent: 74,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const war_in_iraq = {
+  name: "War In Iraq",
+  pro_percent: 79,
+  con_percent: 21,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const war_on_terror = {
+  name: "War On Terror",
+  pro_percent: 26,
+  con_percent: 74,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const welfare = {
+  name: "Welfare",
+  pro_percent: 72,
+  con_percent: 28,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
+const world_trade_organization = {
+  name: "World Trade Organization",
+  pro_percent: 59,
+  con_percent: 41,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
+
 function call_issue(issue) {
   big_issue(issue);
 }
