@@ -9,8 +9,8 @@ const abortion = {
 
 const affirmative_action = {
   name: "Affirmative Action",
-  pro_percent: 61,
-  con_percent: 39,
+  pro_percent: 39,
+  con_percent: 61,
   desc: "Affirmative Action programs are created by the government with the purpose of increasing the enrollment and acceptance of various populations that are deemed to be disfranchised.",
 };
 
