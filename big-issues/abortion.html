@@ -29,6 +29,9 @@
       crossorigin="anonymous"
     ></script>
 
+    <script src="./big-issues.js"></script>
+    <script src="./all-issues.js"></script>
+
     <title>Abortion</title>
 
     <link rel="stylesheet" href="../styles.css" />
@@ -64,7 +67,7 @@
             <a class="nav-link" href="../blogs.html">BLOGS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../bigissues.html">BIG ISSUES</a>
+            <a class="nav-link" href="../big-issues.html">BIG ISSUES</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../discord.html">DISCORD</a>
@@ -77,7 +80,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-8">
-          <h4 class="margin-top">Abortion Debate</h4>
+          <h4 class="margin-top" id="issue_title"></h4>
           <div>
             <img
               src="../Website Images/abortion.jpg"
@@ -86,45 +89,27 @@
             />
           </div>
           <div class="margin-top">
-            <h5>History and Debate of Abortion</h5>
-            <p class="margin-top">
-              Abortion involves terminating a pregnancy by the removing or
-              expelling of a fetus or embryo from the uterus. It is considered
-              one of the most controversial issues due to its legal cultural and
-              religious implications. <br />
-              <br />
-              On one side, you have pro-life groups that believe that abortion
-              is violating the right to life of a child, and seek to create
-              legal restrictions on abortion or even completely prohibt it. In
-              contrast, pro-choice groups argue that a woman has certain
-              reproductive rights and a right to bodily autonomy. <br />
-              <br />
-
-              Abortion is currently legal in both Canada and the United States,
-              with the former having no abortion laws at all. Roe v Wade in the
-              United States had ruled in favor for abortion rights, however
-              several states have enacted legislature that attempts to curtail
-              the access and ease of going through an abortion.
-            </p>
+            <h5 id="issue_desc_title"></h5>
+            <p class="margin-top" id="issue_desc"></p>
           </div>
         </div>
         <div class="col-sm-4 margin-top">
           <div class="mmresult">
-            <h4 class="result-title">MM Members</h4>
-            <h5 class="result-desc">Abortion</h5>
+            <h4 class="result-title" id="result-title"></h4>
+            <h5 class="result-desc" id="result-desc"></h5>
             <div class="row">
               <div class="col-sm-12">
-                <span class="vote-box-pro-abortion"></span>
-                <span class="vote-box-con-abortion"></span>
+                <span class="vote-box-pro" id="box-pro"></span>
+                <span class="vote-box-con" id="box-con"></span>
               </div>
             </div>
             <div>
-              <span class="vote-number-pro">83%</span>
-              <span class="vote-number-con">16%</span>
+              <span class="vote-number-pro" id="vote-number-pro"></span>
+              <span class="vote-number-con" id="vote-number-con"></span>
             </div>
             <div>
-              <span class="vote-types-pro">PRO</span>
-              <span class="vote-types-con">CON</span>
+              <span class="vote-types-pro" id="vote-types-pro"></span>
+              <span class="vote-types-con" id="vote-types-con"></span>
             </div>
           </div>
         </div>
@@ -143,7 +128,7 @@
             <a id="footer" href="../index.html">HOME &nbsp;</a>
             <a id="footer" href="../debates.html"> &nbsp; DEBATES &nbsp;</a>
             <a id="footer" href="../blogs.html"> &nbsp; BLOGS &nbsp;</a>
-            <a id="footer" href="../bigissues.html">
+            <a id="footer" href="../big-issues.html">
               &nbsp; BIG ISSUES &nbsp;</a
             >
             <a id="footer" href="https://discord.gg/kcmNE3sj7k"
@@ -157,18 +142,8 @@
         </div>
       </div>
     </footer>
-
-    <style>
-      body {
-        position: relative;
-        min-height: 100vh;
-      }
-
-      footer {
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-      }
-    </style>
+    <script>
+      call_issue(abortion);
+    </script>
   </body>
 </html>

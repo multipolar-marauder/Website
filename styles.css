@@ -73,7 +73,7 @@ body {
 
 /* Used in pages: index */
 #pro-con-pro {
-  background: green;
+  background: #66cc00;
   text-transform: uppercase;
 }
 
@@ -98,7 +98,8 @@ body {
 
 /* Used in pages: index */
 .index-issue:hover {
-  color: #66023c;
+  color: maroon;
+  text-decoration: underline;
 }
 
 /* Used in pages: index, big issues */
@@ -442,7 +443,7 @@ footer {
 
 /* Used in pages: Big-Issues*/
 #pro {
-  background-color: green;
+  background-color: #66cc00;
   border-radius: 5px;
   padding-top: 4px;
   padding-bottom: 5px;
@@ -464,7 +465,7 @@ footer {
 
 /* Used in pages: Big-Issues*/
 tr {
-  border-bottom: 2px solid #800000;
+  border-bottom: maroon solid;
   font-size: 100%;
 }
 

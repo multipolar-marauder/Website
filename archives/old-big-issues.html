@@ -1,0 +1,1420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <script defer src="./old-big-issues.js"></script>
+
+    <title>Big Issues</title>
+
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <!-- Debate Club Name -->
+      <a class="navbar-brand" href="#">
+        <img src="./Images/logo_final.jpg" alt="Logo pic" />
+      </a>
+      <a class="navbar-brand" href="#">Multipolar Marauder</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+        id="navbar-toggle"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./debates.html">DEBATES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./blogs.html">BLOGS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./big-issues.html">BIG ISSUES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./discord.html">DISCORD</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Description of Big Issues -->
+    <div class="container">
+      <div class="row margin-top">
+        <div class="col-sm-12">
+          <h4>The Big Issues</h4>
+          <p>
+            The Big Issues is a a variety of political topics in where we show
+            what position Multipolar Marauder holds through a poll conducted on
+            our discord. There are approximately 50 topics. If you are unsure
+            what a specific topic means (For example: Right To Flag Burning),
+            you can click the name and a description will come up.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Line -->
+    <hr />
+
+    <!-- Big Issues -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5">
+          <table class="table">
+            <tbody>
+              <tr>
+                <td>
+                  <!-- Button for the topic -->
+                  <button data-abortion-target="#abortion" id="issue">
+                    Abortion
+                  </button>
+                </td>
+                <div class="abortion" id="abortion">
+                  <div class="popup-header">
+                    <div class="title"><h4>Abortion</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Abortion involves terminating a pregnancy by the removing
+                      or expelling of a fetus or embryo from the uterus. It is
+                      considered one of the most controversial issues due to its
+                      legal cultural and religious implications. <br />
+                      <br />
+                      On one side, you have Pro-life groups that believe that
+                      abortion is violating the right to life of a child, and
+                      seek to create legal restrictions on abortion or even
+                      completely prohibt it. In contrast, pro-choice groups
+                      argue that a woman has certain reproductive rights and a
+                      right to bodily autonomy. <br />
+                      <br />
+                      Abortion is currently legal in both Canada and the United
+                      States, with the former having no abortion laws at all.
+                      Roe v Wade in the United States had ruled in favor for
+                      abortion rights, however several states have enacted
+                      legislature that attempts to curtail the access and ease
+                      of going through an abortion.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Vote result -->
+                <td class="align"><span id="pro"> 80% pro</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-affirmative-target="#affirmative" id="issue">
+                    Affirmative Action
+                  </button>
+                </td>
+                <div class="affirmative" id="affirmative">
+                  <div class="popup-header">
+                    <div class="title"><h4>Affirmative Action</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Affirmative Action programs are created by the government
+                      with the purpose of increasing the enrollment and
+                      acceptance of various populations that are deemed to be
+                      disfranchised. <br />
+                      <br />
+                      Instituting an affirmative action policy comes from a
+                      particular assessment of a nation's past; it is seen as
+                      necessary as a compensatory measure in cultures that.
+                      While some countries refuse to participate in affirmative
+                      action because they have so-called "color-blind" laws
+                      mandating that all races simply be treated equally, other
+                      countries feel that favoring previously oppressed groups,
+                      often called "reverse discrimination," at least for a
+                      period of time, is the only way to restore complete
+                      equality in the long term. This belief can lead to the
+                      adoption of hiring quotas in which a certain number of
+                      hires or appointments must come from previously
+                      under-represented groups of people. In the United States,
+                      affirmative action has been widely practiced, but nearly
+                      as widely critiqued.
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-automation-target="#automation" id="issue">
+                    Automation
+                  </button>
+                </td>
+                <div class="automation" id="automation">
+                  <div class="popup-header">
+                    <div class="title"><h4>Automation</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="pro">50% pro</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-barackobama-target="#barackobama" id="issue">
+                    Barack Obama
+                  </button>
+                </td>
+                <div class="barackobama" id="barackobama">
+                  <div class="popup-header">
+                    <div class="title"><h4>Barack Obama</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-canada-target="#canada" id="issue">
+                    Canada
+                  </button>
+                </td>
+                <div class="canada" id="canada">
+                  <div class="popup-header">
+                    <div class="title"><h4>Canada</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="pro">50% pro</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-carbontax-target="#carbontax" id="issue">
+                    Carbon Tax
+                  </button>
+                </td>
+                <div class="carbontax" id="carbontax">
+                  <div class="popup-header">
+                    <div class="title"><h4>Carbon Tax</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-china-target="#china" id="issue">China</button>
+                </td>
+                <div class="china" id="china">
+                  <div class="popup-header">
+                    <div class="title"><h4>China</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="pro">50% pro</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-climatechange-target="#climatechange" id="issue">
+                    Climate Change
+                  </button>
+                </td>
+                <div class="climatechange" id="climatechange">
+                  <div class="popup-header">
+                    <div class="title"><h4>Climate Change</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button
+                    data-criticalracetheory-target="#criticalracetheory"
+                    id="issue"
+                  >
+                    Critical Race Theory
+                  </button>
+                </td>
+                <div class="criticalracetheory" id="criticalracetheory">
+                  <div class="popup-header">
+                    <div class="title"><h4>Critical Race Theory</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="pro">50% pro</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-deathpenalty-target="#deathpenalty" id="issue">
+                    Death Penalty
+                  </button>
+                </td>
+                <div class="deathpenalty" id="deathpenalty">
+                  <div class="popup-header">
+                    <div class="title"><h4>Death Penalty</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button
+                    data-defundthepolice-target="#defundthepolice"
+                    id="issue"
+                  >
+                    Defund The Police
+                  </button>
+                </td>
+                <div class="defundthepolice" id="defundthepolice">
+                  <div class="popup-header">
+                    <div class="title"><h4>Defund The Police</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="pro">50% pro</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-donaldtrump-target="#donaldtrump" id="issue">
+                    Donald Trump
+                  </button>
+                </td>
+                <div class="donaldtrump" id="donaldtrump">
+                  <div class="popup-header">
+                    <div class="title"><h4>Donald Trump</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-dronestrikes-target="#dronestrikes" id="issue">
+                    Drone Strikes
+                  </button>
+                </td>
+                <div class="dronestrikes" id="dronestrikes">
+                  <div class="popup-header">
+                    <div class="title"><h4>Drone Strikes</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="pro">50% pro</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button
+                    data-druglegalization-target="#druglegalization"
+                    id="issue"
+                  >
+                    Drug Legalization
+                  </button>
+                </td>
+                <div class="druglegalization" id="druglegalization">
+                  <div class="popup-header">
+                    <div class="title"><h4>Drug Legalization</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button
+                    data-enthuconsentlaws-target="#enthuconsentlaws"
+                    id="issue"
+                  >
+                    Enthusiastic Consent Laws
+                  </button>
+                </td>
+                <div class="enthuconsentlaws" id="enthuconsentlaws">
+                  <div class="popup-header">
+                    <div class="title"><h4>Enthusiastic Consent Laws</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="pro">50% pro</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-estatetax-target="#estatetax" id="issue">
+                    Estate Tax
+                  </button>
+                </td>
+                <div class="estatetax" id="estatetax">
+                  <div class="popup-header">
+                    <div class="title"><h4>Estate Tax</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-europeanunion-target="#europeanunion" id="issue">
+                    European Union
+                  </button>
+                </td>
+                <div class="europeanunion" id="europeanunion">
+                  <div class="popup-header">
+                    <div class="title"><h4>European Union</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="pro">50% pro</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-euthanasia-target="#euthanasia" id="issue">
+                    Euthanasia
+                  </button>
+                </td>
+                <div class="euthanasia" id="euthanasia">
+                  <div class="popup-header">
+                    <div class="title"><h4>Euthanasia</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-flattax-target="#flattax" id="issue">
+                    Flat Tax
+                  </button>
+                </td>
+                <div class="flattax" id="flattax">
+                  <div class="popup-header">
+                    <div class="title"><h4>Flat Tax</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="pro">50% pro</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-freemarket-target="#freemarket" id="issue">
+                    Free Market
+                  </button>
+                </td>
+                <div class="freemarket" id="freemarket">
+                  <div class="popup-header">
+                    <div class="title"><h4>Free Market</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-georgewbush-target="#georgewbush" id="issue">
+                    George W Bush
+                  </button>
+                </td>
+                <div class="georgewbush" id="georgewbush">
+                  <div class="popup-header">
+                    <div class="title"><h4>George W Bush</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="pro">50% pro</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button
+                    data-hatespeechlaws-target="#hatespeechlaws"
+                    id="issue"
+                  >
+                    Hate Speech Laws
+                  </button>
+                </td>
+                <div class="hatespeechlaws" id="hatespeechlaws">
+                  <div class="popup-header">
+                    <div class="title"><h4>Hate Speech Laws</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-indianact-target="#indianact" id="issue">
+                    Indian Act
+                  </button>
+                </td>
+                <div class="indianact" id="indianact">
+                  <div class="popup-header">
+                    <div class="title"><h4>Indian Act</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="pro">50% pro</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button
+                    data-israelrighttoexist-target="#israelrighttoexist"
+                    id="issue"
+                  >
+                    Israel Right To Exist
+                  </button>
+                </td>
+                <div class="israelrighttoexist" id="israelrighttoexist">
+                  <div class="popup-header">
+                    <div class="title"><h4>Israel Right To Exist</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-justintrudaeu-target="#justintrudaeu" id="issue">
+                    Justin Trudaeu
+                  </button>
+                </td>
+                <div class="justintrudaeu" id="justintrudaeu">
+                  <div class="popup-header">
+                    <div class="title"><h4>Justin Trudaeu</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="pro">50% pro</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <div id="overlay"></div>
+        </div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-5">
+          <table class="table">
+            <tbody>
+              <tr>
+                <td>
+                  <button data-laborunions-target="#laborunions" id="issue">
+                    Labor Unions
+                  </button>
+                </td>
+                <div class="laborunions" id="laborunions">
+                  <div class="popup-header">
+                    <div class="title"><h4>Labor Unions</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button
+                    data-latetermabortion-target="#latetermabortion"
+                    id="issue"
+                  >
+                    Late Term Abortion
+                  </button>
+                </td>
+                <div class="latetermabortion" id="latetermabortion">
+                  <div class="popup-header">
+                    <div class="title"><h4>Late Term Abortion</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="pro">50% pro</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-lgbtqrights-target="#lgbtqrights" id="issue">
+                    LGBTQ Rights
+                  </button>
+                </td>
+                <div class="lgbtqrights" id="lgbtqrights">
+                  <div class="popup-header">
+                    <div class="title"><h4>LGBTQ Rights</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button
+                    data-militaryintervention-target="#militaryintervention"
+                    id="issue"
+                  >
+                    Military Intervention
+                  </button>
+                </td>
+                <div class="militaryintervention" id="militaryintervention">
+                  <div class="popup-header">
+                    <div class="title"><h4>Military Intervention</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="pro">50% pro</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button
+                    data-militaryspending-target="#militaryspending"
+                    id="issue"
+                  >
+                    Military Spending
+                  </button>
+                </td>
+                <div class="militaryspending" id="militaryspending">
+                  <div class="popup-header">
+                    <div class="title"><h4>Military Spending</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-minimumwage-target="#minimumwage" id="issue">
+                    Minimum Wage
+                  </button>
+                </td>
+                <div class="minimumwage" id="minimumwage">
+                  <div class="popup-header">
+                    <div class="title"><h4>Minimum Wage</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="pro">50% pro</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-nato-target="#nato" id="issue">NATO</button>
+                </td>
+                <div class="nato" id="nato">
+                  <div class="popup-header">
+                    <div class="title"><h4>NATO</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button
+                    data-palestinerighttoexist-target="#palestinerighttoexist"
+                    id="issue"
+                  >
+                    Palestine Right To Exist
+                  </button>
+                </td>
+                <div class="palestinerighttoexist" id="palestinerighttoexist">
+                  <div class="popup-header">
+                    <div class="title"><h4>Palestine Right To Exist</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="pro">50% pro</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-patriotism-target="#patriotism" id="issue">
+                    Patriotism
+                  </button>
+                </td>
+                <div class="patriotism" id="patriotism">
+                  <div class="popup-header">
+                    <div class="title"><h4>Patriotism</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button
+                    data-progressivetax-target="#progressivetax"
+                    id="issue"
+                  >
+                    Progressive Tax
+                  </button>
+                </td>
+                <div class="progressivetax" id="progressivetax">
+                  <div class="popup-header">
+                    <div class="title"><h4>Progressive Tax</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="pro">50% pro</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button
+                    data-righttoflagburning-target="#righttoflagburning"
+                    id="issue"
+                  >
+                    Right To Flag Burning
+                  </button>
+                </td>
+                <div class="righttoflagburning" id="righttoflagburning">
+                  <div class="popup-header">
+                    <div class="title"><h4>Right To Flag Burning</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-russia-target="#russia" id="issue">
+                    Russia
+                  </button>
+                </td>
+                <div class="russia" id="russia">
+                  <div class="popup-header">
+                    <div class="title"><h4>Russia</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="pro">50% pro</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-termlimits-target="#termlimits" id="issue">
+                    Term Limits
+                  </button>
+                </td>
+                <div class="termlimits" id="termlimits">
+                  <div class="popup-header">
+                    <div class="title"><h4>Term Limits</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-dougford-target="#dougford" id="issue">
+                    Doug Ford
+                  </button>
+                </td>
+                <div class="dougford" id="dougford">
+                  <div class="popup-header">
+                    <div class="title"><h4>Doug Ford</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="pro">50% pro</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-transsports-target="#transsports" id="issue">
+                    Trans Sports
+                  </button>
+                </td>
+                <div class="transsports" id="transsports">
+                  <div class="popup-header">
+                    <div class="title"><h4>Trans Sports</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;80% con</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-homeschooling-target="#homeschooling" id="issue">
+                    Home Schooling
+                  </button>
+                </td>
+                <div class="homeschooling" id="homeschooling">
+                  <div class="popup-header">
+                    <div class="title"><h4>Home Schooling</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="pro">50% pro</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-unitednations-target="#unitednations" id="issue">
+                    United Nations
+                  </button>
+                </td>
+                <div class="unitednations" id="unitednations">
+                  <div class="popup-header">
+                    <div class="title"><h4>United Nations</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-unitedstates-target="#unitedstates" id="issue">
+                    United States
+                  </button>
+                </td>
+                <div class="unitedstates" id="unitedstates">
+                  <div class="popup-header">
+                    <div class="title"><h4>United States</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="pro">50% pro</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button
+                    data-universalbasicincome-target="#universalbasicincome"
+                    id="issue"
+                  >
+                    Universal Basic Income
+                  </button>
+                </td>
+                <div class="universalbasicincome" id="universalbasicincome">
+                  <div class="popup-header">
+                    <div class="title"><h4>Universal Basic Income</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button
+                    data-vaccinepassports-target="#vaccinepassports"
+                    id="issue"
+                  >
+                    Vaccine Passports
+                  </button>
+                </td>
+                <div class="vaccinepassports" id="vaccinepassports">
+                  <div class="popup-header">
+                    <div class="title"><h4>Vaccine Passports</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="pro">50% pro</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button
+                    data-warinafghanistan-target="#warinafghanistan"
+                    id="issue"
+                  >
+                    War In Afghanistan
+                  </button>
+                </td>
+                <div class="warinafghanistan" id="warinafghanistan">
+                  <div class="popup-header">
+                    <div class="title"><h4>War In Afghanistan</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-wariniraq-target="#wariniraq" id="issue">
+                    War In Iraq
+                  </button>
+                </td>
+                <div class="wariniraq" id="wariniraq">
+                  <div class="popup-header">
+                    <div class="title"><h4>War In Iraq</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="pro">50% pro</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-waronterror-target="#waronterror" id="issue">
+                    War On Terror
+                  </button>
+                </td>
+                <div class="waronterror" id="waronterror">
+                  <div class="popup-header">
+                    <div class="title"><h4>War On Terror</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button data-welfare-target="#welfare" id="issue">
+                    Welfare
+                  </button>
+                </td>
+                <div class="welfare" id="welfare">
+                  <div class="popup-header">
+                    <div class="title"><h4>Welfare</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="pro">50% pro</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <button
+                    data-worldtradeorganization-target="#worldtradeorganization"
+                    id="issue"
+                  >
+                    World Trade Organization
+                  </button>
+                </td>
+                <div class="worldtradeorganization" id="worldtradeorganization">
+                  <div class="popup-header">
+                    <div class="title"><h4>World Trade Organization</h4></div>
+                    <button data-close-button class="close-button">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="popup-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Debitis nostrum rerum omnis. Beatae accusantium corrupti,
+                      fugit deserunt quo nesciunt, id nisi recusandae sed rerum
+                      illum, consectetur dolore nostrum autem exercitationem?
+                    </p>
+                  </div>
+                </div>
+                <td class="align"><span id="con">&nbsp;50% con</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="bg-dark text-center text-lg-start">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <h4 id="footer-words">Multipolar Marauder</h4>
+          </div>
+          <div class="col-sm-6">
+            <a id="footer" href="./index.html">HOME &nbsp;</a>
+            <a id="footer" href="./debates.html"> &nbsp; DEBATES &nbsp;</a>
+            <a id="footer" href="./blogs.html"> &nbsp; BLOGS &nbsp;</a>
+            <a id="footer" href="./big-issues.html">
+              &nbsp; BIG ISSUES &nbsp;</a
+            >
+            <a id="footer" href="https://discord.gg/kcmNE3sj7k"
+              >&nbsp; DISCORD</a
+            >
+          </div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-2">
+            <p id="footer-words">&copy Multipolar Marauder</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

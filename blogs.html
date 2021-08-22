@@ -34,7 +34,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
-    <script src="./recent_posts.js"></script>
+    <script defer src="./recent_posts.js"></script>
 
     <title>Blogs</title>
 
@@ -71,7 +71,7 @@
             <a class="nav-link active" href="./blogs.html">BLOGS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./bigissues.html">BIG ISSUES</a>
+            <a class="nav-link" href="./big-issues.html">BIG ISSUES</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./discord.html">DISCORD</a>
@@ -185,37 +185,24 @@
                   responsive-image-blogs-recent
                   blogs_page-recent-image-margin
                 "
-                src="./Images/dog.jpg"
+                src=""
+                id="recent-one-image"
                 alt="Dog pic"
               />
               <h4>
-                <a href="" id="recent-posts-title"
-                  ><script>
-                    one_recentpost();
-                  </script></a
-                >
+                <a href="" id="recent-posts-title"></a>
               </h4>
               <div class="recent-posts-author_date">
                 <i class="fa fa-user-circle" id="recent-posts-author">
-                  <script>
-                    one_recentpost();
-                  </script>
                   &nbsp;</i
                 >
                 <span
                   ><i class="fa fa-calendar" id="recent-posts-date"
-                    >&nbsp;
-                    <script>
-                      one_recentpost();
-                    </script></i
+                    >&nbsp;</i
                   ></span
                 >
               </div>
-              <p id="recent-posts-p-desc">
-                <script>
-                  one_recentpost();
-                </script>
-              </p>
+              <p id="recent-posts-p-desc"></p>
             </div>
             <div class="recent-posts-desc">
               <img
@@ -224,38 +211,24 @@
                   responsive-image-blogs-recent
                   blogs_page-recent-image-margin
                 "
-                src="./Images/cat.jpg"
+                src=""
+                id="recent-two-image"
                 alt="Cat pic"
               />
               <h4>
-                <a href="#Idk" id="recent-posts-title2"
-                  ><script>
-                    two_recentpost();
-                  </script></a
-                >
+                <a href="#Idk" id="recent-posts-title2"></a>
               </h4>
               <div class="recent-posts-author_date">
                 <i class="fa fa-user-circle" id="recent-posts-author2">
-                  &nbsp;
-                  <script>
-                    two_recentpost();
-                  </script>
-                  &nbsp;</i
+                  &nbsp; &nbsp;</i
                 >
                 <span
                   ><i class="fa fa-calendar" id="recent-posts-date2"
-                    >&nbsp;
-                    <script>
-                      two_recentpost();
-                    </script></i
+                    >&nbsp;</i
                   ></span
                 >
               </div>
-              <p id="recent-posts-p-desc2">
-                <script>
-                  two_recentpost();
-                </script>
-              </p>
+              <p id="recent-posts-p-desc2"></p>
             </div>
             <div class="recent-posts-desc">
               <img
@@ -264,38 +237,24 @@
                   responsive-image-blogs-recent
                   blogs_page-recent-image-margin
                 "
-                src="./Images/pets.jpg"
+                src=""
+                id="recent-three-image"
                 alt="Pets pic"
               />
               <h4>
-                <a href="#Idk" id="recent-posts-title3"
-                  ><script>
-                    three_recentpost();
-                  </script></a
-                >
+                <a href="#Idk" id="recent-posts-title3"></a>
               </h4>
               <div class="recent-posts-author_date">
                 <i class="fa fa-user-circle" id="recent-posts-author3">
-                  &nbsp;
-                  <script>
-                    three_recentpost();
-                  </script>
-                  &nbsp;</i
+                  &nbsp; &nbsp;</i
                 >
                 <span
                   ><i class="fa fa-calendar" id="recent-posts-date3"
                     >&nbsp;
-                    <script>
-                      three_recentpost();
-                    </script></i
-                  ></span
+                  </i></span
                 >
               </div>
-              <p id="recent-posts-p-desc3">
-                <script>
-                  three_recentpost();
-                </script>
-              </p>
+              <p id="recent-posts-p-desc3"></p>
             </div>
           </div>
           <div class="col-sm-4"></div>
@@ -315,7 +274,9 @@
             <a id="footer" href="./index.html">HOME &nbsp;</a>
             <a id="footer" href="./debates.html"> &nbsp; DEBATES &nbsp;</a>
             <a id="footer" href="./blogs.html"> &nbsp; BLOGS &nbsp;</a>
-            <a id="footer" href="./bigissues.html"> &nbsp; BIG ISSUES &nbsp;</a>
+            <a id="footer" href="./big-issues.html">
+              &nbsp; BIG ISSUES &nbsp;</a
+            >
             <a id="footer" href="https://discord.gg/kcmNE3sj7k"
               >&nbsp; DISCORD</a
             >
@@ -327,8 +288,6 @@
         </div>
       </div>
     </footer>
-
-    <script src="./recent_posts.js"></script>
 
     <style>
       body {
