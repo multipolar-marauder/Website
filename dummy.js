@@ -1,11 +1,11 @@
-const blogSearch = document.querySelector("#blogSearch");
-blogSearch.addEventListener("keyup", filterPosts);
+function testing() {
+  var text = "link";
+  document.getElementById("idk").innerHTML = text;
+  var yourElement = document.getElementById("idk");
+  yourElement.setAttribute("href", "https://www.google.com");
+}
 
-function filterPosts() {
-  let filterValue = blogSearch.value.toLowerCase();
-  const posts = document.querySelectorAll(".card").forEach((post) => {
-    post.innerText.toLowerCase().indexOf(filterValue) > -1
-      ? (post.style.display = "")
-      : (post.style.display = "none");
-  });
+function test() {
+  document.getElementById("idk").innerHTML = "Google Link Here!";
+  document.querySelector(".idk").href = "https://www.google.com";
 }
