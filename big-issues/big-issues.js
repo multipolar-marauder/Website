@@ -78,7 +78,7 @@ function display_percent(x, y, z) {
     document.getElementById("pro_or_con" + z.toString()).style.textTransform =
       "uppercase";
     document.getElementById("pro_or_con" + z.toString()).style.borderRadius =
-      "15px";
+      "0px";
 
     if (phone.matches) {
       document.getElementById("pro_or_con" + z.toString()).style.borderRadius =
@@ -111,7 +111,7 @@ function display_percent(x, y, z) {
       document.getElementById("pro_or_con" + z.toString()).style.textTransform =
         "uppercase";
       document.getElementById("pro_or_con" + z.toString()).style.borderRadius =
-        "15px";
+        "0px";
     }
   } else {
     document.getElementById("pro_or_con" + z.toString()).innerHTML =
@@ -129,7 +129,7 @@ function display_percent(x, y, z) {
     document.getElementById("pro_or_con" + z.toString()).style.textTransform =
       "uppercase";
     document.getElementById("pro_or_con" + z.toString()).style.borderRadius =
-      "15px";
+      "0px";
 
     if (phone.matches) {
       document.getElementById("pro_or_con" + z.toString()).style.borderRadius =
@@ -166,7 +166,7 @@ function display_percent(x, y, z) {
       document.getElementById("pro_or_con" + z.toString()).style.textTransform =
         "uppercase";
       document.getElementById("pro_or_con" + z.toString()).style.borderRadius =
-        "15px";
+        "0px";
     }
   }
 }
@@ -235,14 +235,14 @@ function middle(array) {
     document.getElementById("middle").style.paddingLeft = "7%";
     document.getElementById("middle").style.paddingRight = "7%";
     document.getElementById("middle").style.textTransform = "uppercase";
-    document.getElementById("middle").style.borderRadius = "15px";
+    document.getElementById("middle").style.borderRadius = "0px";
     if (ipad.matches) {
       document.getElementById("middle").style.borderRadius = "0px";
       document.getElementById("middle").style.paddingRight = "4%";
       document.getElementById("middle").style.paddingLeft = "8%";
     }
     if (mobile.matches) {
-      document.getElementById("middle").style.borderRadius = "15px";
+      document.getElementById("middle").style.borderRadius = "0px";
       document.getElementById("middle").style.paddingRight = "7%";
       document.getElementById("middle").style.paddingLeft = "7%";
     }
@@ -255,7 +255,7 @@ function middle(array) {
     document.getElementById("middle").style.paddingLeft = "6%";
     document.getElementById("middle").style.paddingRight = "6%";
     document.getElementById("middle").style.textTransform = "uppercase";
-    document.getElementById("middle").style.borderRadius = "15px";
+    document.getElementById("middle").style.borderRadius = "0px";
 
     if (ipad.matches) {
       document.getElementById("middle").style.borderRadius = "0px";
@@ -264,7 +264,7 @@ function middle(array) {
     }
 
     if (mobile.matches) {
-      document.getElementById("middle").style.borderRadius = "15px";
+      document.getElementById("middle").style.borderRadius = "0px";
       document.getElementById("middle").style.paddingRight = "6%";
       document.getElementById("middle").style.paddingLeft = "6%";
     }
