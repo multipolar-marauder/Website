@@ -534,7 +534,7 @@ footer {
 #issue46:hover,
 #issue47:hover,
 #issue48:hover,
-#issue49 {
+#issue49:hover {
   text-decoration: underline;
   color: maroon;
 }
@@ -542,7 +542,7 @@ footer {
 /* Used in pages: Index, Big-Issues*/
 #pro {
   background-color: #66cc00;
-  border-radius: 15px;
+  border-radius: 0px;
   padding-top: 2.5%;
   padding-bottom: 3.5%;
   padding-right: 7%;
@@ -553,7 +553,7 @@ footer {
 /* Used in pages: Index,  Big-Issues*/
 #con {
   background-color: orange;
-  border-radius: 15px;
+  border-radius: 0px;
   padding-top: 2.5%;
   padding-bottom: 3.5%;
   padding-right: 6%;
@@ -573,7 +573,7 @@ footer {
 #pro_or_con9,
 #pro_or_con10 {
   text-transform: uppercase;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 /* Used in pages: Big-Issues*/
@@ -935,7 +935,7 @@ h5 {
 @media screen and (max-width: 570px) {
   #pro {
     background-color: #66cc00;
-    border-radius: 15px;
+    border-radius: 0px;
     padding-top: 2.5%;
     padding-bottom: 3.5%;
     padding-right: 7%;
@@ -946,7 +946,7 @@ h5 {
   /* Used in pages: Index,  Big-Issues*/
   #con {
     background-color: orange;
-    border-radius: 15px;
+    border-radius: 0px;
     padding-top: 2.5%;
     padding-bottom: 3.5%;
     padding-right: 6%;
