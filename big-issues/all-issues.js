@@ -1,5 +1,11 @@
 //Contains the objects of every big issue
 
+var phone = window.matchMedia("(max-width: 350px)");
+
+var ipad = window.matchMedia("(max-width: 769px)");
+
+var mobile = window.matchMedia("(max-width: 570px)");
+
 const abortion = {
   name: "Abortion",
   pro_percent: 83,
@@ -35,6 +41,12 @@ const canada = {
   desc: "Canada has generally been regarded as a tolerant democratic country that has prioritized human rights and provides its citizens with a high quality of life. It consistently ranks among the top countries for its development and has an abundance of natural resources, having the largest freshwater reserve in the world. Canada is renowned for its diversity, and is one of the few countries that promote Multiculturalism as a positive value. For those reasons it has been a top destination for many immigrant groups, and has taken in many refugees from around the world. <br /> <br /> Although Canada has been a leading voice in human rights concern, it has been criticized for it’s hypocritical stance  given Canada’s historically poor treatment of indigenous peoples, activists have increasingly taken up the view that the country is an illegitimate settler state built on stolen land, and as such, should not be viewed positively today. Canada’s current treatment of First Nations has been criticised as inhumane and paternalistic, denying them their self-determination. Canada has also been criticised for it’s high emission of fossil fuels and over dependence on the oil industry.",
 };
 
+const capitalism = {
+  name: "Capitalism",
+  pro_percent: 84,
+  con_percent: 16,
+  desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
+};
 const carbon_tax = {
   name: "Carbon Tax",
   pro_percent: 68,
@@ -342,6 +354,153 @@ const world_trade_organization = {
   con_percent: 41,
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
+
+var issues = [
+  [abortion.name, abortion.pro_percent, abortion.con_percent],
+  [
+    affirmative_action.name,
+    affirmative_action.pro_percent,
+    affirmative_action.con_percent,
+  ],
+  [automation.name, automation.pro_percent, automation.con_percent],
+  [barack_obama.name, barack_obama.pro_percent, barack_obama.con_percent],
+  [canada.name, canada.pro_percent, canada.con_percent],
+  [capitalism.name, capitalism.pro_percent, capitalism.con_percent],
+  [carbon_tax.name, carbon_tax.pro_percent, carbon_tax.con_percent],
+  [china.name, china.pro_percent, china.con_percent],
+  [
+    climate_change_action.name,
+    climate_change_action.pro_percent,
+    climate_change_action.con_percent,
+  ],
+  [
+    critical_race_theory.name,
+    critical_race_theory.pro_percent,
+    critical_race_theory.con_percent,
+  ],
+  [death_penalty.name, death_penalty.pro_percent, death_penalty.con_percent],
+  [
+    defund_the_police.name,
+    defund_the_police.pro_percent,
+    defund_the_police.con_percent,
+  ],
+  [donald_trump.name, donald_trump.pro_percent, donald_trump.con_percent],
+  [doug_ford.name, doug_ford.pro_percent, doug_ford.con_percent],
+  [drone_strikes.name, drone_strikes.pro_percent, drone_strikes.con_percent],
+  [
+    drug_legalization.name,
+    drug_legalization.pro_percent,
+    drug_legalization.con_percent,
+  ],
+  [
+    enthusiastic_consent_laws.name,
+    enthusiastic_consent_laws.pro_percent,
+    enthusiastic_consent_laws.con_percent,
+  ],
+  [estate_tax.name, estate_tax.pro_percent, estate_tax.con_percent],
+  [european_union.name, european_union.pro_percent, european_union.con_percent],
+  [euthanasia.name, euthanasia.pro_percent, euthanasia.con_percent],
+  [flat_tax.name, flat_tax.pro_percent, flat_tax.con_percent],
+  [george_w_bush.name, george_w_bush.pro_percent, george_w_bush.con_percent],
+  [
+    hate_speech_law.name,
+    hate_speech_law.pro_percent,
+    hate_speech_law.con_percent,
+  ],
+  [home_schooling.name, home_schooling.pro_percent, home_schooling.con_percent],
+  [indian_act.name, indian_act.pro_percent, indian_act.con_percent],
+  [
+    israel_right_to_exist.name,
+    israel_right_to_exist.pro_percent,
+    israel_right_to_exist.con_percent,
+  ],
+  [justin_trudaeu.name, justin_trudaeu.pro_percent, justin_trudaeu.con_percent],
+  [labor_unions.name, labor_unions.pro_percent, labor_unions.con_percent],
+  [
+    late_term_abortions.name,
+    late_term_abortions.pro_percent,
+    late_term_abortions.con_percent,
+  ],
+  [lgbtq_rights.name, lgbtq_rights.pro_percent, lgbtq_rights.con_percent],
+  [
+    military_intervention.name,
+    military_intervention.pro_percent,
+    military_intervention.con_percent,
+  ],
+  [
+    military_spending.name,
+    military_spending.pro_percent,
+    military_spending.con_percent,
+  ],
+  [minimum_wage.name, minimum_wage.pro_percent, minimum_wage.con_percent],
+  [nato.name, nato.pro_percent, nato.con_percent],
+  [
+    palestine_right_to_exist.name,
+    palestine_right_to_exist.pro_percent,
+    palestine_right_to_exist.con_percent,
+  ],
+  [patriotism.name, patriotism.progressive_tax, patriotism.con_percent],
+  [
+    progressive_tax.name,
+    progressive_tax.pro_percent,
+    progressive_tax.con_percent,
+  ],
+  [
+    right_to_flag_burning.name,
+    right_to_flag_burning.pro_percent,
+    right_to_flag_burning.con_percent,
+  ],
+  [russia.name, russia.pro_percent, russia.con_percent],
+  [term_limits.name, term_limits.pro_percent, term_limits.con_percent],
+  [trans_sports.name, trans_sports.pro_percent, trans_sports.con_percent],
+  [united_nations.name, united_nations.pro_percent, united_nations.con_percent],
+  [united_states.name, united_states.pro_percent, united_states.con_percent],
+  [
+    universal_basic_income.name,
+    universal_basic_income.pro_percent,
+    universal_basic_income.con_percent,
+  ],
+  [
+    vaccine_passports.name,
+    vaccine_passports.pro_percent,
+    vaccine_passports.con_percent,
+  ],
+  [
+    war_in_afghanistan.name,
+    war_in_afghanistan.pro_percent,
+    war_in_afghanistan.con_percent,
+  ],
+  [war_in_iraq.name, war_in_iraq.pro_percent, war_in_iraq.con_percent],
+  [war_on_terror.name, war_on_terror.pro_percent, war_on_terror.con_percent],
+  [welfare.name, welfare.pro_percent, welfare.con_percent],
+  [
+    world_trade_organization.name,
+    world_trade_organization.pro_percent,
+    world_trade_organization.con_percent,
+  ],
+];
+
+var sorted_issues = issues.sort();
+
+function call_display_issue(x, y, z) {
+  display_issue(x, y, z);
+}
+
+function call_display_percent(x, y, z) {
+  display_percent(x, y, z);
+}
+
+function pro_index(array) {
+  top_pro(array);
+}
+
+function con_index(array) {
+  top_con(array);
+}
+
+function middle_index(array) {
+  middle(array);
+}
 
 function call_issue(issue) {
   big_issue(issue);
