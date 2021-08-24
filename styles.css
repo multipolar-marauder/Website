@@ -429,38 +429,151 @@ footer {
 }
 
 /* Used in pages: Big-Issues*/
-#issue {
-  border: none;
-  outline: none;
-  background: none;
+#issue,
+#issue0,
+#issue1,
+#issue2,
+#issue3,
+#issue4,
+#issue5,
+#issue6,
+#issue7,
+#issue8,
+#issue9,
+#issue10,
+#issue11,
+#issue12,
+#issue13,
+#issue14,
+#issue15,
+#issue16,
+#issue17,
+#issue18,
+#issue19,
+#issue20,
+#issue21,
+#issue22,
+#issue23,
+#issue24,
+#issue25,
+#issue26,
+#issue27,
+#issue28,
+#issue29,
+#issue30,
+#issue31,
+#issue32,
+#issue33,
+#issue34,
+#issue35,
+#issue36,
+#issue37,
+#issue38,
+#issue39,
+#issue40,
+#issue41,
+#issue42,
+#issue43,
+#issue44,
+#issue45,
+#issue46,
+#issue47,
+#issue48,
+#issue49 {
   text-decoration: none;
   color: black;
 }
 
-#issue:hover {
+#issue:hover,
+#issue0:hover,
+#issue1:hover,
+#issue2:hover,
+#issue3:hover,
+#issue4:hover,
+#issue5:hover,
+#issue6:hover,
+#issue7:hover,
+#issue8:hover,
+#issue9:hover,
+#issue10:hover,
+#issue11:hover,
+#issue12:hover,
+#issue13:hover,
+#issue14:hover,
+#issue15:hover,
+#issue16:hover,
+#issue17:hover,
+#issue18:hover,
+#issue19:hover,
+#issue20:hover,
+#issue21:hover,
+#issue22:hover,
+#issue23:hover,
+#issue24:hover,
+#issue25:hover,
+#issue26:hover,
+#issue27:hover,
+#issue28:hover,
+#issue29:hover,
+#issue30:hover,
+#issue31:hover,
+#issue32:hover,
+#issue33:hover,
+#issue34:hover,
+#issue35:hover,
+#issue36:hover,
+#issue37:hover,
+#issue38:hover,
+#issue39:hover,
+#issue40:hover,
+#issue41:hover,
+#issue42:hover,
+#issue43:hover,
+#issue44:hover,
+#issue45:hover,
+#issue46:hover,
+#issue47:hover,
+#issue48:hover,
+#issue49:hover {
   text-decoration: underline;
+  color: maroon;
 }
 
-/* Used in pages: Big-Issues*/
+/* Used in pages: Index, Big-Issues*/
 #pro {
   background-color: #66cc00;
-  border-radius: 5px;
-  padding-top: 4px;
-  padding-bottom: 5px;
-  padding-right: 6%;
-  padding-left: 6.1%;
+  border-radius: 0px;
+  padding-top: 2.5%;
+  padding-bottom: 3.5%;
+  padding-right: 7%;
+  padding-left: 7%;
   text-transform: uppercase;
 }
 
-/* Used in pages: Big-Issues*/
+/* Used in pages: Index,  Big-Issues*/
 #con {
   background-color: orange;
-  border-radius: 5px;
-  padding-top: 3.5px;
-  padding-bottom: 5px;
-  padding-right: 4%;
-  padding-left: 2.25%;
+  border-radius: 0px;
+  padding-top: 2.5%;
+  padding-bottom: 3.5%;
+  padding-right: 6%;
+  padding-left: 6%;
   text-transform: uppercase;
+}
+
+#pro_or_con0,
+#pro_or_con1,
+#pro_or_con2,
+#pro_or_con3,
+#pro_or_con4,
+#pro_or_con5,
+#pro_or_con6,
+#pro_or_con7,
+#pro_or_con8,
+#pro_or_con9,
+#pro_or_con10 {
+  text-transform: uppercase;
+  border-radius: 0px;
 }
 
 /* Used in pages: Big-Issues*/
@@ -775,6 +888,29 @@ h5 {
   }
 }
 
+@media screen and (max-width: 769px) {
+  #pro {
+    background-color: #66cc00;
+    border-radius: 0px;
+    padding-top: 2.5%;
+    padding-bottom: 3.5%;
+    padding-right: 7%;
+    padding-left: 7%;
+    text-transform: uppercase;
+  }
+
+  /* Used in pages: Index,  Big-Issues*/
+  #con {
+    background-color: orange;
+    border-radius: 0px;
+    padding-top: 2.5%;
+    padding-bottom: 3.5%;
+    padding-right: 4%;
+    padding-left: 8%;
+    text-transform: uppercase;
+  }
+}
+
 @media screen and (max-width: 750px) {
   .flex-container {
     width: 100%;
@@ -796,6 +932,28 @@ h5 {
   }
 }
 
+@media screen and (max-width: 570px) {
+  #pro {
+    background-color: #66cc00;
+    border-radius: 0px;
+    padding-top: 2.5%;
+    padding-bottom: 3.5%;
+    padding-right: 7%;
+    padding-left: 7%;
+    text-transform: uppercase;
+  }
+
+  /* Used in pages: Index,  Big-Issues*/
+  #con {
+    background-color: orange;
+    border-radius: 0px;
+    padding-top: 2.5%;
+    padding-bottom: 3.5%;
+    padding-right: 6%;
+    padding-left: 6%;
+    text-transform: uppercase;
+  }
+}
 @media screen and (max-width: 475px) {
   .flex-container {
     flex-direction: column;

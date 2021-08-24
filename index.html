@@ -35,6 +35,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
+    <script src="./big-issues/big-issues.js"></script>
+    <script src="./big-issues/all-issues.js"></script>
+
     <title>Home</title>
 
     <link rel="stylesheet" href="styles.css" />
@@ -199,23 +202,23 @@
             <tbody>
               <tr class="index-big-issue">
                 <td>
-                  <a class="index-issue" href="./big-issues.html">Minimum Wage</a>
+                  <a class="index-issue" id="index-issue1" href="./big-issues.html"></a>
                 </td>
-                <td class="align"><span id="pro">95% pro</span></td>
+                <td class="align"><span id="pro"></span></td>
               </tr>
               <tr class="index-big-issue">
                 <td>
-                  <a class="index-issue" href="./big-issues.html"
-                    >China</a
+                  <a class="index-issue" id="index-issue2" href="./big-issues.html"
+                    ></a
                   >
                 </td>
-                <td class="align"><span id="con">&nbsp;85% con</span></td>
+                <td class="align"><span id="con"></span></td>
               </tr>
               <tr class="index-big-issue">
                 <td>
-                  <a class="index-issue" href="./big-issues.html">Estate Tax</a>
+                  <a class="index-issue" id="index-issue3" href="./big-issues.html"></a>
                 </td>
-                <td class="align"><span id="con">&nbsp;53% con</span></td>
+                <td class="align"><span id="middle"></span></td>
               </tr>
             </tbody>
           </table>
@@ -252,7 +255,13 @@
          position: relative;
          min-height: 85vh;
       }
-      
     </style>
+
+    <script>
+      pro_index(sorted_issues);
+      con_index(sorted_issues);
+      middle_index(sorted_issues);
+    </script>
+
   </body>
 </html>
