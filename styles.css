@@ -150,12 +150,8 @@ footer {
   margin-right: 1.33%;
   flex-basis: 32%;
   margin-bottom: 3%;
-  position: relative;
 }
 
-.trending-post-title {
-  margin-bottom: 4%;
-}
 /* Used in pages: Blogs*/
 .responsive-image-blogs-trending {
   width: 100%;
@@ -167,12 +163,6 @@ footer {
   width: 100%;
   display: block;
   margin-bottom: 1%;
-  padding-bottom: 1%;
-}
-
-.author-date {
-  position: absolute;
-  bottom: 0;
 }
 
 .fa {
@@ -590,6 +580,13 @@ tr {
 ---------------------------------------------------------
 */
 
+.stuff {
+  display: inline-block;
+  margin-right: 1%;
+  margin-left: 2%;
+  padding-left: 0%;
+}
+
 /* Used in pages: Articles */
 #body {
   position: relative;
@@ -619,12 +616,6 @@ input {
 }
 
 /* Used in pages: Articles */
-.author-date-tags {
-  position: absolute;
-  bottom: 0;
-}
-
-/* Used in pages: Articles */
 .articles {
   vertical-align: top;
   position: relative;
@@ -641,7 +632,7 @@ input {
   width: 100%;
   display: block;
   background-color: lightgray;
-  margin-bottom: 15%;
+  margin-bottom: 1%;
 }
 
 /* Used in pages: Articles */
@@ -828,63 +819,17 @@ h5 {
   .flex-container {
     width: 100%;
   }
-
-  .trending-post-title {
-    padding-bottom: 2%;
-  }
-
-  .author-date-tags {
-    position: absolute;
-    bottom: 0;
-  }
-
-  .article-content {
-    width: 100%;
-    display: block;
-    background-color: lightgray;
-    padding-bottom: 0%;
-  }
-
-  .article-title {
-    margin-bottom: 30%;
-  }
 }
 
 @media screen and (max-width: 971px) {
   .flex-container {
     width: 100%;
   }
-
-  .article-content {
-    width: 100%;
-    display: block;
-    background-color: lightgray;
-    padding-bottom: 10%;
-  }
-
-  .article-title {
-    margin-bottom: 30%;
-  }
 }
 
 @media screen and (max-width: 900px) {
   .flex-container {
     width: 100%;
-  }
-
-  .trending-post-title {
-    padding-bottom: 15%;
-  }
-
-  .article-content {
-    width: 100%;
-    display: block;
-    background-color: lightgray;
-    padding-bottom: 10%;
-  }
-
-  .article-title {
-    margin-bottom: 30%;
   }
 }
 
@@ -914,21 +859,6 @@ h5 {
 @media screen and (max-width: 750px) {
   .flex-container {
     width: 100%;
-  }
-
-  .trending-post-title {
-    padding-bottom: 35%;
-  }
-
-  .article-content {
-    width: 100%;
-    display: block;
-    background-color: lightgray;
-    padding-bottom: 45%;
-  }
-
-  .article-title {
-    margin-bottom: 50%;
   }
 }
 
@@ -966,79 +896,11 @@ h5 {
     flex-basis: 29%;
     margin-bottom: 11%;
   }
-
-  .trending-posts {
-    vertical-align: top;
-    display: inline-block;
-    background-color: lightgray;
-    flex-basis: 32%;
-    margin-bottom: 11%;
-  }
-
-  .trending-content {
-    width: 100%;
-    display: block;
-    margin-bottom: 7%;
-  }
-
-  .trending-post-title {
-    padding-bottom: 0%;
-    margin-bottom: 5%;
-  }
-
-  .article-content {
-    width: 100%;
-    display: block;
-    background-color: lightgray;
-    padding-bottom: 0%;
-  }
-
-  .article-title {
-    margin-bottom: 37%;
-  }
 }
 
 @media screen and (max-width: 450px) {
   .flex-container {
     flex-direction: column;
-  }
-
-  .articles {
-    vertical-align: top;
-    display: inline-block;
-    background-color: lightgray;
-    flex-basis: 29%;
-    margin-bottom: 11%;
-  }
-
-  .trending-posts {
-    vertical-align: top;
-    display: inline-block;
-    background-color: lightgray;
-    flex-basis: 32%;
-    margin-bottom: 11%;
-  }
-
-  .trending-content {
-    width: 100%;
-    display: block;
-    margin-bottom: 7%;
-  }
-
-  .trending-post-title {
-    padding-bottom: 0%;
-    margin-bottom: 5%;
-  }
-
-  .article-content {
-    width: 100%;
-    display: block;
-    background-color: lightgray;
-    padding-bottom: 0%;
-  }
-
-  .article-title {
-    margin-bottom: 33%;
   }
 }
 
@@ -1046,36 +908,10 @@ h5 {
   .flex-container {
     flex-direction: column;
   }
-
-  .article-content {
-    width: 100%;
-    display: block;
-    background-color: lightgray;
-    padding-bottom: 0%;
-  }
-
-  .article-title {
-    margin-bottom: 22.5%;
-  }
 }
 
 @media screen and (max-width: 290px) {
   .flex-container {
     width: 100%;
-  }
-
-  .trending-post-title {
-    padding-bottom: 8%;
-  }
-
-  .article-content {
-    width: 100%;
-    display: block;
-    background-color: lightgray;
-    padding-bottom: 1%;
-  }
-
-  .article-title {
-    margin-bottom: 30%;
   }
 }
