@@ -10,19 +10,62 @@ function filterPosts() {
   });
 }
 
-// Order of Posts
-document.getElementById("one").style.order = "-1";
-document.getElementById("two").style.order = "-2";
-document.getElementById("three").style.order = "-3";
-document.getElementById("four").style.order = "-4";
-document.getElementById("five").style.order = "-5";
-document.getElementById("six").style.order = "-6";
-document.getElementById("seven").style.order = "-7";
-document.getElementById("eight").style.order = "-8";
-document.getElementById("nine").style.order = "-9";
-document.getElementById("ten").style.order = "-10";
-document.getElementById("eleven").style.order = "-11";
-document.getElementById("twelve").style.order = "-12";
-document.getElementById("thirteen").style.order = "-13";
-document.getElementById("fourteen").style.order = "-14";
-document.getElementById("fifteen").style.order = "-15";
+for (let i = 0; i < all_blogs.length; i++) {
+  var articles = document.createElement("div");
+  articles.setAttribute("class", "articles");
+  articles.setAttribute("id", "articles" + i);
+  document.getElementById("all-articles").appendChild(articles);
+
+  var img = document.createElement("img");
+  img.setAttribute("class", "responsive-articles");
+  img.setAttribute("alt", "");
+  img.setAttribute("src", "./Images/" + all_blogs[i].img);
+  document.getElementById("articles" + i).appendChild(img);
+
+  var article_content = document.createElement("div");
+  article_content.setAttribute("class", "article-content");
+  article_content.setAttribute("id", "article-content" + i);
+  document.getElementById("articles" + i).appendChild(article_content);
+
+  var heading = document.createElement("h5");
+  heading.setAttribute("class", "article-title");
+  heading.setAttribute("id", "article-heading" + i);
+  document.getElementById("article-content" + i).appendChild(heading);
+
+  var article_title = document.createElement("a");
+  article_title.setAttribute("href", "./blog-posts/" + all_blogs[i].src);
+  article_title.setAttribute("class", "article-title");
+  article_title.setAttribute("id", "article-title" + i);
+  article_title.innerHTML = all_blogs[i].title;
+  document.getElementById("article-heading" + i).appendChild(article_title);
+
+  var author_date_tags = document.createElement("div");
+  author_date_tags.setAttribute("class", "author-date-tags");
+  author_date_tags.setAttribute("id", "author-date-tags" + i);
+  document.getElementById("article-content" + i).appendChild(author_date_tags);
+
+  var author = document.createElement("i");
+  author.setAttribute("class", "fa fa-user-circle");
+  author.setAttribute("id", "fa fa-user-circle" + i);
+  author.innerHTML = "&nbsp; &nbsp;" + all_blogs[i].author + "&nbsp; &nbsp;";
+  document.getElementById("author-date-tags" + i).appendChild(author);
+
+  var date = document.createElement("i");
+  date.setAttribute("class", "fa fa-calendar");
+  date.setAttribute("id", "fa fa-calendar" + i);
+  date.innerHTML = "&nbsp; &nbsp;" + all_blogs[i].date;
+  document.getElementById("author-date-tags" + i).appendChild(date);
+
+  var tags = document.createElement("div");
+  tags.setAttribute("class", "tags");
+  tags.setAttribute("id", "tags" + i);
+  document.getElementById("author-date-tags" + i).appendChild(tags);
+
+  for (let j = 0; j < all_blogs[i].tags.length; j++) {
+    var each_tag = document.createElement("span");
+    each_tag.setAttribute("class", "border-tags");
+    each_tag.setAttribute("id", "border-tags");
+    each_tag.innerHTML = all_blogs[i].tags[j];
+    document.getElementById("tags" + i).appendChild(each_tag);
+  }
+}

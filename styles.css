@@ -636,7 +636,13 @@ input {
 }
 
 /* Used in pages: Articles */
-#article-title {
+.article-title {
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+
+.article-title:hover {
   text-decoration: none;
   font-family: "Times New Roman", Times, serif;
   color: black;
