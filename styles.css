@@ -217,9 +217,9 @@ footer {
 }
 
 /* Used in pages: Blogs*/
-#recent-posts-title,
-#recent-posts-title2,
-#recent-posts-title3 {
+#recent-posts-title0,
+#recent-posts-title1,
+#recent-posts-title2 {
   text-decoration: none;
   font-family: "Times New Roman", Times, serif;
   color: black;
@@ -238,9 +238,9 @@ footer {
 }
 
 /* Used in pages: Blogs*/
-#recent-posts-p-desc,
-#recent-posts-p-desc2,
-#recent-posts-p-desc3 {
+#recent-posts-p-desc0,
+#recent-posts-p-desc1,
+#recent-posts-p-desc2 {
   margin-right: 2%;
 }
 

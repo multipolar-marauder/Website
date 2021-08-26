@@ -33,7 +33,7 @@ for (let i = 0; i < all_blogs.length; i++) {
   document.getElementById("article-content" + i).appendChild(heading);
 
   var article_title = document.createElement("a");
-  article_title.setAttribute("href", "./blog-posts/" + all_blogs[i].src);
+  article_title.setAttribute("href", "./blog-posts/" + all_blogs[i].link);
   article_title.setAttribute("class", "article-title");
   article_title.setAttribute("id", "article-title" + i);
   article_title.innerHTML = all_blogs[i].title;
