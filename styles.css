@@ -47,7 +47,8 @@ body {
 }
 
 /* Used in pages: index */
-#index-trending-link {
+#index-trending-link1,
+#index-trending-link2 {
   margin-top: 3%;
 }
 
@@ -170,11 +171,16 @@ footer {
 }
 
 /* Used in pages: Blogs*/
-#trending-title {
+.trending-title {
   text-decoration: none;
   font-family: "Times New Roman", Times, serif;
   color: black;
   font-size: 90%;
+}
+
+.trending-title:hover {
+  text-decoration: none;
+  color: black;
 }
 /* Used in pages: Blogs*/
 .recent-posts-container {

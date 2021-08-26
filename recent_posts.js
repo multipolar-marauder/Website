@@ -11,7 +11,7 @@ function display_recent_posts() {
     document.getElementById("recent-posts-author" + i).innerHTML =
       "&nbsp; &nbsp;" + all_blogs[i].author + "&nbsp; &nbsp;";
     document.getElementById("recent-posts-date" + i).innerHTML =
-      "&nbsp; &nbsp;" + all_blogs[i].date + "&nbsp; &nbsp;";
+      "&nbsp; &nbsp;" + all_blogs[i].date;
     document.getElementById("recent-posts-p-desc" + i).innerHTML =
       all_blogs[i].desc;
   }

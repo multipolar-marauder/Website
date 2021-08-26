@@ -81,6 +81,12 @@ var all_blogs = [
   why_you_need_a_dog,
 ];
 
+var trending = [
+  why_you_need_a_dog,
+  why_you_need_a_cat,
+  how_to_get_away_with_murder,
+];
+
 all_blogs.sort(function (a, b) {
   return parseInt(b.id) - parseInt(a.id);
 });

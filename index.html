@@ -37,6 +37,8 @@
 
     <script src="./big-issues/big-issues.js"></script>
     <script src="./big-issues/all-issues.js"></script>
+    <script src="./blog-posts/all-blogs.js"></script>
+    <script src="./trending_index.js"></script>
 
     <title>Home</title>
 
@@ -146,7 +148,7 @@
                 <tr class="index-blog-border">
                   <td>
                     <a href="./blog-posts/why-you-need-a-dog.html" class="index-trending-link"
-                      ><h5>Why You Need A Dog</h5></a
+                      ><h5 id="index-trending-link0"></h5></a
                     >
                     <td><div class="index-trending-box">POPULAR</div></td>
                   </td>
@@ -154,7 +156,7 @@
                 <tr class="index-blog-border">
                   <td>
                     <a href="./blog-posts/why-you-need-a-cat.html" class="index-trending-link"
-                      ><h5 id="index-trending-link">Why You Need A Cat</h5></a
+                      ><h5 id="index-trending-link1"></h5></a
                     >
                     <td><div class="index-trending-box" id="index-trending-box">POPULAR</div></td>
                   </td>
@@ -162,7 +164,7 @@
                 <tr class="index-blog-border">
                   <td>
                     <a href="./blog-posts/how-to-get-away-with-murder.html" class="index-trending-link"
-                      ><h5 id="index-trending-link">How To Get Away With Murder</h5></a
+                      ><h5 id="index-trending-link2"></h5></a
                     >
                     <td><div class="index-trending-box" id="index-trending-box">POPULAR</div></td>
                   </td>
@@ -261,6 +263,7 @@
       pro_index(issues);
       con_index(issues);
       middle_index(issues);
+      display_trending_posts();
     </script>
 
   </body>

@@ -36,6 +36,7 @@
 
     <script src="./blog-posts/all-blogs.js"></script>
     <script src="./recent_posts.js"></script>
+    <script src="./trending.js"></script>
 
     <title>Blogs</title>
 
@@ -91,70 +92,72 @@
               <div class="trending-posts">
                 <img
                   class="responsive-image-blogs-trending"
-                  src="./Images/dog.jpg"
+                  src=""
+                  id="trending-image0"
                   alt="Dog image"
                 />
                 <div class="trending-content">
                   <h4 class="trending-post-title">
                     <a
-                      href="./blog-posts/why-you-need-a-dog.html"
-                      id="trending-title"
-                      >Why You Need A Dog</a
-                    >
+                      href=""
+                      class="trending-title"
+                      id="trending-posts-title0"
+                    ></a>
                   </h4>
                   <div class="author-date">
-                    <i class="fa fa-user-circle">
-                      &nbsp; Srivatsan Viswanathan &nbsp;</i
-                    >
+                    <i class="fa fa-user-circle" id="trending-posts-author0">
+                    </i>
                     <span
-                      ><i class="fa fa-calendar">&nbsp; August 8 2021</i></span
-                    >
+                      ><i class="fa fa-calendar" id="trending-posts-date0"></i
+                    ></span>
                   </div>
                 </div>
               </div>
               <div class="trending-posts">
                 <img
                   class="responsive-image-blogs-trending"
-                  src="./Images/cat.jpg"
+                  src=""
+                  id="trending-image1"
                   alt="Cat image"
                 />
                 <div class="trending-content">
                   <h4 class="trending-post-title">
                     <a
-                      href="./blog-posts/why-you-need-a-cat.html"
-                      id="trending-title"
-                      >Why You Need A Cat</a
-                    >
+                      href=""
+                      class="trending-title"
+                      id="trending-posts-title1"
+                    ></a>
                   </h4>
                   <div class="author-date">
-                    <i class="fa fa-user-circle"> &nbsp; Cat Lover &nbsp;</i>
+                    <i class="fa fa-user-circle" id="trending-posts-author1">
+                    </i>
                     <span
-                      ><i class="fa fa-calendar">&nbsp; August 6 2021</i></span
-                    >
+                      ><i class="fa fa-calendar" id="trending-posts-date1"></i
+                    ></span>
                   </div>
                 </div>
               </div>
               <div class="trending-posts">
                 <img
                   class="responsive-image-blogs-trending"
-                  src="./Images/murder.jpg"
+                  src=""
+                  id="trending-image2"
                   alt="Pet image"
                 />
                 <div class="trending-content">
                   <h4 class="trending-post-title">
                     <a
-                      href="./blog-posts/how-to-get-away-with-murder.html"
-                      id="trending-title"
-                      >How To Get Away With Murder</a
-                    >
+                      href=""
+                      class="trending-title"
+                      id="trending-posts-title2"
+                    ></a>
                   </h4>
                   <div class="author-date">
-                    <i class="fa fa-user-circle">
-                      &nbsp; Multipolar Marauder &nbsp;</i
-                    >
+                    <i class="fa fa-user-circle" id="trending-posts-author2">
+                    </i>
                     <span
-                      ><i class="fa fa-calendar">&nbsp; July 31 2021</i></span
-                    >
+                      ><i class="fa fa-calendar" id="trending-posts-date2"></i
+                    ></span>
                   </div>
                 </div>
               </div>
@@ -304,6 +307,7 @@
 
     <script>
       display_recent_posts();
+      display_trending_posts();
     </script>
   </body>
 </html>
