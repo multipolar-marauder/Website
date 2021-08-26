@@ -182,6 +182,16 @@ footer {
   text-decoration: none;
   color: black;
 }
+
+/* Used in pages: Blogs*/
+#trending-posts-title0,
+#trending-posts-title1,
+#trending-posts-title2 {
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-size: 90%;
+}
 /* Used in pages: Blogs*/
 .recent-posts-container {
   margin-bottom: 0%;
