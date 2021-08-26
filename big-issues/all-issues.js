@@ -109,6 +109,7 @@ const defund_the_police = {
   pro_percent: 21,
   con_percent: 79,
   link: "defund-the-police.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -117,6 +118,7 @@ const donald_trump = {
   pro_percent: 24,
   con_percent: 76,
   link: "donald-trump.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -125,6 +127,7 @@ const doug_ford = {
   pro_percent: 35,
   con_percent: 65,
   link: "doug-ford.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -133,6 +136,7 @@ const drone_strikes = {
   pro_percent: 40,
   con_percent: 60,
   link: "drone-strikes.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -141,6 +145,7 @@ const drug_legalization = {
   pro_percent: 68,
   con_percent: 32,
   link: "drug-legalization.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -148,7 +153,8 @@ const enthusiastic_consent_laws = {
   name: "Enthusiastic Consent Laws",
   pro_percent: 69,
   con_percent: 31,
-  link: "enthusiasitc-consent-laws.html",
+  link: "enthusiastic-consent-laws.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -157,6 +163,7 @@ const estate_tax = {
   pro_percent: 47,
   con_percent: 53,
   link: "estate-tax.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -165,6 +172,7 @@ const european_union = {
   pro_percent: 78,
   con_percent: 22,
   link: "european-union.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -173,6 +181,7 @@ const euthanasia = {
   pro_percent: 75,
   con_percent: 25,
   link: "euthanasia.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -181,6 +190,7 @@ const flat_tax = {
   pro_percent: 32,
   con_percent: 68,
   link: "flat-tax.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -189,6 +199,7 @@ const george_w_bush = {
   pro_percent: 16,
   con_percent: 84,
   link: "george-w-bush.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -197,6 +208,7 @@ const hate_speech_law = {
   pro_percent: 68,
   con_percent: 32,
   link: "hate-speech-law.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -205,6 +217,7 @@ const home_schooling = {
   pro_percent: 56,
   con_percent: 44,
   link: "home-schooling.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -213,6 +226,7 @@ const indian_act = {
   pro_percent: 29,
   con_percent: 71,
   link: "indian-act.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -221,6 +235,7 @@ const israel_right_to_exist = {
   pro_percent: 65,
   con_percent: 35,
   link: "israel-right-to-exist.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -229,6 +244,7 @@ const justin_trudaeu = {
   pro_percent: 32,
   con_percent: 68,
   link: "justin-trudaeu.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -237,6 +253,7 @@ const labor_unions = {
   pro_percent: 72,
   con_percent: 28,
   link: "labor-unions.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -244,7 +261,8 @@ const late_term_abortions = {
   name: "Late Term Abortions",
   pro_percent: 44,
   con_percent: 56,
-  link: "late-term-abortion.html",
+  link: "late-term-abortions.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -253,6 +271,7 @@ const lgbtq_rights = {
   pro_percent: 90,
   con_percent: 10,
   link: "lgbtq-rights.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -261,6 +280,7 @@ const military_intervention = {
   pro_percent: 45,
   con_percent: 55,
   link: "military-intervention.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -269,6 +289,7 @@ const military_spending = {
   pro_percent: 55,
   con_percent: 45,
   link: "military-spending.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -277,6 +298,7 @@ const minimum_wage = {
   pro_percent: 95,
   con_percent: 5,
   link: "minimum-wage.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -285,6 +307,7 @@ const nato = {
   pro_percent: 83,
   con_percent: 17,
   link: "nato.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -293,6 +316,7 @@ const palestine_right_to_exist = {
   pro_percent: 94,
   con_percent: 6,
   link: "palestine-right-to-exist.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -301,6 +325,7 @@ const patriotism = {
   pro_percent: 68,
   con_percent: 32,
   link: "patriotism.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -309,6 +334,7 @@ const progressive_tax = {
   pro_percent: 67,
   con_percent: 33,
   link: "progressive-tax.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -317,6 +343,7 @@ const right_to_flag_burning = {
   pro_percent: 81,
   con_percent: 19,
   link: "right-to-flag-burning.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -325,6 +352,7 @@ const russia = {
   pro_percent: 18,
   con_percent: 82,
   link: "russia.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -332,7 +360,8 @@ const term_limits = {
   name: "Term Limits",
   pro_percent: 90,
   con_percent: 10,
-  link: "term_limits.html",
+  link: "term-limits.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -341,6 +370,7 @@ const trans_sports = {
   pro_percent: 18,
   con_percent: 82,
   link: "trans-sports.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -349,6 +379,7 @@ const united_nations = {
   pro_percent: 61,
   con_percent: 39,
   link: "united-nations.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -357,6 +388,7 @@ const united_states = {
   pro_percent: 67,
   con_percent: 33,
   link: "united-states.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -365,6 +397,7 @@ const universal_basic_income = {
   pro_percent: 65,
   con_percent: 35,
   link: "universal-basic-income.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -373,6 +406,7 @@ const vaccine_passports = {
   pro_percent: 63,
   con_percent: 37,
   link: "vaccine-passports.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -381,6 +415,7 @@ const war_in_afghanistan = {
   pro_percent: 26,
   con_percent: 74,
   link: "war-in-afghanistan.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -389,6 +424,7 @@ const war_in_iraq = {
   pro_percent: 79,
   con_percent: 21,
   link: "war-in-iraq.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -397,6 +433,7 @@ const war_on_terror = {
   pro_percent: 26,
   con_percent: 74,
   link: "war-on-terror.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -405,6 +442,7 @@ const welfare = {
   pro_percent: 72,
   con_percent: 28,
   link: "welfare.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -413,6 +451,7 @@ const world_trade_organization = {
   pro_percent: 59,
   con_percent: 41,
   link: "world-trade-organization.html",
+  image: "abortion.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
@@ -444,9 +483,9 @@ var issues = [
   indian_act,
   israel_right_to_exist,
   justin_trudaeu,
-  lgbtq_rights,
   labor_unions,
   late_term_abortions,
+  lgbtq_rights,
   military_spending,
   military_intervention,
   minimum_wage,
@@ -469,8 +508,9 @@ var issues = [
   world_trade_organization,
 ];
 
-issues.sort((a, b) => (a.name > b.name ? 1 : -1));
+issues.sort((a, b) => (a.name.toUpperCase > b.name.toUpperCase ? -1 : 1));
 
+console.log(issues);
 function call_display_issue() {
   display_issue();
 }

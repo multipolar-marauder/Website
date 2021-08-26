@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./big-issues.js"></script>
+    <script src="./all-issues.js"></script>
+
+    <title>Flat Tax</title>
+
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="./issue-styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <!-- Debate Club Name -->
+      <a class="navbar-brand" href="#">
+        <img src="../Images/logo_final.jpg" alt="Logo pic" />
+      </a>
+      <a class="navbar-brand" href="#">Multipolar Marauder</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+        id="navbar-toggle"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../debates.html">DEBATES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../blogs.html">BLOGS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../big-issues.html">BIG ISSUES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../discord.html">DISCORD</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Issue -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <h4 class="margin-top" id="issue_title"></h4>
+          <div>
+            <img
+              src=""
+              class="issue-image"
+              id="issue-image"
+              alt="Abortion pic"
+            />
+          </div>
+          <div class="margin-top">
+            <h5 id="issue_desc_title"></h5>
+            <p class="margin-top" id="issue_desc"></p>
+          </div>
+        </div>
+        <div class="col-sm-4 margin-top">
+          <div class="mmresult">
+            <h4 class="result-title" id="result-title"></h4>
+            <h5 class="result-desc" id="result-desc"></h5>
+            <div class="row">
+              <div class="col-sm-12">
+                <span class="vote-box-pro" id="box-pro"></span>
+                <span class="vote-box-con" id="box-con"></span>
+              </div>
+            </div>
+            <div>
+              <span class="vote-number-pro" id="vote-number-pro"></span>
+              <span class="vote-number-con" id="vote-number-con"></span>
+            </div>
+            <div>
+              <span class="vote-types-pro" id="vote-types-pro"></span>
+              <span class="vote-types-con" id="vote-types-con"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="bg-dark text-center text-lg-start">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <h4 id="footer-words">Multipolar Marauder</h4>
+          </div>
+          <div class="col-sm-6">
+            <a id="footer" href="../index.html">HOME &nbsp;</a>
+            <a id="footer" href="../debates.html"> &nbsp; DEBATES &nbsp;</a>
+            <a id="footer" href="../blogs.html"> &nbsp; BLOGS &nbsp;</a>
+            <a id="footer" href="../big-issues.html">
+              &nbsp; BIG ISSUES &nbsp;</a
+            >
+            <a id="footer" href="https://discord.gg/kcmNE3sj7k"
+              >&nbsp; DISCORD</a
+            >
+          </div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-2">
+            <p id="footer-words">&copy Multipolar Marauder</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      call_issue(flat_tax);
+    </script>
+  </body>
+</html>
