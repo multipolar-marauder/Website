@@ -1,20 +1,15 @@
-const blogSearch = document.querySelector("#blogSearch");
-blogSearch.addEventListener("keyup", filterPosts);
+// Display The Debates
 
-function filterPosts() {
-  let filterValue = blogSearch.value.toLowerCase();
-  const posts = document.querySelectorAll(".articles").forEach((post) => {
-    post.innerText.toLowerCase().indexOf(filterValue) > -1
-      ? (post.style.display = "")
-      : (post.style.display = "none");
-  });
-}
+for (let i = 0; i < all_debates.length; i++) {
+  var debates = document.createElement("div");
+  debates.setAttribute("class", "debates");
+  debates.setAttribute("id", "debates" + i);
+  document.getElementById("popular").appendChild(debates);
 
-for (let i = 0; i < all_blogs.length; i++) {
-  var articles = document.createElement("div");
-  articles.setAttribute("class", "articles");
-  articles.setAttribute("id", "articles" + i);
-  document.getElementById("all-articles").appendChild(articles);
+  var debates = document.createElement("div");
+  debates.setAttribute("class", "debates");
+  debates.setAttribute("id", "debates" + i);
+  document.getElementById("popular").appendChild(debates);
 
   var img = document.createElement("img");
   img.setAttribute("class", "responsive-articles");

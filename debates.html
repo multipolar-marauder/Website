@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,23 +13,14 @@
       crossorigin="anonymous"
     />
 
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <title>Debates</title>
 
@@ -44,8 +37,8 @@
       <button
         class="navbar-toggler"
         type="button"
-        data-toggle="collapse"
-        data-target="#collapsibleNavbar"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavbar"
         id="navbar-toggle"
       >
         <span class="navbar-toggler-icon"></span>
@@ -72,7 +65,53 @@
       </div>
     </nav>
 
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 margin-top">
+          <h4>Debates</h4>
+          <p>Debates are a great way to analyze both sides of the issue. Various resolutions and topics are provided and Multipolar Marauder members can debate in a structured format and will recieve feedback from judges.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Line -->
+    <hr style="border: 1px solid " />
+
+    <!-- Popular and Recent Blogs -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 margin-top" id="popular">
+          <h4 style="text-align: center;">Popular</h5>
+            <hr >
+            <ul class="testinglol">
+              <li class="testing2"><a href="#">Why Trump Was A Terrible President</a>
+              <p class="margin-top">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit veritatis neque, praesentium molestiae tenetur qui porro maxime dolorum eligendi laudantium excepturi voluptas, vitae soluta ut, iure dicta dolorem repellendus fuga!</p></li>
+              <li class="testing2 margin-top"><a href="#">Justin Trudaeu Calling For An Early Election Is Not Favorable For Him</a>
+              <p class="margin-top">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptates aspernatur quaerat inventore error consequuntur quam, libero enim nisi minus! Fuga ea repellat magni. Dolor tempora temporibus omnis eum inventore.</p></li>
+              <li class="testing2 margin-top"><a href="#">Ryerson's Name Change Is Going To Increase International Student's Tuition Fees</a>
+              <p class="margin-top">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, officia! Qui excepturi animi natus consectetur, itaque officiis delectus fuga reiciendis. Neque ea nihil voluptatum ex itaque inventore illum provident perferendis.</p></li>
+              <li class="testing2 margin-top"><a href="#">Canada's Self Defense Laws Are An Absolute Joke</a>
+              <p class="margin-top">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla eius iure porro cumque harum ipsam qui! Ducimus id et dicta, praesentium quos provident temporibus quibusdam accusamus incidunt, labore tempora fugiat?.</p></li>
+            </ul>
+          </div>
+        <div class="col-sm-6 margin-top">
+          <h4 style="text-align: center;">Recent</h5>
+            <hr>
+            <ul class="testinglol">
+              <li class="testing2 "><a href="#">Why Trump Was A Terrible President</a>
+              <p class="margin-top">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde laboriosam quod facilis, tempora reiciendis sapiente dolores sunt perspiciatis omnis ullam eos tenetur saepe error, aut recusandae dolore numquam, sequi vitae?</p></li>
+              <li class="testing2 margin-top"><a href="#">Justin Trudaeu Calling For An Early Election Is Not Favorable For Him</a>
+              <p class="margin-top">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse optio sunt, quasi aperiam id impedit asperiores natus illo repudiandae facilis accusantium quos atque dicta nihil odit modi dolorem error. Asperiores!</p></li>
+              <li class="testing2 margin-top"><a href="#">Ryerson's Name Change Is Going To Increase International Student's Tuition Fees</a>
+              <p class="margin-top">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore nesciunt architecto voluptate similique fuga quidem cupiditate id. Quo inventore ipsa, mollitia sit obcaecati culpa optio illo laudantium magni. Delectus, laboriosam..</p></li>
+              <li class="testing2 margin-top"><a href="#">Canada's Self Defense Laws Are An Absolute Joke</a>
+              <p class="margin-top">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, molestias neque recusandae natus velit nisi rerum dicta aspernatur enim iusto. Doloremque in quo magnam eum rerum autem aspernatur temporibus modi.</p></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <p><a href="#" style="margin-left: 8%;">View All Debates</a></p>
 
     <!-- Footer -->
 
@@ -102,16 +141,7 @@
     </footer>
 
     <style>
-      body {
-        position: relative;
-        min-height: 100vh;
-      }
 
-      footer {
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-      }
     </style>
   </body>
 </html>

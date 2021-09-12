@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,30 +13,22 @@
       crossorigin="anonymous"
     />
 
+    <!-- Bootstrap JS -->
     <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-
+    <!-- Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
-    <script defer src="./recent_posts.js"></script>
+    <script src="./blog-posts/all-blogs.js"></script>
+    <script src="./recent_posts.js"></script>
+    <script src="./trending.js"></script>
 
     <title>Blogs</title>
 
@@ -52,8 +46,8 @@
       <button
         class="navbar-toggler"
         type="button"
-        data-toggle="collapse"
-        data-target="#collapsibleNavbar"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavbar"
         id="navbar-toggle"
       >
         <span class="navbar-toggler-icon"></span>
@@ -90,70 +84,72 @@
               <div class="trending-posts">
                 <img
                   class="responsive-image-blogs-trending"
-                  src="./Images/dog.jpg"
+                  src=""
+                  id="trending-image0"
                   alt="Dog image"
                 />
                 <div class="trending-content">
                   <h4 class="trending-post-title">
                     <a
-                      href="./blog-posts/why-you-need-a-dog.html"
-                      id="trending-title"
-                      >Why You Need A Dog</a
-                    >
+                      href=""
+                      class="trending-title"
+                      id="trending-posts-title0"
+                    ></a>
                   </h4>
                   <div class="author-date">
-                    <i class="fa fa-user-circle">
-                      &nbsp; Srivatsan Viswanathan &nbsp;</i
-                    >
+                    <i class="fa fa-user-circle" id="trending-posts-author0">
+                    </i>
                     <span
-                      ><i class="fa fa-calendar">&nbsp; August 8 2021</i></span
-                    >
+                      ><i class="fa fa-calendar" id="trending-posts-date0"></i
+                    ></span>
                   </div>
                 </div>
               </div>
               <div class="trending-posts">
                 <img
                   class="responsive-image-blogs-trending"
-                  src="./Images/cat.jpg"
+                  src=""
+                  id="trending-image1"
                   alt="Cat image"
                 />
                 <div class="trending-content">
                   <h4 class="trending-post-title">
                     <a
-                      href="./blog-posts/why-you-need-a-cat.html"
-                      id="trending-title"
-                      >Why You Need A Cat</a
-                    >
+                      href=""
+                      class="trending-title"
+                      id="trending-posts-title1"
+                    ></a>
                   </h4>
                   <div class="author-date">
-                    <i class="fa fa-user-circle"> &nbsp; Cat Lover &nbsp;</i>
+                    <i class="fa fa-user-circle" id="trending-posts-author1">
+                    </i>
                     <span
-                      ><i class="fa fa-calendar">&nbsp; August 6 2021</i></span
-                    >
+                      ><i class="fa fa-calendar" id="trending-posts-date1"></i
+                    ></span>
                   </div>
                 </div>
               </div>
               <div class="trending-posts">
                 <img
                   class="responsive-image-blogs-trending"
-                  src="./Images/murder.jpg"
+                  src=""
+                  id="trending-image2"
                   alt="Pet image"
                 />
                 <div class="trending-content">
                   <h4 class="trending-post-title">
                     <a
-                      href="./blog-posts/how-to-get-away-with-murder.html"
-                      id="trending-title"
-                      >How To Get Away With Murder</a
-                    >
+                      href=""
+                      class="trending-title"
+                      id="trending-posts-title2"
+                    ></a>
                   </h4>
                   <div class="author-date">
-                    <i class="fa fa-user-circle">
-                      &nbsp; Multipolar Marauder &nbsp;</i
-                    >
+                    <i class="fa fa-user-circle" id="trending-posts-author2">
+                    </i>
                     <span
-                      ><i class="fa fa-calendar">&nbsp; July 31 2021</i></span
-                    >
+                      ><i class="fa fa-calendar" id="trending-posts-date2"></i
+                    ></span>
                   </div>
                 </div>
               </div>
@@ -186,23 +182,23 @@
                   blogs_page-recent-image-margin
                 "
                 src=""
-                id="recent-one-image"
+                id="recent-image0"
                 alt="Dog pic"
               />
               <h4>
-                <a href="" id="recent-posts-title"></a>
+                <a href="" id="recent-posts-title0"></a>
               </h4>
               <div class="recent-posts-author_date">
-                <i class="fa fa-user-circle" id="recent-posts-author">
+                <i class="fa fa-user-circle" id="recent-posts-author0">
                   &nbsp;</i
                 >
                 <span
-                  ><i class="fa fa-calendar" id="recent-posts-date"
+                  ><i class="fa fa-calendar" id="recent-posts-date0"
                     >&nbsp;</i
                   ></span
                 >
               </div>
-              <p id="recent-posts-p-desc"></p>
+              <p id="recent-posts-p-desc0"></p>
             </div>
             <div class="recent-posts-desc">
               <img
@@ -212,8 +208,34 @@
                   blogs_page-recent-image-margin
                 "
                 src=""
-                id="recent-two-image"
+                id="recent-image1"
                 alt="Cat pic"
+              />
+              <h4>
+                <a href="#Idk" id="recent-posts-title1"></a>
+              </h4>
+              <div class="recent-posts-author_date">
+                <i class="fa fa-user-circle" id="recent-posts-author1">
+                  &nbsp; &nbsp;</i
+                >
+                <span
+                  ><i class="fa fa-calendar" id="recent-posts-date1"
+                    >&nbsp;</i
+                  ></span
+                >
+              </div>
+              <p id="recent-posts-p-desc1"></p>
+            </div>
+            <div class="recent-posts-desc">
+              <img
+                style="float: left"
+                class="
+                  responsive-image-blogs-recent
+                  blogs_page-recent-image-margin
+                "
+                src=""
+                id="recent-image2"
+                alt="Pets pic"
               />
               <h4>
                 <a href="#Idk" id="recent-posts-title2"></a>
@@ -224,37 +246,11 @@
                 >
                 <span
                   ><i class="fa fa-calendar" id="recent-posts-date2"
-                    >&nbsp;</i
-                  ></span
-                >
-              </div>
-              <p id="recent-posts-p-desc2"></p>
-            </div>
-            <div class="recent-posts-desc">
-              <img
-                style="float: left"
-                class="
-                  responsive-image-blogs-recent
-                  blogs_page-recent-image-margin
-                "
-                src=""
-                id="recent-three-image"
-                alt="Pets pic"
-              />
-              <h4>
-                <a href="#Idk" id="recent-posts-title3"></a>
-              </h4>
-              <div class="recent-posts-author_date">
-                <i class="fa fa-user-circle" id="recent-posts-author3">
-                  &nbsp; &nbsp;</i
-                >
-                <span
-                  ><i class="fa fa-calendar" id="recent-posts-date3"
                     >&nbsp;
                   </i></span
                 >
               </div>
-              <p id="recent-posts-p-desc3"></p>
+              <p id="recent-posts-p-desc2"></p>
             </div>
           </div>
           <div class="col-sm-4"></div>
@@ -300,5 +296,10 @@
         bottom: 0;
       }
     </style>
+
+    <script>
+      display_recent_posts();
+      display_trending_blogs();
+    </script>
   </body>
 </html>

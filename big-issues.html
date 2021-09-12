@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,23 +13,18 @@
       crossorigin="anonymous"
     />
 
+    <!-- Bootstrap JS -->
     <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <script src="./big-issues/big-issues.js"></script>
     <script src="./big-issues/all-issues.js"></script>
@@ -47,8 +44,8 @@
       <button
         class="navbar-toggler"
         type="button"
-        data-toggle="collapse"
-        data-target="#collapsibleNavbar"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavbar"
         id="navbar-toggle"
       >
         <span class="navbar-toggler-icon"></span>
@@ -104,552 +101,257 @@
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="./big-issues/abortion.html" id="issue0"
-                    ><script>
-                      display_issue(0, 0, 0);
-                    </script></a
-                  >
+                  <a href="" id="issue0"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con0"
-                    ><script>
-                      display_percent(
-                        sorted_issues[0][1],
-                        sorted_issues[0][2],
-                        0
-                      );
-                    </script>
-                  </span>
+                  <span id="pro_or_con0"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="./big-issues/affirmative-action.html" id="issue1"
-                    ><script>
-                      display_issue(1, 0, 1);
-                    </script></a
-                  >
+                  <a href="" id="issue1"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con1"
-                    ><script>
-                      display_percent(
-                        sorted_issues[1][1],
-                        sorted_issues[1][2],
-                        1
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con1"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="./big-issues/automation.html" id="issue2"
-                    ><script>
-                      display_issue(2, 0, 2);
-                    </script></a
-                  >
+                  <a href="" id="issue2"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con2"
-                    ><script>
-                      display_percent(
-                        sorted_issues[2][1],
-                        sorted_issues[2][2],
-                        2
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con2"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="./big-issues/barack-obama.html" id="issue3"
-                    ><script>
-                      display_issue(3, 0, 3);
-                    </script></a
-                  >
+                  <a href="" id="issue3"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con3"
-                    >&nbsp;
-                    <script>
-                      display_percent(
-                        sorted_issues[3][1],
-                        sorted_issues[3][2],
-                        3
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con3"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="./big-issues/canada.html" id="issue4"
-                    ><script>
-                      display_issue(4, 0, 4);
-                    </script></a
-                  >
+                  <a href="" id="issue4"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con4"
-                    ><script>
-                      display_percent(
-                        sorted_issues[4][1],
-                        sorted_issues[4][2],
-                        4
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con4"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue5"
-                    ><script>
-                      display_issue(5, 0, 5);
-                    </script></a
-                  >
+                  <a href="#" id="issue5"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con5"
-                    ><script>
-                      display_percent(
-                        sorted_issues[5][1],
-                        sorted_issues[5][2],
-                        5
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con5"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="./big-issues/carbon-tax.html" id="issue6"
-                    ><script>
-                      display_issue(6, 0, 6);
-                    </script></a
-                  >
+                  <a href="./big-issues/carbon-tax.html" id="issue6"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con6"
-                    ><script>
-                      display_percent(
-                        sorted_issues[6][1],
-                        sorted_issues[6][2],
-                        6
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con6"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="./big-issues/china.html" id="issue7"
-                    ><script>
-                      display_issue(7, 0, 7);
-                    </script></a
-                  >
+                  <a href="./big-issues/china.html" id="issue7"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con7"
-                    ><script>
-                      display_percent(
-                        sorted_issues[7][1],
-                        sorted_issues[7][2],
-                        7
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con7"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="./big-issues/climate-change-action.html" id="issue8"
-                    ><script>
-                      display_issue(8, 0, 8);
-                    </script></a
-                  >
+                  <a
+                    href="./big-issues/climate-change-action.html"
+                    id="issue8"
+                  ></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con8"
-                    ><script>
-                      display_percent(
-                        sorted_issues[8][1],
-                        sorted_issues[8][2],
-                        8
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con8"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="./big-issues/critical-race-theory.html" id="issue9"
-                    ><script>
-                      display_issue(9, 0, 9);
-                    </script></a
-                  >
+                  <a
+                    href="./big-issues/critical-race-theory.html"
+                    id="issue9"
+                  ></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con9"
-                    ><script>
-                      display_percent(
-                        sorted_issues[9][1],
-                        sorted_issues[9][2],
-                        9
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con9"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue10"
-                    ><script>
-                      display_issue(10, 0, 10);
-                    </script></a
-                  >
+                  <a href="#" id="issue10"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con10"
-                    ><script>
-                      display_percent(
-                        sorted_issues[10][1],
-                        sorted_issues[10][2],
-                        10
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con10"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue11"
-                    ><script>
-                      display_issue(11, 0, 11);
-                    </script></a
-                  >
+                  <a href="#" id="issue11"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con11"
-                    ><script>
-                      display_percent(
-                        sorted_issues[11][1],
-                        sorted_issues[11][2],
-                        11
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con11"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue12"
-                    ><script>
-                      display_issue(12, 0, 12);
-                    </script></a
-                  >
+                  <a href="#" id="issue12"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con12"
-                    ><script>
-                      display_percent(
-                        sorted_issues[12][1],
-                        sorted_issues[12][2],
-                        12
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con12"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue13"
-                    ><script>
-                      display_issue(13, 0, 13);
-                    </script></a
-                  >
+                  <a href="#" id="issue13"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con13"
-                    ><script>
-                      display_percent(
-                        sorted_issues[13][1],
-                        sorted_issues[13][2],
-                        13
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con13"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue14"
-                    ><script>
-                      display_issue(14, 0, 14);
-                    </script></a
-                  >
+                  <a href="#" id="issue14"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con14"
-                    ><script>
-                      display_percent(
-                        sorted_issues[14][1],
-                        sorted_issues[14][2],
-                        14
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con14"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue15"
-                    ><script>
-                      display_issue(15, 0, 15);
-                    </script></a
-                  >
+                  <a href="#" id="issue15"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con15"
-                    ><script>
-                      display_percent(
-                        sorted_issues[15][1],
-                        sorted_issues[15][2],
-                        15
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con15"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue16"
-                    ><script>
-                      display_issue(16, 0, 16);
-                    </script></a
-                  >
+                  <a href="#" id="issue16"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con16"
-                    ><script>
-                      display_percent(
-                        sorted_issues[16][1],
-                        sorted_issues[16][2],
-                        16
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con16"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue17"
-                    ><script>
-                      display_issue(17, 0, 17);
-                    </script></a
-                  >
+                  <a href="#" id="issue17"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con17"
-                    ><script>
-                      display_percent(
-                        sorted_issues[17][1],
-                        sorted_issues[17][2],
-                        17
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con17"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue18"
-                    ><script>
-                      display_issue(18, 0, 18);
-                    </script></a
-                  >
+                  <a href="#" id="issue18"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con18"
-                    ><script>
-                      display_percent(
-                        sorted_issues[18][1],
-                        sorted_issues[18][2],
-                        18
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con18"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue19"
-                    ><script>
-                      display_issue(19, 0, 19);
-                    </script></a
-                  >
+                  <a href="#" id="issue19"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con19"
-                    ><script>
-                      display_percent(
-                        sorted_issues[19][1],
-                        sorted_issues[19][2],
-                        19
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con19"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue20"
-                    ><script>
-                      display_issue(20, 0, 20);
-                    </script></a
-                  >
+                  <a href="#" id="issue20"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con20"
-                    ><script>
-                      display_percent(
-                        sorted_issues[20][1],
-                        sorted_issues[20][2],
-                        20
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con20"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue21"
-                    ><script>
-                      display_issue(21, 0, 21);
-                    </script></a
-                  >
+                  <a href="#" id="issue21"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con21"
-                    ><script>
-                      display_percent(
-                        sorted_issues[21][1],
-                        sorted_issues[21][2],
-                        21
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con21"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue22"
-                    ><script>
-                      display_issue(22, 0, 22);
-                    </script></a
-                  >
+                  <a href="#" id="issue22"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con22"
-                    ><script>
-                      display_percent(
-                        sorted_issues[22][1],
-                        sorted_issues[22][2],
-                        22
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con22"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue23"
-                    ><script>
-                      display_issue(23, 0, 23);
-                    </script></a
-                  >
+                  <a href="#" id="issue23"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con23"
-                    ><script>
-                      display_percent(
-                        sorted_issues[23][1],
-                        sorted_issues[23][2],
-                        23
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con23"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue24"
-                    ><script>
-                      display_issue(24, 0, 24);
-                    </script></a
-                  >
+                  <a href="#" id="issue24"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con24"
-                    ><script>
-                      display_percent(
-                        sorted_issues[24][1],
-                        sorted_issues[24][2],
-                        24
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con24"></span>
                 </td>
               </tr>
             </tbody>
@@ -662,551 +364,251 @@
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue25"
-                    ><script>
-                      display_issue(25, 0, 25);
-                    </script></a
-                  >
+                  <a href="#" id="issue25"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con25"
-                    ><script>
-                      display_percent(
-                        sorted_issues[25][1],
-                        sorted_issues[25][2],
-                        25
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con25"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue26"
-                    ><script>
-                      display_issue(26, 0, 26);
-                    </script></a
-                  >
+                  <a href="#" id="issue26"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con26"
-                    ><script>
-                      display_percent(
-                        sorted_issues[26][1],
-                        sorted_issues[26][2],
-                        26
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con26"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue27"
-                    ><script>
-                      display_issue(27, 0, 27);
-                    </script></a
-                  >
+                  <a href="#" id="issue27"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con27"
-                    ><script>
-                      display_percent(
-                        sorted_issues[27][1],
-                        sorted_issues[27][2],
-                        27
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con27"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue28"
-                    ><script>
-                      display_issue(28, 0, 28);
-                    </script></a
-                  >
+                  <a href="#" id="issue28"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con28"
-                    ><script>
-                      display_percent(
-                        sorted_issues[28][1],
-                        sorted_issues[28][2],
-                        28
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con28"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue29"
-                    ><script>
-                      display_issue(29, 0, 29);
-                    </script></a
-                  >
+                  <a href="#" id="issue29"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con29"
-                    ><script>
-                      display_percent(
-                        sorted_issues[29][1],
-                        sorted_issues[29][2],
-                        29
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con29"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue30"
-                    ><script>
-                      display_issue(30, 0, 30);
-                    </script></a
-                  >
+                  <a href="#" id="issue30"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con30"
-                    ><script>
-                      display_percent(
-                        sorted_issues[30][1],
-                        sorted_issues[30][2],
-                        30
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con30"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue31"
-                    ><script>
-                      display_issue(31, 0, 31);
-                    </script></a
-                  >
+                  <a href="#" id="issue31"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con31"
-                    ><script>
-                      display_percent(
-                        sorted_issues[31][1],
-                        sorted_issues[31][2],
-                        31
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con31"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue32"
-                    ><script>
-                      display_issue(32, 0, 32);
-                    </script></a
-                  >
+                  <a href="#" id="issue32"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con32"
-                    ><script>
-                      display_percent(
-                        sorted_issues[32][1],
-                        sorted_issues[32][2],
-                        32
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con32"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue33"
-                    ><script>
-                      display_issue(33, 0, 33);
-                    </script></a
-                  >
+                  <a href="#" id="issue33"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con33"
-                    ><script>
-                      display_percent(
-                        sorted_issues[33][1],
-                        sorted_issues[33][2],
-                        33
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con33"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue34"
-                    ><script>
-                      display_issue(34, 0, 34);
-                    </script></a
-                  >
+                  <a href="#" id="issue34"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con34"
-                    ><script>
-                      display_percent(
-                        sorted_issues[34][1],
-                        sorted_issues[34][2],
-                        34
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con34"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue35"
-                    ><script>
-                      display_issue(35, 0, 35);
-                    </script></a
-                  >
+                  <a href="#" id="issue35"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con35"
-                    ><script>
-                      display_percent(
-                        sorted_issues[35][1],
-                        sorted_issues[35][2],
-                        35
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con35"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue36"
-                    ><script>
-                      display_issue(36, 0, 36);
-                    </script></a
-                  >
+                  <a href="#" id="issue36"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con36"
-                    ><script>
-                      display_percent(
-                        sorted_issues[36][1],
-                        sorted_issues[36][2],
-                        36
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con36"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue37"
-                    ><script>
-                      display_issue(37, 0, 37);
-                    </script></a
-                  >
+                  <a href="#" id="issue37"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con37"
-                    ><script>
-                      display_percent(
-                        sorted_issues[37][1],
-                        sorted_issues[37][2],
-                        37
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con37"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue38"
-                    ><script>
-                      display_issue(38, 0, 38);
-                    </script></a
-                  >
+                  <a href="#" id="issue38"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con38"
-                    ><script>
-                      display_percent(
-                        sorted_issues[38][1],
-                        sorted_issues[38][2],
-                        38
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con38"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue39"
-                    ><script>
-                      display_issue(39, 0, 39);
-                    </script></a
-                  >
+                  <a href="#" id="issue39"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con39"
-                    ><script>
-                      display_percent(
-                        sorted_issues[39][1],
-                        sorted_issues[39][2],
-                        39
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con39"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue40"
-                    ><script>
-                      display_issue(40, 0, 40);
-                    </script></a
-                  >
+                  <a href="#" id="issue40"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con40"
-                    ><script>
-                      display_percent(
-                        sorted_issues[40][1],
-                        sorted_issues[40][2],
-                        40
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con40"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue41"
-                    ><script>
-                      display_issue(41, 0, 41);
-                    </script></a
-                  >
+                  <a href="#" id="issue41"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con41"
-                    ><script>
-                      display_percent(
-                        sorted_issues[41][1],
-                        sorted_issues[41][2],
-                        41
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con41"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue42"
-                    ><script>
-                      display_issue(42, 0, 42);
-                    </script></a
-                  >
+                  <a href="#" id="issue42"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con42"
-                    ><script>
-                      display_percent(
-                        sorted_issues[42][1],
-                        sorted_issues[42][2],
-                        42
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con42"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue43"
-                    ><script>
-                      display_issue(43, 0, 43);
-                    </script></a
-                  >
+                  <a href="#" id="issue43"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con43"
-                    ><script>
-                      display_percent(
-                        sorted_issues[43][1],
-                        sorted_issues[43][2],
-                        43
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con43"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue44"
-                    ><script>
-                      display_issue(44, 0, 44);
-                    </script></a
-                  >
+                  <a href="#" id="issue44"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con44"
-                    ><script>
-                      display_percent(
-                        sorted_issues[44][1],
-                        sorted_issues[44][2],
-                        44
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con44"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue45"
-                    ><script>
-                      display_issue(45, 0, 45);
-                    </script></a
-                  >
+                  <a href="#" id="issue45"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con45"
-                    ><script>
-                      display_percent(
-                        sorted_issues[45][1],
-                        sorted_issues[45][2],
-                        45
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con45"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue46"
-                    ><script>
-                      display_issue(46, 0, 46);
-                    </script></a
-                  >
+                  <a href="#" id="issue46"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con46"
-                    ><script>
-                      display_percent(
-                        sorted_issues[46][1],
-                        sorted_issues[46][2],
-                        46
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con46"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue47"
-                    ><script>
-                      display_issue(47, 0, 47);
-                    </script></a
-                  >
+                  <a href="#" id="issue47"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con47"
-                    ><script>
-                      display_percent(
-                        sorted_issues[47][1],
-                        sorted_issues[47][2],
-                        47
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con47"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue48"
-                    ><script>
-                      display_issue(48, 0, 48);
-                    </script></a
-                  >
+                  <a href="#" id="issue48"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con48"
-                    ><script>
-                      display_percent(
-                        sorted_issues[48][1],
-                        sorted_issues[48][2],
-                        48
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con48"></span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue49"
-                    ><script>
-                      display_issue(49, 0, 49);
-                    </script></a
-                  >
+                  <a href="#" id="issue49"></a>
                 </td>
                 <!-- Vote result -->
                 <td class="align">
-                  <span id="pro_or_con49"
-                    ><script>
-                      display_percent(
-                        sorted_issues[49][1],
-                        sorted_issues[49][2],
-                        49
-                      );
-                    </script></span
-                  >
+                  <span id="pro_or_con49"></span>
                 </td>
               </tr>
             </tbody>
@@ -1241,5 +643,10 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      call_display_issue();
+      call_display_percent();
+    </script>
   </body>
 </html>
