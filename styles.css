@@ -135,6 +135,26 @@ footer {
                                                         |
 ---------------------------------------------------------
 */
+/* Used Debates*/
+.testinglol {
+  list-style-type: none;
+  margin-left: -3%;
+}
+
+.testing2 {
+  border-bottom: 1.5px solid maroon;
+  min-height: 17vh;
+}
+
+.debates-page
+
+/*
+---------------------------------------------------------
+                      Next Section                      |
+                                                        |
+                                                        |
+---------------------------------------------------------
+*/
 
 /* Used in pages: Blogs*/
 .blog_page-trending {

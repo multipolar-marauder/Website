@@ -1,5 +1,7 @@
 // Contains all blogs as objects
 
+const all_blogs = [];
+
 const why_you_need_a_dog = {
   title: "Why You Need A Dog",
   author: "Srivatsan Viswanathan",
@@ -11,6 +13,7 @@ const why_you_need_a_dog = {
   tags: ["Dogs", "Pets", "Cuddles"],
   id: 6,
 };
+all_blogs[0] = why_you_need_a_dog;
 
 const why_you_need_a_cat = {
   title: "Why You Need A Cat",
@@ -23,6 +26,7 @@ const why_you_need_a_cat = {
   tags: ["Cats", "Pets", "Cuddles"],
   id: 5,
 };
+all_blogs[1] = why_you_need_a_cat;
 
 const why_pets_are_good_for_you = {
   title: "Why Pets Are Good For You",
@@ -35,6 +39,7 @@ const why_pets_are_good_for_you = {
   tags: ["Dogs", "Cats", "Pets", "Cuddles"],
   id: 4,
 };
+all_blogs[2] = why_pets_are_good_for_you;
 
 const gaming_is_fun = {
   title: "Gaming Is Fun",
@@ -47,6 +52,7 @@ const gaming_is_fun = {
   tags: ["Games", "Competitive", "Break"],
   id: 3,
 };
+all_blogs[3] = gaming_is_fun;
 
 const how_to_get_away_with_murder = {
   title: "How To Get Away With Murder",
@@ -59,6 +65,7 @@ const how_to_get_away_with_murder = {
   tags: ["Murder", "Crime", "Violence"],
   id: 2,
 };
+all_blogs[4] = how_to_get_away_with_murder;
 
 const are_mobile_games_healthy = {
   title: "Are Mobile Games Healthy?",
@@ -71,15 +78,7 @@ const are_mobile_games_healthy = {
   tags: ["Games", "Mobile", "Violence"],
   id: 1,
 };
-
-var all_blogs = [
-  are_mobile_games_healthy,
-  gaming_is_fun,
-  how_to_get_away_with_murder,
-  why_pets_are_good_for_you,
-  why_you_need_a_cat,
-  why_you_need_a_dog,
-];
+all_blogs[5] = are_mobile_games_healthy;
 
 var trending = [
   why_you_need_a_dog,
@@ -87,6 +86,7 @@ var trending = [
   how_to_get_away_with_murder,
 ];
 
+// Sort Blogs
 all_blogs.sort(function (a, b) {
   return parseInt(b.id) - parseInt(a.id);
 });

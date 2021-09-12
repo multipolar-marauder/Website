@@ -1,6 +1,6 @@
 // Trending Posts
 
-function display_trending_posts() {
+function display_trending_blogs() {
   for (let i = 0; i < 3; i++) {
     document.getElementById("trending-posts-title" + i).innerHTML =
       trending[i].title;
@@ -12,5 +12,14 @@ function display_trending_posts() {
       "&nbsp; &nbsp;" + trending[i].author + "&nbsp; &nbsp;";
     document.getElementById("trending-posts-date" + i).innerHTML =
       "&nbsp; &nbsp;" + trending[i].date;
+  }
+}
+
+function display_trending_index() {
+  for (let i = 0; i < 3; i++) {
+    document.getElementById("index-trending-link" + i).innerHTML =
+      trending[i].title;
+    document.getElementById("index-trending-link" + i).href =
+      "./blog-posts/" + trending[i].link;
   }
 }
