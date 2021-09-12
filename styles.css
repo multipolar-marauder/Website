@@ -565,6 +565,10 @@ footer {
   color: maroon;
 }
 
+#issue_desc {
+  text-align: justify;
+}
+
 /* Used in pages: Index, Big-Issues*/
 #pro {
   background-color: #66cc00;
