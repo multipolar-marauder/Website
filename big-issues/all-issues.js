@@ -155,7 +155,7 @@ const affirmative_consent_laws = {
   pro_percent: 75,
   con_percent: 25,
   link: "affirmative-consent-laws.html",
-  image: "abortion.jpg",
+  image: "affirmative_consent_laws.jpg",
   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, fuga rem dolores debitis sapiente nemo officiis tempore reprehenderit magnam eos, et eum! Qui vero illo esse iure voluptate, consequatur, soluta asperiores veniam exercitationem illum hic. Repellat consectetur magni corrupti voluptas optio illum veniam blanditiis numquam vel delectus! Sit unde assumenda quis fugit cupiditate non incidunt vero ipsa voluptates nemo. Itaque omnis ipsa nemo, minima architecto nam dicta laborum veniam illo blanditiis fugit assumenda illum ex. Eveniet nulla tenetur facere debitis est nobis quia sapiente quam ea. Dolor ex soluta molestias nisi quisquam, molestiae et, facere explicabo iure, vero hic nesciunt!",
 };
 
