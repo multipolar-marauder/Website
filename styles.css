@@ -47,7 +47,8 @@ body {
 }
 
 /* Used in pages: index */
-#index-trending-link {
+#index-trending-link1,
+#index-trending-link2 {
   margin-top: 3%;
 }
 
@@ -73,7 +74,7 @@ body {
 
 /* Used in pages: index */
 #pro-con-pro {
-  background: rgb(102, 204, 0);
+  background: #66cc00;
   text-transform: uppercase;
 }
 
@@ -134,6 +135,26 @@ footer {
                                                         |
 ---------------------------------------------------------
 */
+/* Used Debates*/
+.testinglol {
+  list-style-type: none;
+  margin-left: -3%;
+}
+
+.testing2 {
+  border-bottom: 1.5px solid maroon;
+  min-height: 17vh;
+}
+
+.debates-page
+
+/*
+---------------------------------------------------------
+                      Next Section                      |
+                                                        |
+                                                        |
+---------------------------------------------------------
+*/
 
 /* Used in pages: Blogs*/
 .blog_page-trending {
@@ -150,12 +171,8 @@ footer {
   margin-right: 1.33%;
   flex-basis: 32%;
   margin-bottom: 3%;
-  position: relative;
 }
 
-.trending-post-title {
-  margin-bottom: 4%;
-}
 /* Used in pages: Blogs*/
 .responsive-image-blogs-trending {
   width: 100%;
@@ -167,12 +184,6 @@ footer {
   width: 100%;
   display: block;
   margin-bottom: 1%;
-  padding-bottom: 1%;
-}
-
-.author-date {
-  position: absolute;
-  bottom: 0;
 }
 
 .fa {
@@ -180,7 +191,22 @@ footer {
 }
 
 /* Used in pages: Blogs*/
-#trending-title {
+.trending-title {
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-size: 90%;
+}
+
+.trending-title:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/* Used in pages: Blogs*/
+#trending-posts-title0,
+#trending-posts-title1,
+#trending-posts-title2 {
   text-decoration: none;
   font-family: "Times New Roman", Times, serif;
   color: black;
@@ -227,9 +253,9 @@ footer {
 }
 
 /* Used in pages: Blogs*/
-#recent-posts-title,
-#recent-posts-title2,
-#recent-posts-title3 {
+#recent-posts-title0,
+#recent-posts-title1,
+#recent-posts-title2 {
   text-decoration: none;
   font-family: "Times New Roman", Times, serif;
   color: black;
@@ -248,9 +274,9 @@ footer {
 }
 
 /* Used in pages: Blogs*/
-#recent-posts-p-desc,
-#recent-posts-p-desc2,
-#recent-posts-p-desc3 {
+#recent-posts-p-desc0,
+#recent-posts-p-desc1,
+#recent-posts-p-desc2 {
   margin-right: 2%;
 }
 
@@ -429,38 +455,155 @@ footer {
 }
 
 /* Used in pages: Big-Issues*/
-#issue {
-  border: none;
-  outline: none;
-  background: none;
+#issue,
+#issue0,
+#issue1,
+#issue2,
+#issue3,
+#issue4,
+#issue5,
+#issue6,
+#issue7,
+#issue8,
+#issue9,
+#issue10,
+#issue11,
+#issue12,
+#issue13,
+#issue14,
+#issue15,
+#issue16,
+#issue17,
+#issue18,
+#issue19,
+#issue20,
+#issue21,
+#issue22,
+#issue23,
+#issue24,
+#issue25,
+#issue26,
+#issue27,
+#issue28,
+#issue29,
+#issue30,
+#issue31,
+#issue32,
+#issue33,
+#issue34,
+#issue35,
+#issue36,
+#issue37,
+#issue38,
+#issue39,
+#issue40,
+#issue41,
+#issue42,
+#issue43,
+#issue44,
+#issue45,
+#issue46,
+#issue47,
+#issue48,
+#issue49 {
   text-decoration: none;
   color: black;
 }
 
-#issue:hover {
+#issue:hover,
+#issue0:hover,
+#issue1:hover,
+#issue2:hover,
+#issue3:hover,
+#issue4:hover,
+#issue5:hover,
+#issue6:hover,
+#issue7:hover,
+#issue8:hover,
+#issue9:hover,
+#issue10:hover,
+#issue11:hover,
+#issue12:hover,
+#issue13:hover,
+#issue14:hover,
+#issue15:hover,
+#issue16:hover,
+#issue17:hover,
+#issue18:hover,
+#issue19:hover,
+#issue20:hover,
+#issue21:hover,
+#issue22:hover,
+#issue23:hover,
+#issue24:hover,
+#issue25:hover,
+#issue26:hover,
+#issue27:hover,
+#issue28:hover,
+#issue29:hover,
+#issue30:hover,
+#issue31:hover,
+#issue32:hover,
+#issue33:hover,
+#issue34:hover,
+#issue35:hover,
+#issue36:hover,
+#issue37:hover,
+#issue38:hover,
+#issue39:hover,
+#issue40:hover,
+#issue41:hover,
+#issue42:hover,
+#issue43:hover,
+#issue44:hover,
+#issue45:hover,
+#issue46:hover,
+#issue47:hover,
+#issue48:hover,
+#issue49:hover {
   text-decoration: underline;
+  color: maroon;
 }
 
-/* Used in pages: Big-Issues*/
+#issue_desc {
+  text-align: justify;
+}
+
+/* Used in pages: Index, Big-Issues*/
 #pro {
-  background-color: rgb(102, 204, 0);
-  border-radius: 5px;
-  padding-top: 4px;
-  padding-bottom: 5px;
-  padding-right: 6%;
-  padding-left: 6.1%;
+  background-color: #66cc00;
+  border-radius: 0px;
+  padding-top: 2.5%;
+  padding-bottom: 3.5%;
+  padding-right: 7%;
+  padding-left: 7%;
   text-transform: uppercase;
 }
 
-/* Used in pages: Big-Issues*/
+/* Used in pages: Index,  Big-Issues*/
 #con {
   background-color: orange;
-  border-radius: 5px;
-  padding-top: 3.5px;
-  padding-bottom: 5px;
-  padding-right: 4%;
-  padding-left: 2.25%;
+  border-radius: 0px;
+  padding-top: 2.5%;
+  padding-bottom: 3.5%;
+  padding-right: 6%;
+  padding-left: 6%;
   text-transform: uppercase;
+}
+
+#pro_or_con0,
+#pro_or_con1,
+#pro_or_con2,
+#pro_or_con3,
+#pro_or_con4,
+#pro_or_con5,
+#pro_or_con6,
+#pro_or_con7,
+#pro_or_con8,
+#pro_or_con9,
+#pro_or_con10 {
+  text-transform: uppercase;
+  border-radius: 0px;
 }
 
 /* Used in pages: Big-Issues*/
@@ -476,6 +619,13 @@ tr {
                                                         |
 ---------------------------------------------------------
 */
+
+.stuff {
+  display: inline-block;
+  margin-right: 1%;
+  margin-left: 2%;
+  padding-left: 0%;
+}
 
 /* Used in pages: Articles */
 #body {
@@ -506,12 +656,6 @@ input {
 }
 
 /* Used in pages: Articles */
-.author-date-tags {
-  position: absolute;
-  bottom: 0;
-}
-
-/* Used in pages: Articles */
 .articles {
   vertical-align: top;
   position: relative;
@@ -528,11 +672,17 @@ input {
   width: 100%;
   display: block;
   background-color: lightgray;
-  margin-bottom: 15%;
+  margin-bottom: 1%;
 }
 
 /* Used in pages: Articles */
-#article-title {
+.article-title {
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+
+.article-title:hover {
   text-decoration: none;
   font-family: "Times New Roman", Times, serif;
   color: black;
@@ -715,42 +865,11 @@ h5 {
   .flex-container {
     width: 100%;
   }
-
-  .trending-post-title {
-    padding-bottom: 2%;
-  }
-
-  .author-date-tags {
-    position: absolute;
-    bottom: 0;
-  }
-
-  .article-content {
-    width: 100%;
-    display: block;
-    background-color: lightgray;
-    padding-bottom: 0%;
-  }
-
-  .article-title {
-    margin-bottom: 30%;
-  }
 }
 
 @media screen and (max-width: 971px) {
   .flex-container {
     width: 100%;
-  }
-
-  .article-content {
-    width: 100%;
-    display: block;
-    background-color: lightgray;
-    padding-bottom: 10%;
-  }
-
-  .article-title {
-    margin-bottom: 30%;
   }
 }
 
@@ -758,20 +877,28 @@ h5 {
   .flex-container {
     width: 100%;
   }
+}
 
-  .trending-post-title {
-    padding-bottom: 15%;
+@media screen and (max-width: 769px) {
+  #pro {
+    background-color: #66cc00;
+    border-radius: 0px;
+    padding-top: 2.5%;
+    padding-bottom: 3.5%;
+    padding-right: 7%;
+    padding-left: 7%;
+    text-transform: uppercase;
   }
 
-  .article-content {
-    width: 100%;
-    display: block;
-    background-color: lightgray;
-    padding-bottom: 10%;
-  }
-
-  .article-title {
-    margin-bottom: 30%;
+  /* Used in pages: Index,  Big-Issues*/
+  #con {
+    background-color: orange;
+    border-radius: 0px;
+    padding-top: 2.5%;
+    padding-bottom: 3.5%;
+    padding-right: 4%;
+    padding-left: 8%;
+    text-transform: uppercase;
   }
 }
 
@@ -779,23 +906,30 @@ h5 {
   .flex-container {
     width: 100%;
   }
-
-  .trending-post-title {
-    padding-bottom: 35%;
-  }
-
-  .article-content {
-    width: 100%;
-    display: block;
-    background-color: lightgray;
-    padding-bottom: 45%;
-  }
-
-  .article-title {
-    margin-bottom: 50%;
-  }
 }
 
+@media screen and (max-width: 570px) {
+  #pro {
+    background-color: #66cc00;
+    border-radius: 0px;
+    padding-top: 2.5%;
+    padding-bottom: 3.5%;
+    padding-right: 7%;
+    padding-left: 7%;
+    text-transform: uppercase;
+  }
+
+  /* Used in pages: Index,  Big-Issues*/
+  #con {
+    background-color: orange;
+    border-radius: 0px;
+    padding-top: 2.5%;
+    padding-bottom: 3.5%;
+    padding-right: 6%;
+    padding-left: 6%;
+    text-transform: uppercase;
+  }
+}
 @media screen and (max-width: 475px) {
   .flex-container {
     flex-direction: column;
@@ -808,79 +942,11 @@ h5 {
     flex-basis: 29%;
     margin-bottom: 11%;
   }
-
-  .trending-posts {
-    vertical-align: top;
-    display: inline-block;
-    background-color: lightgray;
-    flex-basis: 32%;
-    margin-bottom: 11%;
-  }
-
-  .trending-content {
-    width: 100%;
-    display: block;
-    margin-bottom: 7%;
-  }
-
-  .trending-post-title {
-    padding-bottom: 0%;
-    margin-bottom: 5%;
-  }
-
-  .article-content {
-    width: 100%;
-    display: block;
-    background-color: lightgray;
-    padding-bottom: 0%;
-  }
-
-  .article-title {
-    margin-bottom: 37%;
-  }
 }
 
 @media screen and (max-width: 450px) {
   .flex-container {
     flex-direction: column;
-  }
-
-  .articles {
-    vertical-align: top;
-    display: inline-block;
-    background-color: lightgray;
-    flex-basis: 29%;
-    margin-bottom: 11%;
-  }
-
-  .trending-posts {
-    vertical-align: top;
-    display: inline-block;
-    background-color: lightgray;
-    flex-basis: 32%;
-    margin-bottom: 11%;
-  }
-
-  .trending-content {
-    width: 100%;
-    display: block;
-    margin-bottom: 7%;
-  }
-
-  .trending-post-title {
-    padding-bottom: 0%;
-    margin-bottom: 5%;
-  }
-
-  .article-content {
-    width: 100%;
-    display: block;
-    background-color: lightgray;
-    padding-bottom: 0%;
-  }
-
-  .article-title {
-    margin-bottom: 33%;
   }
 }
 
@@ -888,36 +954,10 @@ h5 {
   .flex-container {
     flex-direction: column;
   }
-
-  .article-content {
-    width: 100%;
-    display: block;
-    background-color: lightgray;
-    padding-bottom: 0%;
-  }
-
-  .article-title {
-    margin-bottom: 22.5%;
-  }
 }
 
 @media screen and (max-width: 290px) {
   .flex-container {
     width: 100%;
-  }
-
-  .trending-post-title {
-    padding-bottom: 8%;
-  }
-
-  .article-content {
-    width: 100%;
-    display: block;
-    background-color: lightgray;
-    padding-bottom: 1%;
-  }
-
-  .article-title {
-    margin-bottom: 30%;
   }
 }

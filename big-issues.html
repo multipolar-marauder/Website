@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,23 +13,21 @@
       crossorigin="anonymous"
     />
 
+    <!-- Bootstrap JS -->
     <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
+    <script src="./big-issues/big-issues.js"></script>
+    <script src="./big-issues/all-issues.js"></script>
 
     <title>Big Issues</title>
 
@@ -44,8 +44,8 @@
       <button
         class="navbar-toggler"
         type="button"
-        data-toggle="collapse"
-        data-target="#collapsibleNavbar"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavbar"
         id="navbar-toggle"
       >
         <span class="navbar-toggler-icon"></span>
@@ -101,214 +101,258 @@
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="./big-issues/abortion.html" id="issue">Abortion</a>
+                  <a href="" id="issue0"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro"> 83% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con0"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="./big-issues/affirmative-action.html" id="issue"
-                    >Affirmative Action</a
-                  >
+                  <a href="" id="issue1"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="con">&nbsp;61% con</span></td>
+                <td class="align">
+                  <span id="pro_or_con1"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="./big-issues/automation.html" id="issue"
-                    >Automation</a
-                  >
+                  <a href="" id="issue2"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro"> 89% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con2"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="./big-issues/barack-obama.html" id="issue"
-                    >Barack Obama</a
-                  >
+                  <a href="" id="issue3"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="con">&nbsp;60% con</span></td>
+                <td class="align">
+                  <span id="pro_or_con3"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="./big-issues/canada.html" id="issue">Canada</a>
+                  <a href="" id="issue4"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro"> 86% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con4"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Capitalism</a>
+                  <a href="#" id="issue5"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro"> 84% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con5"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="./big-issues/carbon-tax.html" id="issue"
-                    >Carbon Tax</a
-                  >
+                  <a href="./big-issues/carbon-tax.html" id="issue6"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro"> 68% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con6"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="./big-issues/china.html" id="issue">China</a>
+                  <a href="./big-issues/china.html" id="issue7"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="con">&nbsp;85% con</span></td>
+                <td class="align">
+                  <span id="pro_or_con7"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="./big-issues/climate-change-action.html" id="issue"
-                    >Climate Change Action</a
-                  >
+                  <a
+                    href="./big-issues/climate-change-action.html"
+                    id="issue8"
+                  ></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro"> 91% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con8"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="./big-issues/critical-race-theory.html" id="issue"
-                    >Critical Race Theory</a
-                  >
+                  <a
+                    href="./big-issues/critical-race-theory.html"
+                    id="issue9"
+                  ></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="con">&nbsp;65% con</span></td>
+                <td class="align">
+                  <span id="pro_or_con9"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Death Penalty</a>
+                  <a href="#" id="issue10"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="con">&nbsp;60% con</span></td>
+                <td class="align">
+                  <span id="pro_or_con10"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Defund The Police</a>
+                  <a href="#" id="issue11"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="con">&nbsp;79% con</span></td>
+                <td class="align">
+                  <span id="pro_or_con11"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Donald Trump</a>
+                  <a href="#" id="issue12"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="con">&nbsp;76% con</span></td>
+                <td class="align">
+                  <span id="pro_or_con12"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Doug Ford</a>
+                  <a href="#" id="issue13"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="con">&nbsp;65% con</span></td>
+                <td class="align">
+                  <span id="pro_or_con13"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Drone Strikes</a>
+                  <a href="#" id="issue14"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="con">&nbsp;60% con</span></td>
+                <td class="align">
+                  <span id="pro_or_con14"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Drug Legalization</a>
+                  <a href="#" id="issue15"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro"> 68% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con15"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Enthusiastic Consent Laws</a>
+                  <a href="#" id="issue16"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro"> 69% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con16"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Estate Tax</a>
+                  <a href="#" id="issue17"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="con">&nbsp;53% con</span></td>
+                <td class="align">
+                  <span id="pro_or_con17"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">European Union</a>
+                  <a href="#" id="issue18"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro"> 78% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con18"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Euthanasia</a>
+                  <a href="#" id="issue19"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro"> 75% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con19"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Flat Tax</a>
+                  <a href="#" id="issue20"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="con">&nbsp;68% con</span></td>
+                <td class="align">
+                  <span id="pro_or_con20"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">George W Bush</a>
+                  <a href="#" id="issue21"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="con">&nbsp;84% con</span></td>
+                <td class="align">
+                  <span id="pro_or_con21"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Hate Speech Law</a>
+                  <a href="#" id="issue22"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro"> 68% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con22"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Home Schooling</a>
+                  <a href="#" id="issue23"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro">56% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con23"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Indian Act</a>
+                  <a href="#" id="issue24"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="con">&nbsp;71% con</span></td>
+                <td class="align">
+                  <span id="pro_or_con24"></span>
+                </td>
               </tr>
             </tbody>
           </table>
@@ -320,202 +364,252 @@
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Israel Right To Exist</a>
+                  <a href="#" id="issue25"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro"> 65% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con25"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Justin Trudeau</a>
+                  <a href="#" id="issue26"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="con">&nbsp;68% con</span></td>
+                <td class="align">
+                  <span id="pro_or_con26"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Labor Unions</a>
+                  <a href="#" id="issue27"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro"> 72% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con27"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Late Term Abortions</a>
+                  <a href="#" id="issue28"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="con">&nbsp;56% con</span></td>
+                <td class="align">
+                  <span id="pro_or_con28"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">LGBTQ Rights</a>
+                  <a href="#" id="issue29"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro"> 90% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con29"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Military Intervention</a>
+                  <a href="#" id="issue30"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="con">&nbsp;55% con</span></td>
+                <td class="align">
+                  <span id="pro_or_con30"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Military Spending</a>
+                  <a href="#" id="issue31"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro"> 55% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con31"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Minimum Wage</a>
+                  <a href="#" id="issue32"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro">95% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con32"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">NATO</a>
+                  <a href="#" id="issue33"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro"> 83% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con33"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Palestine Right To Exist</a>
+                  <a href="#" id="issue34"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro"> 94% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con34"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Patriotism</a>
+                  <a href="#" id="issue35"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro"> 68% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con35"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Progressive Tax</a>
+                  <a href="#" id="issue36"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro">67% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con36"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Right To Flag Burning</a>
+                  <a href="#" id="issue37"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro"> 81% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con37"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Russia</a>
+                  <a href="#" id="issue38"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="con">&nbsp;82% con</span></td>
+                <td class="align">
+                  <span id="pro_or_con38"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Term Limits</a>
+                  <a href="#" id="issue39"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro">90% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con39"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Trans Sports</a>
+                  <a href="#" id="issue40"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="con">&nbsp;82% con</span></td>
+                <td class="align">
+                  <span id="pro_or_con40"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">United Nations</a>
+                  <a href="#" id="issue41"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro">61% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con41"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">United States</a>
+                  <a href="#" id="issue42"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro"> 67% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con42"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Universal Basic Income</a>
+                  <a href="#" id="issue43"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro"> 65% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con43"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Vaccine Passports</a>
+                  <a href="#" id="issue44"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro">63% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con44"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">War In Afghanistan</a>
+                  <a href="#" id="issue45"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="con">&nbsp;74% con</span></td>
+                <td class="align">
+                  <span id="pro_or_con45"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">War In Iraq</a>
+                  <a href="#" id="issue46"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="con">&nbsp;79% con</span></td>
+                <td class="align">
+                  <span id="pro_or_con46"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">War On Terror</a>
+                  <a href="#" id="issue47"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="con">&nbsp;74% con</span></td>
+                <td class="align">
+                  <span id="pro_or_con47"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">Welfare</a>
+                  <a href="#" id="issue48"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro">72% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con48"></span>
+                </td>
               </tr>
               <tr>
                 <td>
                   <!-- Link for the topic -->
-                  <a href="#" id="issue">World Trade Organization</a>
+                  <a href="#" id="issue49"></a>
                 </td>
                 <!-- Vote result -->
-                <td class="align"><span id="pro"> 59% pro</span></td>
+                <td class="align">
+                  <span id="pro_or_con49"></span>
+                </td>
               </tr>
             </tbody>
           </table>
@@ -549,5 +643,10 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      call_display_issue();
+      call_display_percent();
+    </script>
   </body>
 </html>
