@@ -241,7 +241,7 @@ const israel_right_to_exist = {
 };
 
 const justin_trudaeu = {
-  name: "Justin Trudaeu",
+  name: "Justin Trudeau",
   pro_percent: 36,
   con_percent: 64,
   link: "justin-trudaeu.html",
