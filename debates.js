@@ -1,66 +1,41 @@
 // Display The Debates
 
 for (let i = 0; i < all_debates.length; i++) {
-  var debates = document.createElement("div");
-  debates.setAttribute("class", "debates");
-  debates.setAttribute("id", "debates" + i);
-  document.getElementById("popular").appendChild(debates);
+  // For Popular Debates
+  var list_popular = document.createElement("li");
+  list_popular.setAttribute("class", "popular-list margin-top");
+  list_popular.setAttribute("id", "popular-list" + i);
+  document.getElementById("debates-list-popular").appendChild(list_popular);
 
-  var debates = document.createElement("div");
-  debates.setAttribute("class", "debates");
-  debates.setAttribute("id", "debates" + i);
-  document.getElementById("popular").appendChild(debates);
+  var debate_title_popular = document.createElement("a");
+  debate_title_popular.setAttribute("href", "./debates/" + all_debates[i].link);
+  debate_title_popular.setAttribute("class", "debates-title-popular");
+  debate_title_popular.setAttribute("id", "debates-title-popular" + i);
+  debate_title_popular.innerHTML = all_debates[i].title;
+  document.getElementById("popular-list" + i).appendChild(debate_title_popular);
 
-  var img = document.createElement("img");
-  img.setAttribute("class", "responsive-articles");
-  img.setAttribute("alt", "");
-  img.setAttribute("src", "./Images/" + all_blogs[i].img);
-  document.getElementById("articles" + i).appendChild(img);
+  var desc_popular = document.createElement("p");
+  desc_popular.setAttribute("class", "popular-desc margin-top");
+  desc_popular.setAttribute("id", "popular-desc" + i);
+  desc_popular.innerHTML = all_debates[i].desc;
+  document.getElementById("popular-list" + i).appendChild(desc_popular);
 
-  var article_content = document.createElement("div");
-  article_content.setAttribute("class", "article-content");
-  article_content.setAttribute("id", "article-content" + i);
-  document.getElementById("articles" + i).appendChild(article_content);
+  // For Recent Debates
+  var list_recent = document.createElement("li");
+  list_recent.setAttribute("class", "recent-list margin-top");
+  list_recent.setAttribute("id", "recent-list" + i);
+  document.getElementById("debates-list-recent").appendChild(list_recent);
 
-  var heading = document.createElement("h5");
-  heading.setAttribute("class", "article-title");
-  heading.setAttribute("id", "article-heading" + i);
-  document.getElementById("article-content" + i).appendChild(heading);
+  var debate_title_recent = document.createElement("a");
+  debate_title_recent.setAttribute("href", "./debates/" + all_debates[i].link);
+  debate_title_recent.setAttribute("class", "debates-title-recent");
+  debate_title_recent.setAttribute("id", "debates-title-recent" + i);
+  debate_title_recent.innerHTML = all_debates[i].title;
+  document.getElementById("recent-list" + i).appendChild(debate_title_recent);
 
-  var article_title = document.createElement("a");
-  article_title.setAttribute("href", "./blog-posts/" + all_blogs[i].link);
-  article_title.setAttribute("class", "article-title");
-  article_title.setAttribute("id", "article-title" + i);
-  article_title.innerHTML = all_blogs[i].title;
-  document.getElementById("article-heading" + i).appendChild(article_title);
-
-  var author_date_tags = document.createElement("div");
-  author_date_tags.setAttribute("class", "author-date-tags");
-  author_date_tags.setAttribute("id", "author-date-tags" + i);
-  document.getElementById("article-content" + i).appendChild(author_date_tags);
-
-  var author = document.createElement("i");
-  author.setAttribute("class", "fa fa-user-circle");
-  author.setAttribute("id", "fa fa-user-circle" + i);
-  author.innerHTML = "&nbsp; &nbsp;" + all_blogs[i].author + "&nbsp; &nbsp;";
-  document.getElementById("author-date-tags" + i).appendChild(author);
-
-  var date = document.createElement("i");
-  date.setAttribute("class", "fa fa-calendar");
-  date.setAttribute("id", "fa fa-calendar" + i);
-  date.innerHTML = "&nbsp; &nbsp;" + all_blogs[i].date;
-  document.getElementById("author-date-tags" + i).appendChild(date);
-
-  var tags = document.createElement("div");
-  tags.setAttribute("class", "tags");
-  tags.setAttribute("id", "tags" + i);
-  document.getElementById("author-date-tags" + i).appendChild(tags);
-
-  for (let j = 0; j < all_blogs[i].tags.length; j++) {
-    var each_tag = document.createElement("span");
-    each_tag.setAttribute("class", "border-tags");
-    each_tag.setAttribute("id", "border-tags");
-    each_tag.innerHTML = all_blogs[i].tags[j];
-    document.getElementById("tags" + i).appendChild(each_tag);
-  }
+  var desc_recent = document.createElement("p");
+  desc_recent.setAttribute("class", "recent-desc margin-top");
+  desc_recent.setAttribute("id", "recent-desc" + i);
+  desc_recent.innerHTML = all_debates[i].desc;
+  document.getElementById("recent-list" + i).appendChild(desc_recent);
 }

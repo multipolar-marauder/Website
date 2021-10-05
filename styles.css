@@ -135,13 +135,21 @@ footer {
                                                         |
 ---------------------------------------------------------
 */
+
 /* Used Debates*/
-.testinglol {
+.debates-list-popular,
+.debates-list-recent {
   list-style-type: none;
   margin-left: -3%;
 }
 
 .testing2 {
+  border-bottom: 1.5px solid maroon;
+  min-height: 17vh;
+}
+
+.popular-list,
+.recent-list {
   border-bottom: 1.5px solid maroon;
   min-height: 17vh;
 }
@@ -161,6 +169,11 @@ footer {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 1%;
+}
+
+.blog-text {
+  text-align: justify;
+  text-indent: 5%;
 }
 
 /* Used in pages: Blogs*/
@@ -184,6 +197,10 @@ footer {
   width: 100%;
   display: block;
   margin-bottom: 1%;
+}
+
+.sources {
+  color: black;
 }
 
 .fa {
