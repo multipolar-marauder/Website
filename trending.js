@@ -23,3 +23,8 @@ function display_trending_index() {
       "./blog-posts/" + trending[i].link;
   }
 }
+
+mixpanel.track("Sign Up", {
+  source: "Pat's affiliate site",
+  "Opted out of email": true,
+});

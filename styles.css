@@ -154,8 +154,6 @@ footer {
   min-height: 17vh;
 }
 
-.debates-page
-
 /*
 ---------------------------------------------------------
                       Next Section                      |
@@ -163,18 +161,6 @@ footer {
                                                         |
 ---------------------------------------------------------
 */
-
-/* Used in pages: Blogs*/
-.blog_page-trending {
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 1%;
-}
-
-.blog-text {
-  text-align: justify;
-  text-indent: 5%;
-}
 
 /* Used in pages: Blogs*/
 .trending-posts {
@@ -210,7 +196,6 @@ footer {
 /* Used in pages: Blogs*/
 .trending-title {
   text-decoration: none;
-  font-family: "Times New Roman", Times, serif;
   color: black;
   font-size: 90%;
 }
@@ -225,7 +210,6 @@ footer {
 #trending-posts-title1,
 #trending-posts-title2 {
   text-decoration: none;
-  font-family: "Times New Roman", Times, serif;
   color: black;
   font-size: 90%;
 }
@@ -274,7 +258,6 @@ footer {
 #recent-posts-title1,
 #recent-posts-title2 {
   text-decoration: none;
-  font-family: "Times New Roman", Times, serif;
   color: black;
 }
 
@@ -695,13 +678,11 @@ input {
 /* Used in pages: Articles */
 .article-title {
   text-decoration: none;
-  font-family: "Times New Roman", Times, serif;
   color: black;
 }
 
 .article-title:hover {
   text-decoration: none;
-  font-family: "Times New Roman", Times, serif;
   color: black;
 }
 

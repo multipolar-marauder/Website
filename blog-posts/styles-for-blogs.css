@@ -3,3 +3,8 @@
   display: block;
   margin-bottom: 7%;
 }
+
+.blog-text {
+  text-align: justify;
+  text-indent: 5%;
+}
