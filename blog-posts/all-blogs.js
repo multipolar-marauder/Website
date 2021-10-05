@@ -23,7 +23,7 @@ const the_ppc_canadas_growing_far_right_wing_populist_party = {
   img_big: "the_ppc_canadas_growing_far_right_wing_populist_party.jpg",
   link: "the-ppc-canadas-growing-far-right-wing-populist-party.html",
   desc: "Liberal. Conservative. Green. New Democrat. Bloc Québécois. In recent history, these were the 5 main federal political parties in Canada. Enter the People’s Party of Canada (PPC). This new party was formed by Maxime Bernier in September 2018, a former Conservative member of parliament (MP)...",
-  tags: ["PPC", "Canada", "Right-Wing"],
+  tags: ["PPC", "Canada", "COVID-19"],
   id: 2,
 };
 all_blogs[1] = the_ppc_canadas_growing_far_right_wing_populist_party;
