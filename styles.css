@@ -17,17 +17,15 @@ body {
 }
 
 .responsive-image-navbar {
+  height: 60px;
   border-radius: 50%;
+  margin-left: 8px;
 }
 /* Used in pages: index */
 .responsive-image-index-title {
   width: 16%;
   height: auto;
   border-radius: 50%;
-}
-
-.navbar {
-  height: 12vh;
 }
 
 /* Used in pages: index */
