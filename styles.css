@@ -16,10 +16,18 @@ body {
   margin-top: 1%;
 }
 
+.responsive-image-navbar {
+  border-radius: 50%;
+}
 /* Used in pages: index */
 .responsive-image-index-title {
-  width: 15%;
+  width: 16%;
   height: auto;
+  border-radius: 50%;
+}
+
+.navbar {
+  height: 12vh;
 }
 
 /* Used in pages: index */
@@ -176,6 +184,12 @@ footer {
 .responsive-image-blogs-trending {
   width: 100%;
   height: auto;
+}
+
+.responsive-image-blogs-article {
+  width: 10%;
+  height: auto;
+  border-radius: 50%;
 }
 
 /* Used in pages: Blogs*/
