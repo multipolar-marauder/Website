@@ -77,3 +77,5 @@ const canadas_self_defense_laws_are_an_absolute_joke = {
   id: 4,
 };
 all_debates[3] = canadas_self_defense_laws_are_an_absolute_joke;
+
+var test;
