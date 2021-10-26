@@ -2,6 +2,19 @@
 
 const all_blogs = [];
 
+const an_analysis_of_the_effectiveness_of_floridas_covid19_policy = {
+  title: "An Analysis Of The Effectiveness of Florida's COVID-19 Policy",
+  author: "Amaresh Bhaskaran",
+  date: "October 26 2021",
+  img: "an_analysis_of_the_effectiveness_of_floridas_covid19_policy.jpg",
+  img_big: "an_analysis_of_the_effectiveness_of_floridas_covid19_policy.jpg",
+  link: "an-analysis-of-the-effectiveness-of-floridas-covid19-policy.html",
+  desc: "Many publications and politicians have levied their criticisms against Governor Ron DeSantis and his policy decisions with regards to the COVID-19 pandemic. Many articles have depicted Florida as being the epicenter of an outbreak. Recent criticisms have been levied against DeSantis’ ban on mask and vaccine mandates....",
+  tags: ["Florida", "COVID-19", "WHO"],
+  id: 4,
+};
+all_blogs[3] = an_analysis_of_the_effectiveness_of_floridas_covid19_policy;
+
 const the_current_state_of_thai_politics = {
   title: "The Current State Of Thai Politics",
   author: "Krissie Cruz",

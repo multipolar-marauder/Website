@@ -292,6 +292,12 @@ footer {
   margin-right: 2%;
 }
 
+/* Used in pages: Blogs*/
+.superscript {
+  text-decoration: none;
+  color: maroon;
+}
+
 /*
 ---------------------------------------------------------
                       Next Section                      |
