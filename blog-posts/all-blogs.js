@@ -3,7 +3,7 @@
 const all_blogs = [];
 
 const an_analysis_of_the_effectiveness_of_floridas_covid19_policy = {
-  title: "An Analysis Of The Effectiveness of Florida's COVID-19 Policy",
+  title: "An Analysis of the Effectiveness of Florida's COVID-19 Policy",
   author: "Amaresh Bhaskaran",
   date: "October 26 2021",
   img: "an_analysis_of_the_effectiveness_of_floridas_covid19_policy.jpg",
