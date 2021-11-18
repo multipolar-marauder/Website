@@ -2,6 +2,19 @@
 
 const all_blogs = [];
 
+const texan_abortion_ban = {
+  title: "Texan Abortion Ban",
+  author: "Krissie Cruz",
+  date: "November 17, 2021",
+  img: "texan_abortion.jpg",
+  img_big: "texan_abortion.jpg",
+  link: "texan-abortion-ban.html",
+  desc: "The recent texas abortion ban has been one of the strictest American laws against abortion in what seems like decades. This new abortion law had been passed in May and had recently taken effect on September 1st. This law states that if a woman is six weeks pregnant there is no way for them to have an abortion...",
+  tags: ["Abortion", "Texas", "Lawsuits"],
+  id: 5,
+};
+all_blogs[4] = texan_abortion_ban;
+
 const an_analysis_of_the_effectiveness_of_floridas_covid19_policy = {
   title: "An Analysis of the Effectiveness of Florida's COVID-19 Policy",
   author: "Amaresh Bhaskaran",
@@ -57,7 +70,7 @@ all_blogs[0] = present_day_climate_policy_initiatives_in_canada;
 var trending = [
   present_day_climate_policy_initiatives_in_canada,
   the_ppc_canadas_growing_far_right_wing_populist_party,
-  the_current_state_of_thai_politics,
+  an_analysis_of_the_effectiveness_of_floridas_covid19_policy,
 ];
 
 // Sort Blogs
