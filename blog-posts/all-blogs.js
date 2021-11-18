@@ -3,7 +3,7 @@
 const all_blogs = [];
 
 const texan_abortion_ban = {
-  title: "Texan Abortion Ban",
+  title: "The Texan Abortion Ban",
   author: "Krissie Cruz",
   date: "November 17 2021",
   img: "texan_abortion.jpg",
