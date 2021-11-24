@@ -2,6 +2,19 @@
 
 const all_blogs = [];
 
+const nargorno_karabakh_home_away_from_home = {
+  title: "Nagorno-Karabakh: Home Away From Home",
+  author: "Jordan Salehi",
+  date: "November 23 2021",
+  img: "nagorn_karabakh.jpg",
+  img_big: "nagorn_karabakh.jpg",
+  link: "nagorno-karabakh-home-away-from-home.html",
+  desc: "Since its predecessor's dissolution–Soviet Union–Russia’s role as big brother within the East has remained somewhat controversial, yet strategic. Post-Soviet collapse, the region between Armenia’s Eastern border, and correspondingly, Azerbaijan’s Western border, has become a heated playground...",
+  tags: ["Nagorno-Karabakh", "Canada", "Russia"],
+  id: 6,
+};
+all_blogs[5] = nargorno_karabakh_home_away_from_home;
+
 const texan_abortion_ban = {
   title: "The Texan Abortion Ban",
   author: "Krissie Cruz",
@@ -68,9 +81,9 @@ const present_day_climate_policy_initiatives_in_canada = {
 all_blogs[0] = present_day_climate_policy_initiatives_in_canada;
 
 var trending = [
-  present_day_climate_policy_initiatives_in_canada,
-  the_ppc_canadas_growing_far_right_wing_populist_party,
+  texan_abortion_ban,
   an_analysis_of_the_effectiveness_of_floridas_covid19_policy,
+  the_ppc_canadas_growing_far_right_wing_populist_party,
 ];
 
 // Sort Blogs
