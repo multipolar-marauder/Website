@@ -2,6 +2,19 @@
 
 const all_blogs = [];
 
+const social_media_monopolies_a_threat_to_discourse = {
+  title: "Social Media Monopolies; a Threat to Discourse?",
+  author: "Amaresh Bhaskaran",
+  date: "November 28 2021",
+  img: "social_media_monopolies_a_threat_to_discourse.jpg",
+  img_big: "social_media_monopolies_a_threat_to_discourse.jpg",
+  link: "social-media-monopolies-a-threat-to-discourse.html",
+  desc: "Social media has rapidly risen as the main avenue of discourse, statistics show that there are nearly 3.78 billion social media users1, Facebook being the biggest of platforms with 1.93 billion daily active users2. Social media platforms such as Instagram, Facebook, WhatsApp, Messenger, and YouTube are...",
+  tags: ["Monopolies", "Social Media"],
+  id: 7,
+};
+all_blogs[6] = social_media_monopolies_a_threat_to_discourse;
+
 const nargorno_karabakh_home_away_from_home = {
   title: "Nagorno-Karabakh: Home Away From Home",
   author: "Jordan Salehi",
