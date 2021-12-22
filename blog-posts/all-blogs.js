@@ -2,6 +2,20 @@
 
 const all_blogs = [];
 
+const the_housing_pit = {
+  title:
+    "Housing Pit: The Inevitable Short-Comings of a Demand-Side Housing Strategy",
+  author: "Dui Davidsson",
+  date: "December 22 2021",
+  img: "the_housing_pit.JPG",
+  img_big: "the_housing_pit.JPG",
+  link: "the-housing-pit.html",
+  desc: "Over the course of the COVID-19 pandemic, Canadians have suffered greatly from the increasing unaffordability within today’s economy. Though consumer prices for goods have seen blistering rise across the table...",
+  tags: ["Housing", "Ontario", "Canada"],
+  id: 8,
+};
+all_blogs[7] = the_housing_pit;
+
 const social_media_monopolies_a_threat_to_discourse = {
   title: "Social Media Monopolies; a Threat to Discourse?",
   author: "Amaresh Bhaskaran",
@@ -94,9 +108,9 @@ const present_day_climate_policy_initiatives_in_canada = {
 all_blogs[0] = present_day_climate_policy_initiatives_in_canada;
 
 var trending = [
+  social_media_monopolies_a_threat_to_discourse,
   texan_abortion_ban,
-  an_analysis_of_the_effectiveness_of_floridas_covid19_policy,
-  the_ppc_canadas_growing_far_right_wing_populist_party,
+  nargorno_karabakh_home_away_from_home,
 ];
 
 // Sort Blogs

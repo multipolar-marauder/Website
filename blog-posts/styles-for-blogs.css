@@ -8,3 +8,16 @@
   text-align: justify;
   text-indent: 5%;
 }
+
+.doublespace {
+  line-height: 2.5;
+}
+
+.image-text {
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: justify;
+  color: maroon;
+  font-style: italic;
+  font-size: 88%;
+}
