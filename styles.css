@@ -34,6 +34,10 @@ body {
   height: auto;
 }
 
+.responsive-image-default {
+  width: 100%;
+  height: auto;
+}
 /* Used in pages: index */
 .index-blog-border {
   border-bottom: solid maroon;
