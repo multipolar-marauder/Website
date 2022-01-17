@@ -21,3 +21,12 @@
   font-style: italic;
   font-size: 88%;
 }
+
+.image-text-small {
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: justify;
+  color: maroon;
+  font-style: italic;
+  font-size: 88%;
+}

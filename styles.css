@@ -662,7 +662,7 @@ tr {
 }
 
 /* Used in pages: Articles */
-input {
+.blog-search {
   display: block;
   margin: 0;
   border-top: none;

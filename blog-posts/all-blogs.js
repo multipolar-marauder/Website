@@ -2,6 +2,19 @@
 
 const all_blogs = [];
 
+const annamie_paul_and_chaos_in_the_green_party = {
+  title: "Annamie Paul and The Decline of The Green Party",
+  author: "Rvaha Afaan",
+  date: "January 16 2022",
+  img: "annamie_paul_and_the_decline_of_the_green_party.jpg",
+  img_big: "annamie_paul_and_the_decline_of_the_green_party.jpg",
+  link: "annamie-paul-and-the-decline-of-the-green-party.html",
+  desc: "This controversy with Noah Zatzman and the aforementioned MPs clearly signalled the divide within the Green Party between Annamie Paul, the Green Party Federal Committee, and other Green MPs. With the federal committee going so far as to set a vote of no confidence over Paul's...",
+  tags: ["Housing", "Ontario", "Canada"],
+  id: 9,
+};
+all_blogs[8] = annamie_paul_and_chaos_in_the_green_party;
+
 const the_housing_pit = {
   title:
     "Housing Pit: The Inevitable Short-Comings of a Demand-Side Housing Strategy",
@@ -108,9 +121,9 @@ const present_day_climate_policy_initiatives_in_canada = {
 all_blogs[0] = present_day_climate_policy_initiatives_in_canada;
 
 var trending = [
-  social_media_monopolies_a_threat_to_discourse,
-  texan_abortion_ban,
+  the_housing_pit,
   nargorno_karabakh_home_away_from_home,
+  social_media_monopolies_a_threat_to_discourse,
 ];
 
 // Sort Blogs
