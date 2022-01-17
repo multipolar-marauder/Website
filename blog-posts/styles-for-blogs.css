@@ -30,3 +30,8 @@
   font-style: italic;
   font-size: 88%;
 }
+
+.responsive-image {
+  width: 70%;
+  height: auto;
+}
