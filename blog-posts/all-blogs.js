@@ -2,6 +2,19 @@
 
 const all_blogs = [];
 
+const nato_the_duality_of_international_governance = {
+  title: "NATO: The Duality of International Governance",
+  author: "Dui Davidsson, Jordan Salehi",
+  date: "February 7 2022",
+  img: "nato_the_duality_of_international_governance.jpg",
+  img_big: "nato_the_duality_of_international_governance.jpg",
+  link: "nato-the-duality-of-international-governance.html",
+  desc: "With the resurfacing of talks regarding an imminent invasion of Ukrainian territory by the Putin leadership in Moscow, NATO as a topic of global governance has also become a prominent focus throughout discussions...",
+  tags: ["NATO", "Cold-War",],
+  id: 10,
+}
+all_blogs[9] = nato_the_duality_of_international_governance;
+
 const annamie_paul_and_chaos_in_the_green_party = {
   title: "Annamie Paul and The Decline of The Green Party",
   author: "Rvaha Afaan",

@@ -302,6 +302,15 @@ footer {
   color: red;
 }
 
+.author1 {
+  font-weight: bold;
+}
+
+.author2 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 /*
 ---------------------------------------------------------
                       Next Section                      |
@@ -867,9 +876,9 @@ h5 {
 }
 
 .blog-recent-content {
-  width: 100%;
+  width: 100%;  
   display: block;
-  padding-bottom: 1%;
+  padding-bottom: 0%;
   margin-bottom: 7%;
 }
 /*
