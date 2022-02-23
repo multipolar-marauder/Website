@@ -2,6 +2,19 @@
 
 const all_blogs = [];
 
+const antitrust_and_microsofts_aquisition_of_activation_blizzard = {
+  title: "Antitrust and Microsoft's Acquisition of Activision Blizzard",
+  author: "Rvaha Afaan",
+  date: "February 22 2022",
+  img: "antitrust_and_microsofts_aquisition_of_activation_blizzard.jpg",
+  img_big: "antitrust_and_microsofts_aquisition_of_activation_blizzard.jpg",
+  link: "antitrust-and-microsofts-aquisition-of-activation-blizzard.html",
+  desc: "On January 18th, 2022, Microsoft Corp. announced that it will be buying the popular game studio Activision Blizzard for $68.7 billion. Some of the franchises in the Activision roster include Call of Duty, Diablo, Candy Crush, and Overwatch. Apart from these marquee properties, Activision Blizzard has...",
+  tags: ["Microsoft", "Blizzard"],
+  id: 11,
+}
+all_blogs[10] = antitrust_and_microsofts_aquisition_of_activation_blizzard;
+
 const nato_the_duality_of_international_governance = {
   title: "NATO: The Duality of International Governance",
   author: "Dui Davidsson, Jordan Salehi",
@@ -134,9 +147,9 @@ const present_day_climate_policy_initiatives_in_canada = {
 all_blogs[0] = present_day_climate_policy_initiatives_in_canada;
 
 var trending = [
+  nato_the_duality_of_international_governance,
   the_housing_pit,
   nargorno_karabakh_home_away_from_home,
-  social_media_monopolies_a_threat_to_discourse,
 ];
 
 // Sort Blogs
