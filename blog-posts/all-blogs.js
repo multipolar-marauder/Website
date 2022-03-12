@@ -2,6 +2,19 @@
 
 const all_blogs = [];
 
+const build_back_better = {
+  title: "Build Back Better",
+  author: "Nicholas Qua",
+  date: "March 12 2022",
+  img: "build_back_better.jpg",
+  img_big: "build_back_better.jpg",
+  link: "build-back-better.html",
+  desc: "Two years ago, many would be unfamiliar with the name Klaus Schwab. Still, in 2022, this name does not carry any weight for most people. Klaus Schwab was born in 1938 in Germany. A highly educated man,  he has a doctorate degree in economics and received many other honorary degrees...",
+  tags: ["WEF", "Great Reset"],
+  id: 12,
+}
+all_blogs[11] = build_back_better;
+
 const antitrust_and_microsofts_aquisition_of_activation_blizzard = {
   title: "Antitrust and Microsoft's Acquisition of Activision Blizzard",
   author: "Rvaha Afaan",
@@ -147,9 +160,9 @@ const present_day_climate_policy_initiatives_in_canada = {
 all_blogs[0] = present_day_climate_policy_initiatives_in_canada;
 
 var trending = [
-  nato_the_duality_of_international_governance,
+  antitrust_and_microsofts_aquisition_of_activation_blizzard,
   the_housing_pit,
-  nargorno_karabakh_home_away_from_home,
+  nato_the_duality_of_international_governance,
 ];
 
 // Sort Blogs
