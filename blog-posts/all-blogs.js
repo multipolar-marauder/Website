@@ -173,8 +173,8 @@ const present_day_climate_policy_initiatives_in_canada = {
 all_blogs[0] = present_day_climate_policy_initiatives_in_canada;
 
 var trending = [
+  build_back_better,
   antitrust_and_microsofts_aquisition_of_activation_blizzard,
-  the_housing_pit,
   nato_the_duality_of_international_governance,
 ];
 
