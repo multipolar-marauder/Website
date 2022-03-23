@@ -2,6 +2,19 @@
 
 const all_blogs = [];
 
+const dangers_of_the_common_enemy_why_we_shouldnt_be_so_apt_to_demonize_russia_and_its_people = {
+  title: "Dangers of the common enemy: Why we shouldn't be so apt to demonize Russia and its people (Opinion)",
+  author: "Dui Davidsson",
+  date: "March 23 2022",
+  img: "build_back_better.jpg",
+  img_big: "build_back_better.jpg",
+  link: "dangers-of-the-common-enemy-why-we-shouldn't-be-so-apt-to-demonize-russia-and-its-people.html",
+  desc: "On the 24th of February, Russian President Vladimir Putin declared that a “military operation” would be conducted in the Ukraine, thus sparking a full invasion by the Russian Military into the sovereign state. Fourteen days into the conflict...",
+  tags: ["Russia", "Ukraine"],
+  id: 13,
+}
+all_blogs[12] = dangers_of_the_common_enemy_why_we_shouldnt_be_so_apt_to_demonize_russia_and_its_people;
+
 const build_back_better = {
   title: "Build Back Better",
   author: "Nicholas Qua",
