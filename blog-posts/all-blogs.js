@@ -2,6 +2,20 @@
 
 const all_blogs = [];
 
+const dont_say_gay_bill = {
+    title: "Don't Say Gay Bill",
+    author: "Krissie Cruz",
+    date: "May 18 2022",
+    img: "dont_say_gay_bill.jpg",
+    img_big: "dont_say_gay_bill.jpg",
+    link: "dont-say-gay-bill.html",
+    desc: "Florida Governor Ron DeSantis just made the lives of LGBTQ+ kids much harder with his push for the “Parental Rights in Education” bill. If you didn’t know, the Florida Senate Education Committee just advanced legislation that critics have...",
+    tags: ["Florida", "Bill", "LGBTQ+"],
+    id: 14,
+}
+
+all_blogs[13] = dont_say_gay_bill;
+
 const dangers_of_the_common_enemy_why_we_shouldnt_be_so_apt_to_demonize_russia_and_its_people = {
   title: "Dangers of the common enemy: Why we shouldn't be so apt to demonize Russia and its people (Opinion)",
   author: "Dui Davidsson",
