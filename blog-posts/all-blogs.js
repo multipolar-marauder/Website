@@ -2,6 +2,21 @@
 
 const all_blogs = [];
 
+const the_world_health_organization_and_global_health = {
+    title: "The World Health Organization and Global Health",
+    author: "Nicholas Qua",
+    date: "June 23 2022",
+    img: "the_world_health_organization_and_global_health.jpg",
+    img_big: "the_world_health_organization_and_global_health.jpg",
+    link: "the-world-health-organization-and-global-health.html",
+    desc: "The first official reported case of COVID-19 from China was in December 2019 in Wuhan. According to MedicineNet (2021), a group of British researchers studying the origins of COVID-19 concluded that the first case in Wuhan arose in October or November 2019. In the early months of COVID-19 in China, it is not surprising that the...",
+    tags: ["WHO", "Pandemic", "China"],
+    id: 15,
+}
+
+all_blogs[14] = the_world_health_organization_and_global_health;
+
+
 const dont_say_gay_bill = {
     title: "Don't Say Gay Bill",
     author: "Krissie Cruz",
