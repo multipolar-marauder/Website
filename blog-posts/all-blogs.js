@@ -2,6 +2,20 @@
 
 const all_blogs = [];
 
+const how_to_debate_abortion_rights_as_a_pro_choice_supporter = {
+    title: "How to Debate Abortion Rights as a Pro-Choice Supporter",
+    author: "Karnan",
+    date: "June 28 2022",
+    img: "how_to_debate_abortion_rights_as_a_pro_choice_supporter.png",
+    img_big: "how_to_debate_abortion_rights_as_a_pro_choice_supporter.png",
+    link: "how-to-debate-abortion-rights-as-a-pro-choice-supporter.html",
+    desc: "On June 22, 2022, The U.S Supreme Court voted 5-4 to repeal the landmark decision Roe V. Wade. Roe V. Wade had guaranteed the right to abortion until viability and was once considered a settled issue in the discourse of American politics. With the leanings of the Supreme Court shifting towards social conservatives...",
+    tags: ["Abortion", "Men", "Women"],
+    id: 16,
+}
+
+all_blogs[15] = how_to_debate_abortion_rights_as_a_pro_choice_supporter;
+
 const the_world_health_organization_and_global_health = {
     title: "The World Health Organization and Global Health",
     author: "Nicholas Qua",

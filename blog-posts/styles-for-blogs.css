@@ -1,37 +1,47 @@
 .trending-content {
-  width: 100%;
-  display: block;
-  margin-bottom: 7%;
+    width: 100%;
+    display: block;
+    margin-bottom: 7%;
 }
 
 .blog-text {
-  text-align: justify;
-  text-indent: 5%;
+    text-align: justify;
+    text-indent: 5%;
+}
+
+.blog-text2 {
+    text-align: justify;
+    text-indent: 10%;
 }
 
 .doublespace {
-  line-height: 2.5;
+    line-height: 2.5;
 }
 
 .image-text {
-  margin-left: 5%;
-  margin-right: 5%;
-  text-align: justify;
-  color: maroon;
-  font-style: italic;
-  font-size: 88%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    color: maroon;
+    font-style: italic;
+    font-size: 88%;
 }
 
 .image-text-small {
-  margin-left: 15%;
-  margin-right: 15%;
-  text-align: justify;
-  color: maroon;
-  font-style: italic;
-  font-size: 88%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+    color: maroon;
+    font-style: italic;
+    font-size: 88%;
 }
 
 .responsive-image {
-  width: 70%;
-  height: auto;
+    width: 70%;
+    height: auto;
+}
+
+.responsive-image2 {
+    width: 30%;
+    height: auto;
 }
