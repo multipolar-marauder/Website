@@ -2,6 +2,20 @@
 
 const all_blogs = [];
 
+const bugs_bugs_bugs_the_future_of_food = {
+    title: "Bugs, Bugs, Bugs: The Future of Food",
+    author: "Nicholas Qua",
+    date: "October 13 2022",
+    img: "bugs_bugs_bugs_the_future_of_food.png",
+    img_big: "bugs_bugs_bugs_the_future_of_food.png",
+    link: "bugs-bugs-bugs-the-future-of-food.html",
+    desc: "Countries worldwide have been plagued with high inflation for most of 2022. Hand-in-hand with global inflation is the rise in food prices and potential food shortages. . Warnings and fears of food shortages and the global rise in food prices can be traced back to November 2021. As of September 2022, warnings and fears are becoming a reality...  ",
+    tags: ["Food", "Bugs", "Future"],
+    id: 17,
+}
+
+all_blogs[16] = bugs_bugs_bugs_the_future_of_food;
+
 const how_to_debate_abortion_rights_as_a_pro_choice_supporter = {
     title: "How to Debate Abortion Rights as a Pro-Choice Supporter",
     author: "Karnan",
@@ -216,9 +230,9 @@ const present_day_climate_policy_initiatives_in_canada = {
 all_blogs[0] = present_day_climate_policy_initiatives_in_canada;
 
 var trending = [
+  how_to_debate_abortion_rights_as_a_pro_choice_supporter,
   build_back_better,
-  antitrust_and_microsofts_aquisition_of_activation_blizzard,
-  nato_the_duality_of_international_governance,
+  the_world_health_organization_and_global_health,
 ];
 
 // Sort Blogs
