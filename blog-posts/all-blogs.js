@@ -2,6 +2,20 @@
 
 const all_blogs = [];
 
+const corruption_management_instability_lebanons_economic_crisis = {
+    title: "Corruption, Mismanagement, Instability: Lebanon’s Economic Crisis",
+    author: "Mejgan Shefa",
+    date: "October 17 2022",
+    img: "corruption_management_instability_lebanons_economic_crisis.JPG",
+    img_big: "corruption_management_instability_lebanons_economic_crisis.JPG",
+    link: "coruption-management-instability-lebanons-economic-crisis.html",
+    desc: "After years of instability, Lebanon is facing an economic crisis. This financial ruin began in 2019 due to years of debt, political instability and economic mismanagement. Since then, their currency has lost over 90% of its value. As of 2019, banks are frozen; civilians are unable to access their funds... ",
+    tags: ["Lebanon", "Corruption", "Crisis"],
+    id: 18,
+}
+
+all_blogs[17] = corruption_management_instability_lebanons_economic_crisis;
+
 const bugs_bugs_bugs_the_future_of_food = {
     title: "Bugs, Bugs, Bugs: The Future of Food",
     author: "Nicholas Qua",
