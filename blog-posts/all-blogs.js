@@ -2,6 +2,20 @@
 
 const all_blogs = [];
 
+const everything_you_need_to_know_about_an_upcoming_recession = {
+    title: "Everything You Need to Know About an Upcoming Recession ",
+    author: "Justin Myers",
+    date: "October 24 2022",
+    img: "everything_you_need_to_know_about_an_upcoming_recession.JPG",
+    img_big: "everything_you_need_to_know_about_an_upcoming_recession.JPG",
+    link: "everything_you_need_to_know_about_an_upcoming_recession.html",
+    desc: "Headlines, social media posts, and conversations about a recession in our future are everywhere. Big banks, economists, and even the former head of the Bank of Canada are predicting one. Recessions mean uncertainty, and in the current period of speculation about whether or not a recession will... ",
+    tags: ["Recession", "COVID-19", "Banks"],
+    id: 19,
+}
+
+all_blogs[18] = everything_you_need_to_know_about_an_upcoming_recession;
+
 const corruption_management_instability_lebanons_economic_crisis = {
     title: "Corruption, Mismanagement, Instability: Lebanon’s Economic Crisis",
     author: "Mejgan Shefa",
