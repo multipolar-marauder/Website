@@ -2,6 +2,20 @@
 
 const all_blogs = [];
 
+const the_disturbing_history_of_myanmars_military_regime = {
+    title: "The Disturbing History of Myanmar's Military Regime ",
+    author: "Rohan Prabakaran Kalaiarasi",
+    date: "November 13 2022",
+    img: "the_disturbing_history_of_myanmars_military_regime.jpg",
+    img_big: "the_disturbing_history_of_myanmars_military_regime.jpg",
+    link: "the-disturbing-history-of-myanmars-military-regime.html",
+    desc: "Myanmar, formerly known as Burma, is a densely populated Asian country that has faced manyyears of repressive military regimes. Myanmar had fought for many years to become ademocracy, but its duration was cut short. Myanmar is infamous for its ethnic cleansing ofRohingya Muslims during this... ",
+    tags: ["Military", "Mynamar", "Election"],
+    id: 20,
+}
+
+all_blogs[19] = the_disturbing_history_of_myanmars_military_regime;
+
 const everything_you_need_to_know_about_an_upcoming_recession = {
     title: "Everything You Need to Know About an Upcoming Recession ",
     author: "Justin Myers",
@@ -258,9 +272,9 @@ const present_day_climate_policy_initiatives_in_canada = {
 all_blogs[0] = present_day_climate_policy_initiatives_in_canada;
 
 var trending = [
-  how_to_debate_abortion_rights_as_a_pro_choice_supporter,
-  build_back_better,
-  the_world_health_organization_and_global_health,
+  corruption_management_instability_lebanons_economic_crisis,
+  everything_you_need_to_know_about_an_upcoming_recession,
+  the_housing_pit,
 ];
 
 // Sort Blogs
