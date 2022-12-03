@@ -2,6 +2,21 @@
 
 const all_blogs = [];
 
+
+const the_rise_in_excess_death = {
+    title: "The Rise In Excess Death",
+    author: "Rohan Prabakaran Kalaiarasi",
+    date: "November 13 2022",
+    img: "the_disturbing_history_of_myanmars_military_regime.jpg",
+    img_big: "the_disturbing_history_of_myanmars_military_regime.jpg",
+    link: "the-disturbing-history-of-myanmars-military-regime.html",
+    desc: "Myanmar, formerly known as Burma, is a densely populated Asian country that has faced manyyears of repressive military regimes. Myanmar had fought for many years to become ademocracy, but its duration was cut short. Myanmar is infamous for its ethnic cleansing ofRohingya Muslims during this... ",
+    tags: ["Military", "Mynamar", "Election"],
+    id: 21,
+}
+
+all_blogs[20] = the_rise_in_excess_death;
+
 const the_disturbing_history_of_myanmars_military_regime = {
     title: "The Disturbing History of Myanmar's Military Regime ",
     author: "Rohan Prabakaran Kalaiarasi",
