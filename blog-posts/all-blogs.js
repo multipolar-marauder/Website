@@ -5,13 +5,13 @@ const all_blogs = [];
 
 const the_rise_in_excess_death = {
     title: "The Rise In Excess Death",
-    author: "Rohan Prabakaran Kalaiarasi",
-    date: "November 13 2022",
-    img: "the_disturbing_history_of_myanmars_military_regime.jpg",
-    img_big: "the_disturbing_history_of_myanmars_military_regime.jpg",
-    link: "the-disturbing-history-of-myanmars-military-regime.html",
-    desc: "Myanmar, formerly known as Burma, is a densely populated Asian country that has faced manyyears of repressive military regimes. Myanmar had fought for many years to become ademocracy, but its duration was cut short. Myanmar is infamous for its ethnic cleansing ofRohingya Muslims during this... ",
-    tags: ["Military", "Mynamar", "Election"],
+    author: "Nicholas Qua",
+    date: "December 3 2022",
+    img: "the_rise_in_excess_death.jpg",
+    img_big: "the_rise_in_excess_death.jpg",
+    link: "the-rise-in-excess-death.html",
+    desc: "Excess death is a term used in epidemiology and public health that refers to the number of deaths from all causes during a crisis above and beyond what we would have expected to see under ‘normal’ conditions.In this case, we’re interested in how the number of deaths during the COVID - 19 pandemic...",
+    tags: ["Covid", "Death", "Worldwide"],
     id: 21,
 }
 
