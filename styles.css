@@ -281,7 +281,7 @@ footer {
 .recent-posts-desc {
   background-color: lightgray;
   margin-bottom: 5%;
-  min-height: 34.85vh;
+  min-height: 34.5vh;
 }
 
 /* Used in pages: Blogs*/
@@ -876,7 +876,7 @@ h5 {
 }
 
 .blog-recent-content {
-  width: 100%;  
+  width: 100%;
   display: block;
   padding-bottom: 0%;
   margin-bottom: 7%;
