@@ -254,7 +254,7 @@ footer {
 
 /* Used in pages: Blogs*/
 .responsive-image-blogs-recent {
-  width: 51.1%;
+  width: 50%;
   height: auto;
 }
 
@@ -281,7 +281,7 @@ footer {
 .recent-posts-desc {
   background-color: lightgray;
   margin-bottom: 5%;
-  min-height: 34.5vh;
+  min-height: 256.8px;
 }
 
 /* Used in pages: Blogs*/
