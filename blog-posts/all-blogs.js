@@ -2,132 +2,147 @@
 
 const all_blogs = [];
 
+const iran_a_revolution_in_the_making = {
+  title: "Iran, a Revolution in the Making",
+  author: "Mejgan Shefa",
+  date: "December 6 2022",
+  img: "iran_a_revolution_in_the_making.png",
+  img_big: "iran_a_revolution_in_the_making.png",
+  link: "iran-a-revolution-in-the-making.html",
+  desc: "The arrest and death of 22-year-old Mahsa Amini sparked the protests. Morality police arrested her on September 13th for allegedly violating Iran’s laws which require... ",
+  tags: ["Iran", "Protest", "Autonomy"],
+  id: 22,
+};
+
+all_blogs[21] = iran_a_revolution_in_the_making;
 
 const the_rise_in_excess_death = {
-    title: "The Rise In Excess Death",
-    author: "Nicholas Qua",
-    date: "December 3 2022",
-    img: "the_rise_in_excess_death.jpg",
-    img_big: "the_rise_in_excess_death.jpg",
-    link: "the-rise-in-excess-death.html",
-    desc: "Excess death is a term used in epidemiology and public health that refers to the number of deaths from all causes during a crisis above and beyond what we would have expected to see under ‘normal’ conditions.In this case, we’re interested in how the number of deaths during the COVID - 19 pandemic...",
-    tags: ["Covid", "Death", "Worldwide"],
-    id: 21,
-}
+  title: "The Rise In Excess Death",
+  author: "Nicholas Qua",
+  date: "December 3 2022",
+  img: "the_rise_in_excess_death.jpg",
+  img_big: "the_rise_in_excess_death.jpg",
+  link: "the-rise-in-excess-death.html",
+  desc: "Excess death is a term used in epidemiology and public health that refers to the number of deaths from all causes during a crisis above and beyond what we would have expected to see under ‘normal’ conditions.In this case, we’re interested in how the number of deaths during the COVID - 19 pandemic...",
+  tags: ["Covid", "Death", "Worldwide"],
+  id: 21,
+};
 
 all_blogs[20] = the_rise_in_excess_death;
 
 const the_disturbing_history_of_myanmars_military_regime = {
-    title: "The Disturbing History of Myanmar's Military Regime ",
-    author: "Rohan Prabakaran Kalaiarasi",
-    date: "November 13 2022",
-    img: "the_disturbing_history_of_myanmars_military_regime.jpg",
-    img_big: "the_disturbing_history_of_myanmars_military_regime.jpg",
-    link: "the-disturbing-history-of-myanmars-military-regime.html",
-    desc: "Myanmar, formerly known as Burma, is a densely populated Asian country that has faced manyyears of repressive military regimes. Myanmar had fought for many years to become ademocracy, but its duration was cut short. Myanmar is infamous for its ethnic cleansing ofRohingya Muslims during this... ",
-    tags: ["Military", "Mynamar", "Election"],
-    id: 20,
-}
+  title: "The Disturbing History of Myanmar's Military Regime ",
+  author: "Rohan Prabakaran Kalaiarasi",
+  date: "November 13 2022",
+  img: "the_disturbing_history_of_myanmars_military_regime.jpg",
+  img_big: "the_disturbing_history_of_myanmars_military_regime.jpg",
+  link: "the-disturbing-history-of-myanmars-military-regime.html",
+  desc: "Myanmar, formerly known as Burma, is a densely populated Asian country that has faced manyyears of repressive military regimes. Myanmar had fought for many years to become ademocracy, but its duration was cut short. Myanmar is infamous for its ethnic cleansing ofRohingya Muslims during this... ",
+  tags: ["Military", "Mynamar", "Election"],
+  id: 20,
+};
 
 all_blogs[19] = the_disturbing_history_of_myanmars_military_regime;
 
 const everything_you_need_to_know_about_an_upcoming_recession = {
-    title: "Everything You Need to Know About an Upcoming Recession ",
-    author: "Justin Myers",
-    date: "October 24 2022",
-    img: "everything_you_need_to_know_about_an_upcoming_recession.jpg",
-    img_big: "everything_you_need_to_know_about_an_upcoming_recession.jpg",
-    link: "everything-you-need-to-know-about-an-upcoming-recession.html",
-    desc: "Headlines, social media posts, and conversations about a recession in our future are everywhere. Big banks, economists, and even the former head of the Bank of Canada are predicting one. Recessions mean uncertainty, and in the current period of speculation about whether or not a recession will... ",
-    tags: ["Recession", "COVID-19", "Banks"],
-    id: 19,
-}
+  title: "Everything You Need to Know About an Upcoming Recession ",
+  author: "Justin Myers",
+  date: "October 24 2022",
+  img: "everything_you_need_to_know_about_an_upcoming_recession.jpg",
+  img_big: "everything_you_need_to_know_about_an_upcoming_recession.jpg",
+  link: "everything-you-need-to-know-about-an-upcoming-recession.html",
+  desc: "Headlines, social media posts, and conversations about a recession in our future are everywhere. Big banks, economists, and even the former head of the Bank of Canada are predicting one. Recessions mean uncertainty, and in the current period of speculation about whether or not a recession will... ",
+  tags: ["Recession", "COVID-19", "Banks"],
+  id: 19,
+};
 
 all_blogs[18] = everything_you_need_to_know_about_an_upcoming_recession;
 
 const corruption_management_instability_lebanons_economic_crisis = {
-    title: "Corruption, Mismanagement, Instability: Lebanon’s Economic Crisis",
-    author: "Mejgan Shefa",
-    date: "October 17 2022",
-    img: "corruption_management_instability_lebanons_economic_crisis.JPG",
-    img_big: "corruption_management_instability_lebanons_economic_crisis.JPG",
-    link: "corruption-management-instability-lebanons-economic-crisis.html",
-    desc: "After years of instability, Lebanon is facing an economic crisis. This financial ruin began in 2019 due to years of debt, political instability and economic mismanagement. Since then, their currency has lost over 90% of its value. As of 2019, banks are frozen; civilians are unable to access their funds... ",
-    tags: ["Lebanon", "Corruption", "Crisis"],
-    id: 18,
-}
+  title: "Corruption, Mismanagement, Instability: Lebanon’s Economic Crisis",
+  author: "Mejgan Shefa",
+  date: "October 17 2022",
+  img: "corruption_management_instability_lebanons_economic_crisis.JPG",
+  img_big: "corruption_management_instability_lebanons_economic_crisis.JPG",
+  link: "corruption-management-instability-lebanons-economic-crisis.html",
+  desc: "After years of instability, Lebanon is facing an economic crisis. This financial ruin began in 2019 due to years of debt, political instability and economic mismanagement. Since then, their currency has lost over 90% of its value. As of 2019, banks are frozen; civilians are unable to access their funds... ",
+  tags: ["Lebanon", "Corruption", "Crisis"],
+  id: 18,
+};
 
 all_blogs[17] = corruption_management_instability_lebanons_economic_crisis;
 
 const bugs_bugs_bugs_the_future_of_food = {
-    title: "Bugs, Bugs, Bugs: The Future of Food",
-    author: "Nicholas Qua",
-    date: "October 13 2022",
-    img: "bugs_bugs_bugs_the_future_of_food.png",
-    img_big: "bugs_bugs_bugs_the_future_of_food.png",
-    link: "bugs-bugs-bugs-the-future-of-food.html",
-    desc: "Countries worldwide have been plagued with high inflation for most of 2022. Hand-in-hand with global inflation is the rise in food prices and potential food shortages. . Warnings and fears of food shortages and the global rise in food prices can be traced back to November 2021. As of September 2022, warnings and fears are becoming a reality...  ",
-    tags: ["Food", "Bugs", "Future"],
-    id: 17,
-}
+  title: "Bugs, Bugs, Bugs: The Future of Food",
+  author: "Nicholas Qua",
+  date: "October 13 2022",
+  img: "bugs_bugs_bugs_the_future_of_food.png",
+  img_big: "bugs_bugs_bugs_the_future_of_food.png",
+  link: "bugs-bugs-bugs-the-future-of-food.html",
+  desc: "Countries worldwide have been plagued with high inflation for most of 2022. Hand-in-hand with global inflation is the rise in food prices and potential food shortages. . Warnings and fears of food shortages and the global rise in food prices can be traced back to November 2021. As of September 2022, warnings and fears are becoming a reality...  ",
+  tags: ["Food", "Bugs", "Future"],
+  id: 17,
+};
 
 all_blogs[16] = bugs_bugs_bugs_the_future_of_food;
 
 const how_to_debate_abortion_rights_as_a_pro_choice_supporter = {
-    title: "How to Debate Abortion Rights as a Pro-Choice Supporter",
-    author: "Karnan",
-    date: "June 28 2022",
-    img: "how_to_debate_abortion_rights_as_a_pro_choice_supporter.png",
-    img_big: "how_to_debate_abortion_rights_as_a_pro_choice_supporter.png",
-    link: "how-to-debate-abortion-rights-as-a-pro-choice-supporter.html",
-    desc: "On June 22, 2022, The U.S Supreme Court voted 5-4 to repeal the landmark decision Roe V. Wade. Roe V. Wade had guaranteed the right to abortion until viability and was once considered a settled issue in the discourse of American politics. With the leanings of the Supreme Court shifting towards social conservatives...",
-    tags: ["Abortion", "Men", "Women"],
-    id: 16,
-}
+  title: "How to Debate Abortion Rights as a Pro-Choice Supporter",
+  author: "Karnan",
+  date: "June 28 2022",
+  img: "how_to_debate_abortion_rights_as_a_pro_choice_supporter.png",
+  img_big: "how_to_debate_abortion_rights_as_a_pro_choice_supporter.png",
+  link: "how-to-debate-abortion-rights-as-a-pro-choice-supporter.html",
+  desc: "On June 22, 2022, The U.S Supreme Court voted 5-4 to repeal the landmark decision Roe V. Wade. Roe V. Wade had guaranteed the right to abortion until viability and was once considered a settled issue in the discourse of American politics. With the leanings of the Supreme Court shifting towards social conservatives...",
+  tags: ["Abortion", "Men", "Women"],
+  id: 16,
+};
 
 all_blogs[15] = how_to_debate_abortion_rights_as_a_pro_choice_supporter;
 
 const the_world_health_organization_and_global_health = {
-    title: "The World Health Organization and Global Health",
-    author: "Nicholas Qua",
-    date: "June 23 2022",
-    img: "the_world_health_organization_and_global_health.jpg",
-    img_big: "the_world_health_organization_and_global_health.jpg",
-    link: "the-world-health-organization-and-global-health.html",
-    desc: "The first official reported case of COVID-19 from China was in December 2019 in Wuhan. According to MedicineNet (2021), a group of British researchers studying the origins of COVID-19 concluded that the first case in Wuhan arose in October or November 2019. In the early months of COVID-19 in China, it is not surprising that the...",
-    tags: ["WHO", "Pandemic", "China"],
-    id: 15,
-}
+  title: "The World Health Organization and Global Health",
+  author: "Nicholas Qua",
+  date: "June 23 2022",
+  img: "the_world_health_organization_and_global_health.jpg",
+  img_big: "the_world_health_organization_and_global_health.jpg",
+  link: "the-world-health-organization-and-global-health.html",
+  desc: "The first official reported case of COVID-19 from China was in December 2019 in Wuhan. According to MedicineNet (2021), a group of British researchers studying the origins of COVID-19 concluded that the first case in Wuhan arose in October or November 2019. In the early months of COVID-19 in China, it is not surprising that the...",
+  tags: ["WHO", "Pandemic", "China"],
+  id: 15,
+};
 
 all_blogs[14] = the_world_health_organization_and_global_health;
 
-
 const dont_say_gay_bill = {
-    title: "Don't Say Gay Bill",
-    author: "Krissie Cruz",
-    date: "May 18 2022",
-    img: "dont_say_gay_bill.jpg",
-    img_big: "dont_say_gay_bill.jpg",
-    link: "dont-say-gay-bill.html",
-    desc: "Florida Governor Ron DeSantis just made the lives of LGBTQ+ kids much harder with his push for the “Parental Rights in Education” bill. If you didn’t know, the Florida Senate Education Committee just advanced legislation that critics have...",
-    tags: ["Florida", "Bill", "LGBTQ+"],
-    id: 14,
-}
+  title: "Don't Say Gay Bill",
+  author: "Krissie Cruz",
+  date: "May 18 2022",
+  img: "dont_say_gay_bill.jpg",
+  img_big: "dont_say_gay_bill.jpg",
+  link: "dont-say-gay-bill.html",
+  desc: "Florida Governor Ron DeSantis just made the lives of LGBTQ+ kids much harder with his push for the “Parental Rights in Education” bill. If you didn’t know, the Florida Senate Education Committee just advanced legislation that critics have...",
+  tags: ["Florida", "Bill", "LGBTQ+"],
+  id: 14,
+};
 
 all_blogs[13] = dont_say_gay_bill;
 
-const dangers_of_the_common_enemy_why_we_shouldnt_be_so_apt_to_demonize_russia_and_its_people = {
-  title: "Dangers of the common enemy: Why we shouldn't be so apt to demonize Russia and its people (Opinion)",
-  author: "Dui Davidsson",
-  date: "March 23 2022",
-  img: "dangers_of_the_common_enemy.jpg",
-  img_big: "dangers_of_the_common_enemy.jpg",
-  link: "dangers-of-the-common-enemy-why-we-shouldn't-be-so-apt-to-demonize-russia-and-its-people.html",
-  desc: "On the 24th of February, Russian President Vladimir Putin declared that a “military operation” would be conducted in the Ukraine, thus sparking a full invasion by the Russian Military into the sovereign state. Fourteen days into the conflict...",
-  tags: ["Russia", "Ukraine"],
-  id: 13,
-}
-all_blogs[12] = dangers_of_the_common_enemy_why_we_shouldnt_be_so_apt_to_demonize_russia_and_its_people;
+const dangers_of_the_common_enemy_why_we_shouldnt_be_so_apt_to_demonize_russia_and_its_people =
+  {
+    title:
+      "Dangers of the common enemy: Why we shouldn't be so apt to demonize Russia and its people (Opinion)",
+    author: "Dui Davidsson",
+    date: "March 23 2022",
+    img: "dangers_of_the_common_enemy.jpg",
+    img_big: "dangers_of_the_common_enemy.jpg",
+    link: "dangers-of-the-common-enemy-why-we-shouldn't-be-so-apt-to-demonize-russia-and-its-people.html",
+    desc: "On the 24th of February, Russian President Vladimir Putin declared that a “military operation” would be conducted in the Ukraine, thus sparking a full invasion by the Russian Military into the sovereign state. Fourteen days into the conflict...",
+    tags: ["Russia", "Ukraine"],
+    id: 13,
+  };
+all_blogs[12] =
+  dangers_of_the_common_enemy_why_we_shouldnt_be_so_apt_to_demonize_russia_and_its_people;
 
 const build_back_better = {
   title: "Build Back Better",
@@ -139,7 +154,7 @@ const build_back_better = {
   desc: "Two years ago, many would be unfamiliar with the name Klaus Schwab. Still, in 2022, this name does not carry any weight for most people. Klaus Schwab was born in 1938 in Germany. A highly educated man,  he has a doctorate degree in economics and received many other honorary degrees...",
   tags: ["WEF", "Great Reset"],
   id: 12,
-}
+};
 all_blogs[11] = build_back_better;
 
 const antitrust_and_microsofts_aquisition_of_activation_blizzard = {
@@ -152,7 +167,7 @@ const antitrust_and_microsofts_aquisition_of_activation_blizzard = {
   desc: "On January 18th, 2022, Microsoft Corp. announced that it will be buying the popular game studio Activision Blizzard for $68.7 billion. Some of the franchises in the Activision roster include Call of Duty, Diablo, Candy Crush, and Overwatch. Apart from these marquee properties, Activision Blizzard has...",
   tags: ["Microsoft", "Blizzard"],
   id: 11,
-}
+};
 all_blogs[10] = antitrust_and_microsofts_aquisition_of_activation_blizzard;
 
 const nato_the_duality_of_international_governance = {
@@ -163,9 +178,9 @@ const nato_the_duality_of_international_governance = {
   img_big: "nato_the_duality_of_international_governance.jpg",
   link: "nato-the-duality-of-international-governance.html",
   desc: "With the resurfacing of talks regarding an imminent invasion of Ukrainian territory by the Putin leadership in Moscow, NATO as a topic of global governance has also become a prominent focus throughout discussions...",
-  tags: ["NATO", "Cold-War",],
+  tags: ["NATO", "Cold-War"],
   id: 10,
-}
+};
 all_blogs[9] = nato_the_duality_of_international_governance;
 
 const annamie_paul_and_chaos_in_the_green_party = {
